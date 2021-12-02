@@ -9,7 +9,7 @@ MicroPython SDK
 
 This is the Ameba MicroPython online documentation.
 
-.. |image1|
+.. .. |image1|
 
 .. .. toctree::
 ..    :maxdepth: 1
