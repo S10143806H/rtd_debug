@@ -7,5 +7,10 @@
 Board HDK
 ##################
 
-* :download:`Layout <../media/RTL-AMEBAD-Layout.zip>`
-* :download:`Schematic <../media/RTL-AMEBD-Schematic.zip>`
+AmebaD HDK Downlaod
+
+.. toctree::
+   :maxdepth: 1
+      
+   evb
+   module
