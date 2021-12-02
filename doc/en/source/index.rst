@@ -16,6 +16,8 @@ Welcome to Ameba D (RTL8722) Online SDK Documentation!
    :maxdepth: 1
    :caption: Open Source SDKs
    
+   ambd_arduino/arduino_index
+   ambd_micropython/source/index
    ambd_sdk/source/index 
 
 *******
