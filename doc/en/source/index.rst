@@ -20,12 +20,6 @@ Welcome to Ameba D (RTL8722) Online SDK Documentation!
    ambd_micropython/source/index
    ambd_sdk/source/index 
 
-*******
-Search
-*******
-
-* :ref:`search`
-
 .. |image1| image:: ../media/image1.png
    :width: 1720
    :height: 706
