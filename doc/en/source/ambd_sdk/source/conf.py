@@ -58,3 +58,12 @@ html_theme = "sphinx_rtd_theme"
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 #html_static_path = ['_static']
+
+# -- Options for Latex output -------------------------------------------------
+
+latex_engine = "pdflatex"
+
+# -- Options for EPUB output -------------------------------------------------
+
+version = "EPUB3"
+epub_theme = "epub"
