@@ -30,7 +30,9 @@ release = '0.0.1'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = [ "sphinx_rtd_theme",
+extensions = [ 
+	"sphinx_rtd_theme",
+	"sphinx_togglebutton"
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -58,8 +60,13 @@ html_theme = "sphinx_rtd_theme"
 html_static_path = []
 
 # -- Options for Latex output -------------------------------------------------
-#
-latex_engine = "pdflatex"
+# add ctex in preamble for supporting Chinese
+# latex_engine = "pdflatex"
+latex_engine = 'xelatex'
+latex_use_xindy = False
+latex_elements = {
+    'preamble': '\\usepackage[UTF8]{ctex}\n',
+}
 
 # -- Options for EPUB output -------------------------------------------------
 #

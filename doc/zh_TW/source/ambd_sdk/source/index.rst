@@ -7,7 +7,8 @@
 Standard 軟體開發平台
 #########################
 
-| 這是 Ameba 標準 SDK 的綫上文檔
+| 歡迎來到 Ameba Standard SDK 的綫上文檔
+
 | Ameba RTL8722DM  (AMB 21)
 
 |image1|

@@ -7,9 +7,3 @@
 Arduino 軟體開發平台
 #########################
 
-.. toctree::
-   :maxdepth: 1
-   :caption: 開源開發平台
-
-   ambd/index
-   ambd_mini/index
