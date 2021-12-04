@@ -1,0 +1,24 @@
+#########################
+MicroPython 軟體開發平台
+#########################
+
+歡迎來到 Ameba MicroPython 的綫上文檔
+
+|image1|
+
+.. toctree:: 
+   :maxdepth: 1
+   :caption: 目錄
+   
+   getting_started/getting_started
+   download/index
+   examples/index
+   board_hdk/index
+   api_documents/index
+   resources/index
+   support/index   
+
+.. |image1| image:: media/imageIndex.jpg
+   :width: 1280
+   :height: 720
+   :scale: 50 %
