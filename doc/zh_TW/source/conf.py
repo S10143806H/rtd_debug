@@ -71,12 +71,6 @@ html_theme = "sphinx_rtd_theme"
 #
 html_static_path = []
 
-# latex_engine = 'xelatex'
-latex_use_xindy = False
-latex_elements = {
-    'preamble': '\\usepackage[UTF8]{ctex}\n',
-}
-
 # -- Options for Latex output -------------------------------------------------
 #
 latex_engine = "pdflatex"
