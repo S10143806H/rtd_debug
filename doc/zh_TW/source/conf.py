@@ -17,9 +17,9 @@ import sphinx_rtd_theme
 
 # -- Project information -----------------------------------------------------
 
-project = 'ambd_sdk'
-copyright = '2021, ambiot'
-author = 'ambiot'
+project = 'amebaDocs'
+copyright = '2021, Ameba IoT'
+author = 'Ameba IoT'
 
 # The full version, including alpha/beta/rc tags
 release = '0.0.1'
@@ -33,7 +33,6 @@ release = '0.0.1'
 extensions = [
     "sphinx_rtd_theme",
     'sphinx_togglebutton',
-    'sphinx_copybutton',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -69,6 +68,7 @@ html_theme = "sphinx_rtd_theme"
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
+#
 html_static_path = []
 
 # latex_engine = 'xelatex'
