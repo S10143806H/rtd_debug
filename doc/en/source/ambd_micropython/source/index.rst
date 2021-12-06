@@ -7,7 +7,7 @@
 MicroPython SDK
 ###############
 
-This is the Ameba MicroPython online documentation.
+Welcome to Ameba MicroPython online documentation.
 
 |image1|
 
