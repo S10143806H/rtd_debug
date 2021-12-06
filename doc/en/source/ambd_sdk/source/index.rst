@@ -7,7 +7,8 @@
 Standard SDK
 ##############
 
-| This is the Ameba Standard SDK online documentation
+| Welcome to Ameba Standard SDK online documentation
+
 | Ameba RTL8722DM  (AMB 21)
 
 |image1|
