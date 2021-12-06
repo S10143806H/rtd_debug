@@ -1,0 +1,328 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="zh-TW" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>故障排除 &mdash; AmebaDocs 0.0.1 說明文件</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/togglebutton.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/togglebutton.js"></script>
+        <script src="../_static/translations.js"></script>
+        <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="索引" href="../genindex.html" />
+    <link rel="search" title="搜尋" href="../search.html" />
+    <link rel="prev" title="常見問題" href="FAQ.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> AmebaDocs
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                EPUB3
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="在文档中搜索" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption" role="heading"><span class="caption-text">目錄</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../getting_started/getting_started.html">快速入門手冊</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../download/index.html">相關資源下載</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../examples/index.html">範例演示</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../board_hdk/index.html">開發板硬體開發工具包</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../api_documents/index.html">API 文檔</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../resources/index.html">相關資源</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">支援</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="FAQ.html">常見問題</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">故障排除</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">AmebaDocs</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="index.html">支援</a> &raquo;</li>
+        
+      <li>故障排除</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/support/Trouble shooting.rst.txt" rel="nofollow"> 查看页面源码</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="id1">
+<h1>故障排除<a class="headerlink" href="#id1" title="本標題的永久連結">¶</a></h1>
+<div class="dropdown toggle admonition">
+<p class="admonition-title">MicroPython 韌體編譯失敗</p>
+<blockquote>
+<div><p>在構建過程中，某些用戶可能會遇到導致過程暫停的錯誤，這是由於缺少系統環境設置而導致的，可以通過以下方法進行修復。</p>
+<ol class="arabic">
+<li><p><strong>與python相關的錯誤</strong></p>
+<p>預設下，MicroPython使用 <cite>Python3</cite> 運行 MicroPython kernal 的構建腳本，
+如果遇到與python相關的錯誤，可能是因為 <cite>Python3</cite> 檔案相關路徑未添加到系統環境變量中。</p>
+<p>但是，如果已經添加了環境變量，但是構建依舊無法完成，則可以嘗試</p>
+<ol class="arabic">
+<li><p>重新啟動電腦</p></li>
+<li><div class="line-block">
+<div class="line">在終端上輸入“python”，如果顯示的python是 <cite>Python3</cite>，則請添加</div>
+<div class="line"><strong>`PYTHON = python`</strong></div>
+<div class="line">到路徑“port/rtl8722”文件夾下“Makefile”的第二行</div>
+</div>
+</li>
+</ol>
+</li>
+</ol>
+<ol class="arabic">
+<li><p><strong>與MPY-CROSS相關的錯誤</strong></p>
+<p>如果構建過程停止並顯示錯誤為mpy-cross，則需要執行以下步驟</p>
+<ol class="arabic">
+<li><p>到“MicroPython_RTL8722/mpy-cross”文件夾下</p></li>
+<li><div class="line-block">
+<div class="line">打開您的Cygwin/Linux終端，然後輸入</div>
+<div class="line"><strong>`make`</strong></div>
+<div class="line">等待MicroPython Cross Compiler的構建完成，然後應該可以修復錯誤</div>
+</div>
+</li>
+</ol>
+</li>
+</ol>
+</div></blockquote>
+</div>
+<div class="dropdown toggle admonition">
+<p class="admonition-title">程式碼未按預期運行</p>
+<blockquote>
+<div><p>嘗試使用 <strong>print( )</strong> 函數調試程序，並在API頁面詳細了解每個API。</p>
+</div></blockquote>
+</div>
+<div class="dropdown toggle admonition">
+<p class="admonition-title">為什麼不斷從REPL收到“syntax error”？</p>
+<blockquote>
+<div><p>請注意MicroPython僅支持 <strong>Python3</strong> 語法</p>
+</div></blockquote>
+</div>
+<div class="dropdown toggle admonition">
+<p class="admonition-title">如何將Python腳本上傳到Ameba開發板？</p>
+<blockquote>
+<div><p>有3種方式將Python代碼上傳到Ameba開發板</p>
+<ol class="arabic">
+<li><p><strong>通過REPL normal模式</strong></p>
+<p>在一般的REPL模式下，您可以逐行粘貼代碼到REPL上並按順序執行它們，但是請注意，在使用條件檢查或循環時（例如“if”或“while”），代碼將被自動縮排，不正確的縮排將導致腳本錯誤。</p>
+</li>
+<li><p><strong>通過REPL paste模式</strong></p>
+<p>在一般的REPL模式下，按“Ctrl” +“e”可以進入paste模式，paste模式僅允許粘貼完整的程式碼，粘貼不完整的程式碼或編輯會導致語法錯誤。</p>
+</li>
+<li><p><strong>通過mp_frozenmodules</strong></p>
+<p>將python腳本放入“rtl8722”路徑下的“mp_frozenmodules”文件夾中，您的程式碼將被嵌入到MicroPython固件中並上傳到Ameba，接著您只需導入python腳本的名稱即可使用它。</p>
+</li>
+</ol>
+</div></blockquote>
+</div>
+<div class="dropdown toggle admonition">
+<p class="admonition-title">連接到RTL8722CSM / RTL8722DM UART後，為什麼串行終端上沒有輸出結果？</p>
+<blockquote>
+<div><p>RTL8722CSM / RTL8722DM 默認配置為 <code class="docutils literal notranslate"><span class="pre">115200`</span></code> baudrate，請檢查串行終端是否配置為 <code class="docutils literal notranslate"><span class="pre">115200</span></code>。</p>
+</div></blockquote>
+</div>
+<div class="dropdown toggle admonition">
+<p class="admonition-title">程序沒有被下載到RTL8722CSM / RTL8722DM中？</p>
+<blockquote>
+<div><p>請按照以下步驟正確下載。
+1.進入下載模式。 進入下載模式時，開發板上的綠色LED會閃爍
+2.下載固件時，開發板上的紅色LED將閃爍
+3.成功下載後，您將看到類似“All images sent successfully”的訊息</p>
+</div></blockquote>
+</div>
+<div class="dropdown toggle admonition">
+<p class="admonition-title">爲什麽有時WiFi信號較弱？</p>
+<blockquote>
+<div><p>RTL8722CSM / RTL8722DM的天線預設是使用 I-Pex 接口。 請更換/連接I-Pex 接口的天線。</p>
+</div></blockquote>
+</div>
+<div class="dropdown toggle admonition">
+<p class="admonition-title">為什麼我的開發板無法上電?</p>
+<blockquote>
+<div><p>請確保已連接電阻R43旁的connector J38。 該連接器用於將電源鏈接到IC。</p>
+</div></blockquote>
+</div>
+<div class="dropdown toggle admonition">
+<p class="admonition-title">遇到開發板連接到電腦的驅動程式問題?</p>
+<blockquote>
+<div><p>請參考下列USB 驅動程式 <a class="reference external" href="https://ftdichip.com/drivers">https://ftdichip.com/drivers</a> /。</p>
+</div></blockquote>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="FAQ.html" class="btn btn-neutral float-left" title="常見問題" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> 上一页</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; 版權所有 2021, Ameba IoT。
+
+    </p>
+  </div>
+    
+    
+    
+    利用 <a href="https://www.sphinx-doc.org/">Sphinx</a> 构建，使用了 
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">主题</a>
+    
+    由 <a href="https://readthedocs.org">Read the Docs</a>开发. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
