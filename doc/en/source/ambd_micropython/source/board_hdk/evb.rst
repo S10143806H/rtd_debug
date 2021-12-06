@@ -2,7 +2,6 @@
 EVB
 ##################
 
-
 * **HDK-AMEBAD_MB_4V2**
 
   * :download:`Layout <https://www.amebaiot.com/?s2member_file_download=HDK-AMEBAD_MB_4V2-Layout.zip>`

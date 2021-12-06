@@ -7,13 +7,9 @@
 相關資源
 #############
 
-********
-連結
-********
-
 .. toctree::
    :maxdepth: 1
-   :caption: Ameba MicroPython: 參考資料
+   :caption: Ameba MicroPython: 參考鏈接
    :titlesonly:
 
    Ameba MicroPython 軟體開發工具包 <https://github.com/ambiot/ambd_micropython>

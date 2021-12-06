@@ -7,13 +7,7 @@
 API 文檔
 #####################################
 
-.. role:: raw-html(raw)
-   :format: html
-
-:raw-html:`<p font-size:26px">`
-**RTL8722DM MicroPython API 綫上文檔**
-:raw-html:`</p>`
-
+**RTL8722DM MicroPython 綫上 API 文檔**
 
 .. toctree::
    :maxdepth: 2

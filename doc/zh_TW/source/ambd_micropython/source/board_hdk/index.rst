@@ -7,5 +7,8 @@
 開發板硬體開發工具包
 ########################
 
-* :download:`Layout <../media/RTL-AMEBAD-Layout.zip>`
-* :download:`Schematic <../media/RTL-AMEBD-Schematic.zip>`
+.. toctree::
+   :maxdepth: 1
+      
+   evb
+   module
