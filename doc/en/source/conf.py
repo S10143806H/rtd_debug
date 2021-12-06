@@ -73,7 +73,7 @@ html_static_path = []
 
 # -- Options for Latex output -------------------------------------------------
 #
-latex_engine = "pdflatex"
+latex_engine = "xelatex"
 
 # -- Options for EPUB output -------------------------------------------------
 #

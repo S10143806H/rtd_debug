@@ -9,21 +9,21 @@ MicroPython SDK
 
 This is the Ameba MicroPython online documentation.
 
-.. .. |image1|
+|image1|
 
-.. .. toctree::
-..    :maxdepth: 1
-..    :caption: Table of Contents:
+.. toctree::
+   :maxdepth: 1
+   :caption: Table of Contents:
    
-..    getting_started/getting_started
-..    download/index
-..    examples/index
-..    board_hdk/index
-..    api_documents/index
-..    resources/index
-..    support/index
+   getting_started/getting_started
+   download/index
+   examples/index
+   board_hdk/index
+   api_documents/index
+   resources/index
+   support/index
 
-.. .. |image1| image:: media/imageIndex.jpg
-..    :width: 1280
-..    :height: 720
-..    :scale: 50 %
+.. |image1| image:: media/imageIndex.jpg
+   :width: 1280
+   :height: 720
+   :scale: 50 %
