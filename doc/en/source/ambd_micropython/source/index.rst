@@ -15,7 +15,7 @@ Welcome to Ameba MicroPython online documentation.
    :maxdepth: 1
    :caption: Table of Contents
    
-   getting_started/getting_started
+   getting_started/mp_getting_started
    download/index
    examples/index
    board_hdk/index

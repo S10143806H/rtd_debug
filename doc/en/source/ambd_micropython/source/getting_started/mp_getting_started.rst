@@ -254,9 +254,9 @@ above) so the uploading can be carried out successfully. Once the
 uploading is successful, you will see a line of log printed on the
 screen – “All images are sent successfully”
 
-************************
+*********************
 Try the First Example
-************************
+*********************
 
 Step 1. Open REPL
 ==================
