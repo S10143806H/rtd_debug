@@ -15,7 +15,7 @@ Welcome to Ameba RTL8722DM Arduino online documentation.
    :maxdepth: 1
    :caption: Table of Contents:
    
-..    getting_started/getting_started
+   getting_started/ambd_getting_started
 ..    download/index
 ..    peripherals_and_examples/index
 ..    board_hdk/index
@@ -23,7 +23,7 @@ Welcome to Ameba RTL8722DM Arduino online documentation.
 ..    resources/index
 ..    support/index   
 
-.. |image1| image:: media/imageIndex.jpg
+.. |image1| image:: media/ambd_index.jpg
    :width: 240
    :height: 170
    :scale: 100 %

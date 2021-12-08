@@ -11,11 +11,11 @@ Welcome to Ameba RTL8722DM MINI Arduino online documentation.
 
 |image1|
 
-.. .. toctree::
-..    :maxdepth: 1
-..    :caption: Table of Contents:
+.. toctree::
+   :maxdepth: 1
+   :caption: Table of Contents:
    
-..    getting_started/RTL8722DM_mini_Arduino SDK_getting start
+   getting_started/ambd_mini_getting_started
 ..    download/index
 ..    peripherals_and_examples/index
 ..    board_hdk/index
@@ -23,7 +23,7 @@ Welcome to Ameba RTL8722DM MINI Arduino online documentation.
 ..    resources/index
 ..    support/index   
 
-.. |image1| image:: media/index.jpg
+.. |image1| image:: media/ambd_mini_index.jpg
    :width: 400
    :height: 200
    :scale: 100 %
