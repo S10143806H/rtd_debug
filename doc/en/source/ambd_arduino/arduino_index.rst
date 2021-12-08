@@ -7,9 +7,9 @@
 Arduino SDK
 ############
 
-.. .. toctree::
-..    :maxdepth: 1
-..    :caption: Open Source SDKs
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
 
-..    ambd/index
-..    ambd_mini/index
+   ambd/index
+   ambd_mini/index
