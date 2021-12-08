@@ -18,7 +18,9 @@ Welcome to Ameba D (RTL8722DM) Online SDK Documentation!
    
    ambd_arduino/arduino_index
    ambd_micropython/source/index
-   ambd_sdk/source/index 
+   ambd_sdk/source/index
+   
+| We welcome contributions to the our SDKs documentations. Please read the Ameba :doc:`contribution-guide` below for more details before you make the contribution.
 
 .. |image1| image:: ../media/image1.png
    :width: 1720

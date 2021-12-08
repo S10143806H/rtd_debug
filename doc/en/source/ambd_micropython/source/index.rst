@@ -13,7 +13,7 @@ Welcome to Ameba MicroPython online documentation.
 
 .. toctree::
    :maxdepth: 1
-   :caption: Table of Contents:
+   :caption: Table of Contents
    
    getting_started/getting_started
    download/index
@@ -22,7 +22,7 @@ Welcome to Ameba MicroPython online documentation.
    api_documents/index
    resources/index
    support/index
-
+   
 .. |image1| image:: media/imageIndex.jpg
    :width: 1280
    :height: 720
