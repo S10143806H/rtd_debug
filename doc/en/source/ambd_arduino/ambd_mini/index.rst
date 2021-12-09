@@ -17,6 +17,9 @@ Welcome to Ameba RTL8722DM MINI Arduino online documentation.
    
    getting_started/ambd_mini_getting_started
    download/index
+   board_hdk/index
+
+   
 ..    peripherals_and_examples/index
 ..    board_hdk/index
 ..    api_documents/index
