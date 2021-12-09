@@ -18,6 +18,7 @@ Welcome to Ameba RTL8722DM Arduino online documentation.
    getting_started/ambd_getting_started
    download/index
    board_hdk/index
+   api_documents/index
    resources/index
    support/index  
 

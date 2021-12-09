@@ -236,7 +236,8 @@ Step 2.Run the Blink example
 
 -----------------------------------------------------------------------------------
 
-.. note:: If you face any issue, please refer to the FAQ and troubleshooting page.
+.. note:: 
+   If you face any issue, please refer to the FAQ and Trouble shooting sections on :doc:`../../support/index` page.  
 
 .. |ambd-get-start-1| image:: ../media/getting_started/image1.jpeg
    :alt: get-start-1
