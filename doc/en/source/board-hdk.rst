@@ -9,13 +9,6 @@
 Board HDK
 ############
 
-.. role:: raw-html(raw)
-   :format: html
-
-:raw-html:`<p style="color:#E67E22; font-size:24px">`
-**AmabaD HDK Download**
-:raw-html:`</p>`
-
 ***
 EVB
 ***
