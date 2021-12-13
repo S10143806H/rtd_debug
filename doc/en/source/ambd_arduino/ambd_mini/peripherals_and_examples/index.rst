@@ -13,6 +13,5 @@ Peripherals & Examples
 
    Basic Examples
    Network-Examples/Network Examples
-
-.. Peripheral Examples
-   .. Components Used
+   Components-Used/Components Used
+   Peripheral-Examples/Peripheral Examples
