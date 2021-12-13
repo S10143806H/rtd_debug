@@ -10,7 +10,9 @@ Peripheral Examples
 .. toctree::
    :maxdepth: 1
    :caption: Peripheral Library & Examples
-
+   
+   [RTL8722CSM] [RTL8722DM] A Simple RTC Example
+   [RTL8722CSM] [RTL8722DM] A Simple RTC Alarm 
    [RTL8722CSM] [RTL8722DM] GPIO – Measure The Distance By Ultrasound Module
    [RTL8722CSM] [RTL8722DM] GPIO - Measuring The Temperature And Humidity
    [RTL8722CSM] [RTL8722DM] I2C - Display Data On LCD Screen
@@ -20,9 +22,6 @@ Peripheral Examples
    [RTL8722CSM] [RTL8722DM] UART - Retrieve GPS Position
 
 
-
-.... [RTL8722CSM] [RTL8722DM] A Simple RTC Example
-.... [RTL8722CSM] [RTL8722DM] A Simple RTC Alarm
 .... [RTL8722CSM] [RTL8722DM] Audio Codec – Basic Input Output
 .... [RTL8722CSM] [RTL8722DM] Audio Codec – FFT
 .... [RTL8722CSM] [RTL8722DM] Audio Codec – Input FFT
