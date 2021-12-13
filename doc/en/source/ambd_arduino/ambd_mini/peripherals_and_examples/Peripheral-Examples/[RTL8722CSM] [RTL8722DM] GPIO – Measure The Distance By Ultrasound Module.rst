@@ -1,5 +1,5 @@
 ##########################################################################
-[RTL8722CSM] [RTL8722DM] GPIO – Measure The Distance By Ultrasound Module
+[RTL8722DM MINI] GPIO – Measure The Distance By Ultrasound Module
 ##########################################################################
 
 .. role:: raw-html(raw)
