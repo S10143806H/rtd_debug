@@ -1,5 +1,5 @@
 ##########################################################################
-[RTL8722CSM] [RTL8722DM] Flash Memory - Use Flash Memory Larger Than 4K
+Flash Memory - Use Flash Memory Larger Than 4K
 ##########################################################################
 
 .. role:: raw-html(raw)

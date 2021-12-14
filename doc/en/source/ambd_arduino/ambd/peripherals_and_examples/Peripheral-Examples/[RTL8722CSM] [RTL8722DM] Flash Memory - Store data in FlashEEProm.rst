@@ -1,5 +1,5 @@
 ##########################################################################
-[RTL8722CSM] [RTL8722DM] Flash Memory - Store data in FlashEEProm
+Flash Memory - Store data in FlashEEProm
 ##########################################################################
 
 .. role:: raw-html(raw)

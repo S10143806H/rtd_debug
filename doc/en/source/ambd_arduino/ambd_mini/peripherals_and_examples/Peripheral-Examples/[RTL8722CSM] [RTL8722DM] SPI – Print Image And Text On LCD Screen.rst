@@ -1,5 +1,5 @@
 ##########################################################################
-[RTL8722DM MINI] SPI – Print Image And Text On LCD Screen
+SPI – Print Image And Text On LCD Screen
 ##########################################################################
 
 If you are not familiar with SPI, please read `Introduction to

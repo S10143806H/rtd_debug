@@ -1,5 +1,5 @@
 ##########################################################################
-[RTL8722CSM] [RTL8722DM] GPIO - Use GPIO Interrupt To Control LED
+GPIO - Use GPIO Interrupt To Control LED
 ##########################################################################
 
 .. role:: raw-html(raw)

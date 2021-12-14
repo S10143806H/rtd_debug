@@ -1,5 +1,5 @@
 ##########################################################################
-[RTL8722CSM] [RTL8722DM] GPIO - Measuring The Temperature And Humidity
+GPIO - Measuring The Temperature And Humidity
 ##########################################################################
 
 .. role:: raw-html(raw)

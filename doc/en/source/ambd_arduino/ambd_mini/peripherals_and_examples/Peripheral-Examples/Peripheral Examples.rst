@@ -11,7 +11,7 @@ Peripheral Examples
    :maxdepth: 1
    :caption: Peripheral Library & Examples
    
-   [RTL8722CSM] [RTL8722DM] GPIO – Measure The Distance By Ultrasound Module
+   ../../../examples/peripheral/GPIO – Measure The Distance By Ultrasound Module
    [RTL8722CSM] [RTL8722DM] GPIO - Measuring The Temperature And Humidity
    [RTL8722CSM] [RTL8722DM] GPIO - Use GPIO Interrupt To Control LED
    [RTL8722CSM] [RTL8722DM] PWM – Play Music
@@ -26,6 +26,7 @@ Peripheral Examples
    [RTL8722CSM] [RTL8722DM] Flash Memory - Store data in FlashEEProm
    [RTL8722CSM] [RTL8722DM] Flash Memory - Use Flash Memory Larger Than 4K
    [RTL8722CSM] [RTL8722DM] SPI – Print Image And Text On LCD Screen
+   [RTL8722CSM] [RTL8722DM] SPI – Show PM2.5 Concentration On ILI9341 TFT LCD
    [RTL8722DM MINI] Audio Codec – Play and Record Wav Files
    [RTL8722DM MINI] FatfsSDIO – File system in SD card
    [RTL8722DM MINI] FatfsSDIO – Read And Open HTML File From SD Card
