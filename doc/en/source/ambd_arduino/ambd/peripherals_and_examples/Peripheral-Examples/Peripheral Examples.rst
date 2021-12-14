@@ -13,6 +13,7 @@ Peripheral Examples
    
    [RTL8722CSM] [RTL8722DM] GPIO – Measure The Distance By Ultrasound Module
    [RTL8722CSM] [RTL8722DM] GPIO - Measuring The Temperature And Humidity
+   [RTL8722CSM] [RTL8722DM] GPIO - Use GPIO Interrupt To Control LED
    [RTL8722CSM] [RTL8722DM] I2C - Display Data On LCD Screen
    [RTL8722CSM] [RTL8722DM] PM2.5 Concentration In The Air
    [RTL8722CSM] [RTL8722DM] PWM – Using A Servo
