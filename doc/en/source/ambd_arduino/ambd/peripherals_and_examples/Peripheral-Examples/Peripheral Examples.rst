@@ -29,3 +29,7 @@ Peripheral Examples
    [RTL8722CSM] [RTL8722DM] SPI – Show PM2.5 Concentration On ILI9341 TFT LCD
    ../../../examples/peripheral/Timer - Using The Periodic GTimer
    ../../../examples/peripheral/Timer - Using The Single-Use GTimer
+   ../../../examples/peripheral/Power Save Deep Sleep Mode
+   ../../../examples/peripheral/Power Save Deep Sleep DHT Eink
+   ../../../examples/peripheral/Power Save Deep Sleep DHT LCD
+   ../../../examples/peripheral/Power Save Tickless Mode

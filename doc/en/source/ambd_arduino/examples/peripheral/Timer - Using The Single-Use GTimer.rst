@@ -9,7 +9,7 @@ Timer - Using The Single-Use GTimer
 **Preparation**
 :raw-html:`</p>`
 
-    -  AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] / [RTL8720DN(BW16)] x 1
+    - AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] / [RTL8720DN(BW16)] x 1
 
 :raw-html:`<p style="color:#E67E22; font-size:24px">`
 **Example**
