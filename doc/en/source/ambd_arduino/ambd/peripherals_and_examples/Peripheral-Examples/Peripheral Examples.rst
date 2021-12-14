@@ -17,14 +17,15 @@ Peripheral Examples
    [RTL8722CSM] [RTL8722DM] PM2.5 Concentration In The Air
    [RTL8722CSM] [RTL8722DM] PWM – Using A Servo
    [RTL8722CSM] [RTL8722DM] SPI – Print Image And Text On LCD Screen
-   [RTL8722CSM] [RTL8722DM] Timer - Using The Periodic GTimer
-   [RTL8722CSM] [RTL8722DM] Timer - Using The Single-Use GTimer
    [RTL8722CSM] [RTL8722DM] UART - Retrieve GPS Position
-   [RTL8722CSM] [RTL8722DM] A Simple RTC Example
-   [RTL8722CSM] [RTL8722DM] A Simple RTC Alarm 
-   [RTL8722CSM] [RTL8722DM] Watchdog Timer Simple Example
 
-.... [RTL8722CSM] [RTL8722DM] Audio Codec – Basic Input Output
+
+....       [RTL8722CSM] [RTL8722DM] Timer - Using The Periodic GTimer
+....   [RTL8722CSM] [RTL8722DM] Timer - Using The Single-Use GTimer
+....   [RTL8722CSM] [RTL8722DM] A Simple RTC Example
+....   [RTL8722CSM] [RTL8722DM] A Simple RTC Alarm 
+....   [RTL8722CSM] [RTL8722DM] Watchdog Timer Simple Example
+....   [RTL8722CSM] [RTL8722DM] Audio Codec – Basic Input Output
 .... [RTL8722CSM] [RTL8722DM] Audio Codec – FFT
 .... [RTL8722CSM] [RTL8722DM] Audio Codec – Input FFT
 .... [RTL8722CSM] [RTL8722DM] Audio Codec – Output Sine Wave
