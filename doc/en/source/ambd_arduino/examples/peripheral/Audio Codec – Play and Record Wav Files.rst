@@ -1,5 +1,5 @@
 ##################################################################
-[RTL8722DM MINI] Audio Codec – Play and Record Wav Files
+Audio Codec – Play and Record Wav Files
 ##################################################################
 
 .. role:: raw-html(raw)
@@ -53,19 +53,19 @@ Open the example, ``“Files” -> “Examples” -> “AmebaAudioCodec” -> �
 | “Test_Recording_48khz_16bit_mono.wav” that located at MicroSD card.
 | Insert earphone/speaker into the onboard jack for playing the sample sound.
 
-.. |image1| image:: ../../media/[RTL8722DM_MINI]_Audio_Codec_Play_and_Record_Wav_Files/image1.png
+.. |image1| image:: ../../media/Audio_Codec_Play_and_Record_Wav_Files/image1.png
    :width: 2103
    :height: 2630
    :scale: 20 %
-.. |image2| image:: ../../media/[RTL8722DM_MINI]_Audio_Codec_Play_and_Record_Wav_Files/image2.png
+.. |image2| image:: ../../media/Audio_Codec_Play_and_Record_Wav_Files/image2.png
    :width: 560
    :height: 453
    :scale: 100 %
-.. |image3| image:: ../../media/[RTL8722DM_MINI]_Audio_Codec_Play_and_Record_Wav_Files/image3.png
+.. |image3| image:: ../../media/Audio_Codec_Play_and_Record_Wav_Files/image3.png
    :width: 531
    :height: 402
    :scale: 100 %
-.. |image4| image:: ../../media/[RTL8722DM_MINI]_Audio_Codec_Play_and_Record_Wav_Files/image4.png
+.. |image4| image:: ../../media/Audio_Codec_Play_and_Record_Wav_Files/image4.png
    :width: 513
    :height: 540
    :scale: 100 %

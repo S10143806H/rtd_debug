@@ -27,5 +27,5 @@ Peripheral Examples
    [RTL8722CSM] [RTL8722DM] Flash Memory - Use Flash Memory Larger Than 4K
    [RTL8722CSM] [RTL8722DM] SPI – Print Image And Text On LCD Screen
    [RTL8722CSM] [RTL8722DM] SPI – Show PM2.5 Concentration On ILI9341 TFT LCD
-   [RTL8722CSM] [RTL8722DM] Timer - Using The Periodic GTimer
-   [RTL8722CSM] [RTL8722DM] Timer - Using The Single-Use GTimer
+   ../../../examples/peripheral/Timer - Using The Periodic GTimer
+   ../../../examples/peripheral/Timer - Using The Single-Use GTimer
