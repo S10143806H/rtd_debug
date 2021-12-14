@@ -47,12 +47,13 @@ protocol descriptions. In this example, we are going to use NEC (Now
 Renesas, also known as Japanese Format) as the transmission protocol.
 
 | **NEC Features**
-| • 8-bit address and 8-bit command length.
-| • Extended mode available, doubling the address size.
-| • Address and command are transmitted twice for reliability.
-| • Pulse distance modulation.
-| • The carrier frequency of 38kHz.
-| • Bit time of 1.125ms or 2.25ms.
+
+   - 8-bit address and 8-bit command length.
+   - Extended mode available, doubling the address size.
+   - Address and command are transmitted twice for reliability.
+   - Pulse distance modulation.
+   - The carrier frequency of 38kHz.
+   - Bit time of 1.125ms or 2.25ms.
 
 | **Modulation**
 | NEC protocol uses Pulse Distance Encoding of the bits for data
@@ -61,75 +62,65 @@ Renesas, also known as Japanese Format) as the transmission protocol.
   “spaces”. While logical ”0” is represented by total duration of
   1120us, with 560us “marks” and (1120-560) us of “spaces”.
 
-.. image:: ../../media/Transmit_IR_NEC_Raw_Data_And_Decode/image4.png
-   :width: 425
-   :height: 125
-   :scale: 100 %
+  |4|
 
-Figure 4: Modulation of NEC
+  Figure 4: Modulation of NEC
 
 Since a total number of 32\-bit data together with the header and the end\-bit will be transferred (Figure 5). 
-
 If we separate the data in the
-
 time\-frame (in us), there will be ( 2 + 32 ) x 2 + 1 = 69 “marks” \/
 “spaces” to be transmitted (Figure 6), which forms the raw NEC data we
-would like to transmit in our Arduino “\*.ino” file. This part of the code can be modified by users. 
-
+would like to transmit in our Arduino “\*.ino” file. This part of the code can be modified by users.
 Details of how to obtain raw data code
 for your remote devices, you may refer to `Ken Shirriff’s blog <http://www.righto.com/2009/08/multi-protocol-infrared-remote-library.html>`__,
 where it provides multiple libraries provided online.
+  
+  |5|
+  
+  Figure 5: Sample of a Full NEC Data (in logic1 or 0)
+  
+  |6|
 
-.. image:: ../../media/Transmit_IR_NEC_Raw_Data_And_Decode/image5.png
-   :width: 550
-   :height: 110
-   :scale: 100 %
-
-Figure 5: Sample of a Full NEC Data (in logic1 or 0)
-
-.. image:: ../../media/Transmit_IR_NEC_Raw_Data_And_Decode/image6.png
-   :width: 830
-   :height: 109
-   :scale: 50 %
-
-Figure 6: Sample of a Full NEC RAW Data (in us)
+  Figure 6: Sample of a Full NEC RAW Data (in us)
 
 Figure 7 and 8 shows the pin configuration of IR Emitter and Receiver
 with Ameba RTL8722 board.
 
-.. image:: ../../media/Transmit_IR_NEC_Raw_Data_And_Decode/image7.png
-   :width: 764
-   :height: 473
-   :scale: 50 %
+  |7|
 
-Figure 7: Pin configuration of IR Emitter and Ameba RTL8722
+  Figure 7: Pin configuration of IR Emitter and Ameba RTL8722
 
-.. image:: ../../media/Transmit_IR_NEC_Raw_Data_And_Decode/image8.png
-   :width: 721
-   :height: 468
-   :scale: 50 %
+  |8|
 
-Figure 8: Pin configuration of the IR Receiver and Ameba RTL8722
+  Figure 8: Pin configuration of the IR Receiver and Ameba RTL8722
+  
+Figure 9 and Figure 10 shows the pin configuration of IR Emitter and 
+Receiver with Ameba RTL8722DM MINI.
+
+  |7-1|
+
+  Figure 9: Pin configuration of IR Emitter and Ameba RTL8722DM MINI
+
+  |8-1|
+  
+  Figure 10: Pin configuration of the IR receiver and Ameba RTL8722DM MINI
+  
 
 After the connection is being set up correctly, we will move to the
 coding part for this example. First, make sure the correct Ameba
-development board is selected in Arduino IDE: “Tools” -> “Board” ->
-“RTL8722CSM/RTL8722DM”.
+development board is selected in Arduino IDE: “Tools” -> “Board”.
 
-Open the “IRSendRAW” example in “File” -> “Examples” -> “AmebaIRDevice”
--> “IRSendRAW” (Figure 9) and upload to 1st board connected with IR
+Open the “IRSendRAW” example in ``“File” -> “Examples” -> “AmebaIRDevice”
+-> “IRSendRAW”`` (Figure 11) and upload to 1st board connected with IR
 Emitter:
-
-.. image:: ../../media/Transmit_IR_NEC_Raw_Data_And_Decode/image9.png
-   :width: 554
-   :height: 537
-   :scale: 100 %
-
-Figure 9: Example Location of IRSendRaw and IRRecvNEC
+  
+  |9|
+  
+  Figure 11: Example Location of IRSendRaw and IRRecvNEC
 
 After successfully upload the sample code for IRSendRaw, you might need
 to upload the IRRecvNEC example for the 2nd board connected with IR
-Receiver from “File” -> “Examples” -> “AmebaIRDevice” -> “IRRecvNEC”.
+Receiver from ``“File” -> “Examples” -> “AmebaIRDevice” -> “IRRecvNEC”``.
 
 After opening the serial monitor on the IR Receiver side and press the
 reset buttons on two boards, the data “48” will be received every 3
@@ -138,12 +129,9 @@ decoding the signal from the receiving Pin D8 and transmitting Pin D9
 with Logic Analyser and Pulse View (Figure 10), the result is also shown
 as “48” after decoding the receiving data with IR NEC Protocol.
 
-.. image:: ../../media/Transmit_IR_NEC_Raw_Data_And_Decode/image10.png
-   :width: 1210
-   :height: 163
-   :scale: 50 %
-
-Figure 10: Pulse View results from sending and receiving pin
+  |10|
+  
+  Figure 10: Pulse View results from sending and receiving pin
 
 :raw-html:`<p style="color:#E67E22; font-size:24px">`
 **Code Reference**
@@ -174,3 +162,39 @@ Figure 10: Pulse View results from sending and receiving pin
    :width: 531
    :height: 188
    :scale: 100 %
+.. |4| image:: ../../media/Transmit_IR_NEC_Raw_Data_And_Decode/image4.png
+   :width: 425
+   :height: 125
+   :scale: 100 %
+.. |5| image:: ../../media/Transmit_IR_NEC_Raw_Data_And_Decode/image5.png
+   :width: 550
+   :height: 110
+   :scale: 100 %
+.. |6| image:: ../../media/Transmit_IR_NEC_Raw_Data_And_Decode/image6.png
+   :width: 830
+   :height: 109
+   :scale: 100 %
+.. |7| image:: ../../media/Transmit_IR_NEC_Raw_Data_And_Decode/image7.png
+   :width: 764
+   :height: 473
+   :scale: 50 %
+.. |8| image:: ../../media/Transmit_IR_NEC_Raw_Data_And_Decode/image8.png
+   :width: 721
+   :height: 468
+   :scale: 50 %
+.. |7-1| image:: ../../media/Transmit_IR_NEC_Raw_Data_And_Decode/image7-1.png
+   :width: 842
+   :height: 746
+   :scale: 50 %
+.. |8-1| image:: ../../media/Transmit_IR_NEC_Raw_Data_And_Decode/image8-1.png
+   :width: 794
+   :height: 733
+   :scale: 50 %
+.. |9| image:: ../../media/Transmit_IR_NEC_Raw_Data_And_Decode/image9.png
+   :width: 554
+   :height: 537
+   :scale: 100 %
+.. |10| image:: ../../media/Transmit_IR_NEC_Raw_Data_And_Decode/image10.png
+   :width: 1210
+   :height: 163
+   :scale: 50 %
