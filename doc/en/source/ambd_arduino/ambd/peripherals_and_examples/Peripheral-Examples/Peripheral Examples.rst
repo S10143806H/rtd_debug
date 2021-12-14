@@ -33,3 +33,4 @@ Peripheral Examples
    ../../../examples/peripheral/Power Save Deep Sleep DHT Eink
    ../../../examples/peripheral/Power Save Deep Sleep DHT LCD
    ../../../examples/peripheral/Power Save Tickless Mode
+   ../../../examples/peripheral/Use NTPClient Library To Obtain Local Time
