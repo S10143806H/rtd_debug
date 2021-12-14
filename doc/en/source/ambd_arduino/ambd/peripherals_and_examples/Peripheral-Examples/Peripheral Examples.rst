@@ -11,7 +11,7 @@ Peripheral Examples
    :maxdepth: 1
    :caption: Peripheral Library & Examples
    
-   [RTL8722CSM] [RTL8722DM] GPIO – Measure The Distance By Ultrasound Module
+   ../../../examples/peripheral/GPIO – Measure The Distance By Ultrasound Module
    [RTL8722CSM] [RTL8722DM] GPIO - Measuring The Temperature And Humidity
    [RTL8722CSM] [RTL8722DM] GPIO - Use GPIO Interrupt To Control LED
    [RTL8722CSM] [RTL8722DM] PWM – Play Music

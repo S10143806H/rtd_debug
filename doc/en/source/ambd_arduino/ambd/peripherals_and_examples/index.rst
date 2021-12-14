@@ -11,7 +11,7 @@ Peripherals & Examples
    :maxdepth: 1
    :titlesonly:
 
-   Basic Examples
+   ../../examples/basic/Basic Examples
    Network-Examples/Network Examples
    Components-Used/Components Used   
    Peripheral-Examples/Peripheral Examples
