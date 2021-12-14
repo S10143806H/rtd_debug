@@ -36,3 +36,4 @@ Peripheral Examples
    ../../../examples/peripheral/Use NTPClient Library To Obtain Local Time
    ../../../examples/peripheral/A Simple RTC Example
    ../../../examples/peripheral/A Simple RTC Alarm
+   ../../../examples/peripheral/Watchdog Timer Simple Example

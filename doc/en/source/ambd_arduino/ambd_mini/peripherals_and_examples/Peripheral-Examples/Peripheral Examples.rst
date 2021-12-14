@@ -36,6 +36,7 @@ Peripheral Examples
    ../../../examples/peripheral/Use NTPClient Library To Obtain Local Time
    ../../../examples/peripheral/A Simple RTC Example
    ../../../examples/peripheral/A Simple RTC Alarm
+   ../../../examples/peripheral/Watchdog Timer Simple Example
    ../../../examples/peripheral/Audio Codec – Play and Record Wav Files
    ../../../examples/peripheral/FatfsSDIO – File system in SD card
    ../../../examples/peripheral/FatfsSDIO – Read And Open HTML File From SD Card
