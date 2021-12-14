@@ -23,5 +23,6 @@ Peripheral Examples
    [RTL8722CSM] [RTL8722DM] UART - Retrieve GPS Position
    [RTL8722CSM] [RTL8722DM] UART – Set Callback Function For UART Communications
    [RTL8722CSM] [RTL8722DM] PM2.5 Concentration In The Air
+   [RTL8722CSM] [RTL8722DM] Flash Memory - Store data in FlashEEProm
+   [RTL8722CSM] [RTL8722DM] Flash Memory - Use Flash Memory Larger Than 4K
    [RTL8722CSM] [RTL8722DM] SPI – Print Image And Text On LCD Screen
-   
