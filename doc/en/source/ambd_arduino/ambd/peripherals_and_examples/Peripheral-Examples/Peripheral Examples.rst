@@ -34,3 +34,5 @@ Peripheral Examples
    ../../../examples/peripheral/Power Save Deep Sleep DHT LCD
    ../../../examples/peripheral/Power Save Tickless Mode
    ../../../examples/peripheral/Use NTPClient Library To Obtain Local Time
+   ../../../examples/peripheral/A Simple RTC Example
+   ../../../examples/peripheral/A Simple RTC Alarm
