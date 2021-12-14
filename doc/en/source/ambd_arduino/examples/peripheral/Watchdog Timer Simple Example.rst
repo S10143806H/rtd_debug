@@ -72,7 +72,7 @@ with this situation.
 
   |4|
 
-.. |1| image:: ../../media/Watchdog_Timer_Simple_Example/image1.gif
+.. |1| image:: ../../media/Watchdog_Timer_Simple_Example/image1.png
    :width: 1188
    :height: 800
    :scale: 50 %

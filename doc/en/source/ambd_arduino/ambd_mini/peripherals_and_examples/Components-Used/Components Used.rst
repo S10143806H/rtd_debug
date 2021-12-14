@@ -10,7 +10,7 @@ Components Used
      - |image-2|
    * - | :doc:`DHT11_DHT22<../Peripheral-Examples/[RTL8722CSM] [RTL8722DM] GPIO - Measuring The Temperature And Humidity>`
        | Humidity & temperature sensor
-     - | :doc:`HC_SR04<../Peripheral-Examples/[RTL8722CSM] [RTL8722DM] GPIO – Measure The Distance By Ultrasound Module>`
+     - | :doc:`HC_SR04<../../../examples/peripheral/GPIO – Measure The Distance By Ultrasound Module>`
        | Distance measurement function
 
    * - |image-3|
