@@ -60,7 +60,7 @@ with this situation.
   Then open the “Watchdog Timer” example in ``“File” -> “Examples” -> “AmebaWatchdog” ->
   “Watchdog Timer”``:
 
-..   2|
+  |2|
 
 | Upon successfully upload the sample code, open the serial monitor, 
   and press the reset button. You will find that the “Small_Task” can refresh the 
@@ -68,23 +68,23 @@ with this situation.
   However, the “Big_Task” will not be able to refresh the watchdog within 5 seconds, 
   which the watchdog “barks” then the microcontroller reset.
 
-..   3|
+  |3|
 
-..   4|
+  |4|
 
 .. .. |1| image:: ../../media/Watchdog_Timer_Simple_Example/image1.png
 ..    :width: 1188
 ..    :height: 800
 ..    :scale: 50 %
-.. .. |2| image:: ../../media/Watchdog_Timer_Simple_Example/image2.png
-..    :width: 548
-..    :height: 527
-..    :scale: 100 %
-.. .. |3| image:: ../../media/Watchdog_Timer_Simple_Example/image3.png
-..    :width: 383
-..    :height: 628
-..    :scale: 100 %
-.. .. |4| image:: ../../media/Watchdog_Timer_Simple_Example/image4.png
-..    :width: 379
-..    :height: 419
-..    :scale: 100 %
+.. |2| image:: ../../media/Watchdog_Timer_Simple_Example/image2.png
+   :width: 548
+   :height: 527
+   :scale: 100 %
+.. |3| image:: ../../media/Watchdog_Timer_Simple_Example/image3.png
+   :width: 383
+   :height: 628
+   :scale: 100 %
+.. |4| image:: ../../media/Watchdog_Timer_Simple_Example/image4.png
+   :width: 379
+   :height: 419
+   :scale: 100 %

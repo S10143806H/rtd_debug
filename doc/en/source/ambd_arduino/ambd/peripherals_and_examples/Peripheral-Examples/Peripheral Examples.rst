@@ -41,3 +41,7 @@ Peripheral Examples
    ../../../examples/peripheral/A Simple RTC Example
    ../../../examples/peripheral/A Simple RTC Alarm
    ../../../examples/peripheral/Watchdog Timer Simple Example
+   ../../../examples/peripheral/TensorFlow Lite - Hello World
+   ../../../examples/peripheral/TensorFlow Lite - Magic Wand
+   ../../../examples/peripheral/TensorFlow Lite - Micro Speech
+   ../../../examples/peripheral/TensorFlow Lite - Person Detection

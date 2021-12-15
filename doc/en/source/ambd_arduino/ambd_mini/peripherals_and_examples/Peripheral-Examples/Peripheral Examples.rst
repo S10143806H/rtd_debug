@@ -44,3 +44,7 @@ Peripheral Examples
    ../../../examples/peripheral/Audio Codec – Play and Record Wav Files
    ../../../examples/peripheral/FatfsSDIO – File system in SD card
    ../../../examples/peripheral/FatfsSDIO – Read And Open HTML File From SD Card
+   ../../../examples/peripheral/TensorFlow Lite - Hello World
+   ../../../examples/peripheral/TensorFlow Lite - Magic Wand
+   ../../../examples/peripheral/TensorFlow Lite - Micro Speech
+   ../../../examples/peripheral/TensorFlow Lite - Person Detection
