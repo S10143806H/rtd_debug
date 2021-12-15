@@ -41,7 +41,11 @@ Peripheral Examples
    ../../../examples/peripheral/A Simple RTC Example
    ../../../examples/peripheral/A Simple RTC Alarm
    ../../../examples/peripheral/Watchdog Timer Simple Example
-   ../../../examples/peripheral/Audio Codec – Play and Record Wav Files
+   ../../../examples/peripheral/Audio Codec - Basic Input Output
+   ../../../examples/peripheral/Audio Codec - FFT
+   ../../../examples/peripheral/Audio Codec - Input FFT
+   ../../../examples/peripheral/Audio Codec - Output Sine Wave
+   ../../../examples/peripheral/Audio Codec - Play and Record Wav Files
    ../../../examples/peripheral/FatfsSDIO – File system in SD card
    ../../../examples/peripheral/FatfsSDIO – Read And Open HTML File From SD Card
    ../../../examples/peripheral/TensorFlow Lite - Hello World

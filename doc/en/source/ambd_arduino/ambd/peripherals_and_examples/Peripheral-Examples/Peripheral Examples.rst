@@ -41,6 +41,10 @@ Peripheral Examples
    ../../../examples/peripheral/A Simple RTC Example
    ../../../examples/peripheral/A Simple RTC Alarm
    ../../../examples/peripheral/Watchdog Timer Simple Example
+   ../../../examples/peripheral/Audio Codec - Basic Input Output
+   ../../../examples/peripheral/Audio Codec - FFT
+   ../../../examples/peripheral/Audio Codec - Input FFT
+   ../../../examples/peripheral/Audio Codec - Output Sine Wave
    ../../../examples/peripheral/TensorFlow Lite - Hello World
    ../../../examples/peripheral/TensorFlow Lite - Magic Wand
    ../../../examples/peripheral/TensorFlow Lite - Micro Speech
