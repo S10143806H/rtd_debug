@@ -35,6 +35,9 @@ Peripheral Examples
    ../../../examples/peripheral/Power Save Tickless Mode
    ../../../examples/peripheral/Use NTPClient Library To Obtain Local Time
    ../../../examples/peripheral/Transmit IR NEC Raw Data And Decode
+   ../../../examples/peripheral/Display Images On E-Paper
+   ../../../examples/peripheral/Display Text On E-Paper
+   ../../../examples/peripheral/Display User-Generated QR Code on E-Paper
    ../../../examples/peripheral/A Simple RTC Example
    ../../../examples/peripheral/A Simple RTC Alarm
    ../../../examples/peripheral/Watchdog Timer Simple Example
