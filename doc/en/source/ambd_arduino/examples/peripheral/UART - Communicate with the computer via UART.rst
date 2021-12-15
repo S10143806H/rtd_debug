@@ -1,5 +1,5 @@
 ##########################################################################
-[RTL8722DM MINI] UART - Communicate with the computer via UART
+UART - Communicate with the computer via UART
 ##########################################################################
 
 .. role:: raw-html(raw)
@@ -108,31 +108,31 @@ this:
 | If there are data available to read, use read() to read from serial
   port.
 
-.. |1| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_UART_Communicate_with_the_computer_via_UART/image1.png
+.. |1| image:: ../../media/UART_Communicate_with_the_computer_via_UART/image1.png
    :width: 456
    :height: 370
    :scale: 100 %
-.. |2| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_UART_Communicate_with_the_computer_via_UART/image2.png
+.. |2| image:: ../../media/UART_Communicate_with_the_computer_via_UART/image2.png
    :width: 683
    :height: 1006
    :scale: 50 %
-.. |3| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_UART_Communicate_with_the_computer_via_UART/image3.png
+.. |3| image:: ../../media/UART_Communicate_with_the_computer_via_UART/image3.png
    :width: 1285
    :height: 1040
    :scale: 50 %
-.. |3-1| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_UART_Communicate_with_the_computer_via_UART/image3-1.png
+.. |3-1| image:: ../../media/UART_Communicate_with_the_computer_via_UART/image3-1.png
    :width: 1285
    :height: 1040
    :scale: 50 %
-.. |4| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_UART_Communicate_with_the_computer_via_UART/image4.png
+.. |4| image:: ../../media/UART_Communicate_with_the_computer_via_UART/image4.png
    :width: 466
    :height: 448
    :scale: 100 %
-.. |5| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_UART_Communicate_with_the_computer_via_UART/image5.png
+.. |5| image:: ../../media/UART_Communicate_with_the_computer_via_UART/image5.png
    :width: 466
    :height: 448
    :scale: 100 %
-.. |6| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_UART_Communicate_with_the_computer_via_UART/image6.png
+.. |6| image:: ../../media/UART_Communicate_with_the_computer_via_UART/image6.png
    :width: 395
    :height: 248
    :scale: 100 %

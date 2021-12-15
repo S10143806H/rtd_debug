@@ -25,7 +25,7 @@ Components Used
      - |image-6|
    * - | :doc:`QVGA TFT LCD<../Peripheral-Examples/[RTL8722CSM] [RTL8722DM] SPI – Print Image And Text On LCD Screen>`
        | QVGA TFT LCD display module
-     - | :doc:`Adafruit Ultimate GPS Breakout<../Peripheral-Examples/[RTL8722CSM] [RTL8722DM] UART - Retrieve GPS Position>`
+     - | :doc:`Adafruit Ultimate GPS Breakout<../../../examples/peripheral/UART - Retrieve GPS Position>`
        | High-quality GPS positioning module
    * - |image-7|
      -

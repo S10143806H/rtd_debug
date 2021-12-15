@@ -1,5 +1,5 @@
 #############################################################################
-[RTL8722CSM] [RTL8722DM] UART – Set Callback Function For UART Communications
+UART – Set Callback Function For UART Communications
 #############################################################################
 
 .. role:: raw-html(raw)
@@ -65,23 +65,23 @@ character corresponds to the enter key, and releases the semaphore if it
 is true, which in turn allows the main loop to print out all the
 previously received characters.
 
-.. |1| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_UART_Set_Callback_Function_For_UART_Communications/image1.png
+.. |1| image:: ../../media/UART_Set_Callback_Function_For_UART_Communications/image1.png
    :width: 1324
    :height: 760
    :scale: 50 %
-.. |1-1| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_UART_Set_Callback_Function_For_UART_Communications/image1-1.png
+.. |1-1| image:: ../../media/UART_Set_Callback_Function_For_UART_Communications/image1-1.png
    :width: 1006
    :height: 798
    :scale: 50 %
-.. |2| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_UART_Set_Callback_Function_For_UART_Communications/image2.png
+.. |2| image:: ../../media/UART_Set_Callback_Function_For_UART_Communications/image2.png
    :width: 721
    :height: 1006
    :scale: 50 %
-.. |3| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_UART_Set_Callback_Function_For_UART_Communications/image3.png
+.. |3| image:: ../../media/UART_Set_Callback_Function_For_UART_Communications/image3.png
    :width: 665
    :height: 540
    :scale: 100 %
-.. |4| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_UART_Set_Callback_Function_For_UART_Communications/image4.png
+.. |4| image:: ../../media/UART_Set_Callback_Function_For_UART_Communications/image4.png
    :width: 665
    :height: 540
    :scale: 100 %
