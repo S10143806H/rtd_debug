@@ -34,7 +34,7 @@ it practically impossible to do press on the button all time, therefore,
 the watchdog timer that embedded inside the micro-controller would help
 with this situation.
 
-.. 1|
+  |1|
 
 **Feed the Dog**
 
@@ -72,10 +72,10 @@ with this situation.
 
   |4|
 
-.. .. |1| image:: ../../media/Watchdog_Timer_Simple_Example/image1.png
-..    :width: 1188
-..    :height: 800
-..    :scale: 50 %
+.. |1| image:: ../../media/Watchdog_Timer_Simple_Example/image1.png
+   :width: 709
+   :height: 552
+   :scale: 80 %
 .. |2| image:: ../../media/Watchdog_Timer_Simple_Example/image2.png
    :width: 548
    :height: 527
