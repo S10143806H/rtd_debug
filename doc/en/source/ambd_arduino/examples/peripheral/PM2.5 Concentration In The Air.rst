@@ -1,5 +1,5 @@
 #########################################################
-[RTL8722DM MINI] PM2.5 Concentration in The Air
+PM2.5 Concentration in The Air
 #########################################################
 
 .. role:: raw-html(raw)

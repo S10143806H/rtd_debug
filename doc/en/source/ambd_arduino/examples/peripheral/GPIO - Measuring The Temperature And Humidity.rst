@@ -76,30 +76,30 @@ buffered temperature/humidity data unless it found the data has expired
 (i.e., has not been updated for over 2 seconds). If the data is expired,
 Ameba issues a request to DHT to read the latest data.
 
-.. |1| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_GPIO_Measuring_The_Temperature_And_Humidity/image1.png
+.. |1| image:: ../../media/GPIO_Measuring_The_Temperature_And_Humidity/image1.png
    :alt: 1
    :width: 259
    :height: 332
    :scale: 100 %
-.. |2| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_GPIO_Measuring_The_Temperature_And_Humidity/image2.png
+.. |2| image:: ../../media/GPIO_Measuring_The_Temperature_And_Humidity/image2.png
    :alt: 2
    :width: 114
    :height: 276
    :scale: 100 %
-.. |3| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_GPIO_Measuring_The_Temperature_And_Humidity/image3.png
+.. |3| image:: ../../media/GPIO_Measuring_The_Temperature_And_Humidity/image3.png
    :alt: 3
    :width: 1429
    :height: 415
    :scale: 50 %
-.. |4| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_GPIO_Measuring_The_Temperature_And_Humidity/image4.png
+.. |4| image:: ../../media/GPIO_Measuring_The_Temperature_And_Humidity/image4.png
    :width: 704
    :height: 591
    :scale: 50 %
-.. |4-1| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_GPIO_Measuring_The_Temperature_And_Humidity/image4-1.png
+.. |4-1| image:: ../../media/GPIO_Measuring_The_Temperature_And_Humidity/image4-1.png
    :width: 863
    :height: 789
    :scale: 50 %
-.. |5| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_GPIO_Measuring_The_Temperature_And_Humidity/image5.png
+.. |5| image:: ../../media/GPIO_Measuring_The_Temperature_And_Humidity/image5.png
    :alt: 5
    :width: 1077
    :height: 930

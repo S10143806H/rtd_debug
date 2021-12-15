@@ -1,5 +1,5 @@
 ##########################################################################
-[RTL8722CSM] [RTL8722DM] I2C - Communicate with Arduino UNO via I2C
+I2C - Communicate with Arduino UNO via I2C
 ##########################################################################
 
 .. role:: raw-html(raw)

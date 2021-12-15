@@ -11,22 +11,22 @@ Peripheral Examples
    :maxdepth: 1
    :caption: Peripheral Library & Examples
    
-   ../../../examples/peripheral/GPIO – Measure The Distance By Ultrasound Module
-   [RTL8722CSM] [RTL8722DM] GPIO - Measuring The Temperature And Humidity
-   [RTL8722CSM] [RTL8722DM] GPIO - Use GPIO Interrupt To Control LED
-   [RTL8722CSM] [RTL8722DM] PWM – Play Music
-   [RTL8722CSM] [RTL8722DM] PWM – Using A Servo
-   [RTL8722CSM] [RTL8722DM] I2C - Communicate with Arduino UNO via I2C
-   [RTL8722CSM] [RTL8722DM] I2C - Display Data On LCD Screen
-   [RTL8722CSM] [RTL8722DM] I2C - Use I2C to receive data from Arduino UNO
+   ../../../examples/peripheral/GPIO - Measure The Distance By Ultrasound Module
+   ../../../examples/peripheral/GPIO - Measuring The Temperature And Humidity
+   ../../../examples/peripheral/GPIO - Use GPIO Interrupt To Control LED
+   ../../../examples/peripheral/PWM - Play Music
+   ../../../examples/peripheral/PWM - Using A Servo
+   ../../../examples/peripheral/I2C - Communicate with Arduino UNO via I2C
+   ../../../examples/peripheral/I2C - Display Data On LCD Screen
+   ../../../examples/peripheral/I2C - Use I2C to receive data from Arduino UNO
    ../../../examples/peripheral/UART - Communicate with the computer via UART
    ../../../examples/peripheral/UART - Retrieve GPS Position
-   ../../../examples/peripheral/UART – Set Callback Function For UART Communications
-   [RTL8722CSM] [RTL8722DM] PM2.5 Concentration In The Air
-   [RTL8722CSM] [RTL8722DM] Flash Memory - Store data in FlashEEProm
-   [RTL8722CSM] [RTL8722DM] Flash Memory - Use Flash Memory Larger Than 4K
-   [RTL8722CSM] [RTL8722DM] SPI – Print Image And Text On LCD Screen
-   [RTL8722CSM] [RTL8722DM] SPI – Show PM2.5 Concentration On ILI9341 TFT LCD
+   ../../../examples/peripheral/UART - Set Callback Function For UART Communications
+   ../../../examples/peripheral/PM2.5 Concentration In The Air
+   ../../../examples/peripheral/Flash Memory - Store data in FlashEEProm
+   ../../../examples/peripheral/Flash Memory - Use Flash Memory Larger Than 4K
+   ../../../examples/peripheral/SPI - Print Image And Text On LCD Screen
+   ../../../examples/peripheral/SPI - Show PM2.5 Concentration On ILI9341 TFT LCD
    ../../../examples/peripheral/Timer - Using The Periodic GTimer
    ../../../examples/peripheral/Timer - Using The Single-Use GTimer
    ../../../examples/peripheral/Power Save Deep Sleep Mode
@@ -46,8 +46,8 @@ Peripheral Examples
    ../../../examples/peripheral/Audio Codec - Input FFT
    ../../../examples/peripheral/Audio Codec - Output Sine Wave
    ../../../examples/peripheral/Audio Codec - Play and Record Wav Files
-   ../../../examples/peripheral/FatfsSDIO – File system in SD card
-   ../../../examples/peripheral/FatfsSDIO – Read And Open HTML File From SD Card
+   ../../../examples/peripheral/FatfsSDIO - File system in SD card
+   ../../../examples/peripheral/FatfsSDIO - Read And Open HTML File From SD Card
    ../../../examples/peripheral/TensorFlow Lite - Hello World
    ../../../examples/peripheral/TensorFlow Lite - Magic Wand
    ../../../examples/peripheral/TensorFlow Lite - Micro Speech
