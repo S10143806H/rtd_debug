@@ -1,1 +1,0 @@
-.. include:: ../../examples/network/Index - RTL8722DM MINI.rst

@@ -34,23 +34,23 @@ the same way as the shown in the example code. Also uncomment the
 highlighted code to enable client authentication, and to change the MQTT
 port number.\ |image2|\ |image3|
 
-.. |2| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_MQTT_over_TLS/image1.png
+.. |2| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_MQTT_over_TLS/image1.png
    :width: 668
    :height: 1028
    :scale: 100 %
-.. |image1| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_MQTT_over_TLS/image2.png
+.. |image1| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_MQTT_over_TLS/image2.png
    :width: 645
    :height: 846
    :scale: 100 %
-.. |3| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_MQTT_over_TLS/image3.png
+.. |3| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_MQTT_over_TLS/image3.png
    :width: 633
    :height: 476
    :scale: 100 %
-.. |image2| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_MQTT_over_TLS/image4.png
+.. |image2| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_MQTT_over_TLS/image4.png
    :width: 645
    :height: 846
    :scale: 100 %
-.. |image3| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_MQTT_over_TLS/image5.png
+.. |image3| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_MQTT_over_TLS/image5.png
    :width: 791
    :height: 846
    :scale: 50 %

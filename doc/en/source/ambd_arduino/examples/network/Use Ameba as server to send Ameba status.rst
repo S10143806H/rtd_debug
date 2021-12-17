@@ -1,12 +1,20 @@
+##########################################################################
 [RTL8722CSM] [RTL8722DM] Use Ameba as server to send Ameba status
-===================================================================
-Materials
+##########################################################################
 
--  Ameba x 1
+.. role:: raw-html(raw)
+   :format: html
 
+:raw-html:`<p style="color:#E67E22; font-size:24px">`
+**Materials**
+:raw-html:`</p>`
+
+  - AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1
  
+:raw-html:`<p style="color:#E67E22; font-size:24px">`
+**Example**
+:raw-html:`</p>`
 
-Example
 
 | In this example, we connect Ameba to WiFi and use Ameba as server to
   send message to connected client.
@@ -14,7 +22,7 @@ Example
 
  
 
-.. image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_as_server_to_send_Ameba_status/image1.png
+.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_as_server_to_send_Ameba_status/image1.png
    :alt: 6-1
    :width: 716
    :height: 1226
@@ -24,7 +32,7 @@ In the sample code, modify the highlighted snippet and enter the
 required information (ssid, password, key index) required to connect to
 your WiFi network.
 
-.. image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_as_server_to_send_Ameba_status/image2.png
+.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_as_server_to_send_Ameba_status/image2.png
    :alt: 6-2
    :width: 716
    :height: 867
@@ -40,7 +48,7 @@ the serial monitor, and port is 80.
 | We connect to the server in a browser, and we can see the data sent
   from the server.
 
-.. image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_as_server_to_send_Ameba_status/image4.png
+.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_as_server_to_send_Ameba_status/image4.png
    :alt: 6-4
    :width: 704
    :height: 355
@@ -84,7 +92,7 @@ the serial monitor, and port is 80.
   connected to.
 | https://www.arduino.cc/en/Reference/WiFIClientStop
 
-.. |6-3| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_as_server_to_send_Ameba_status/image3.png
+.. |6-3| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_as_server_to_send_Ameba_status/image3.png
    :width: 1208
    :height: 940
    :scale: 50 %

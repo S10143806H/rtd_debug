@@ -62,12 +62,12 @@ Next, rotate the axis to desired position:
 
   myservo.write(pos);
 
-.. |1| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_PWM_Using_A_Servo/image1.png
+.. |1| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_PWM_Using_A_Servo/image1.png
    :alt: 1
    :width: 1249
    :height: 974
    :scale: 50 %
-.. |2| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_PWM_Using_A_Servo/image2.png
+.. |2| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_PWM_Using_A_Servo/image2.png
    :alt: 1
    :width: 800
    :height: 633

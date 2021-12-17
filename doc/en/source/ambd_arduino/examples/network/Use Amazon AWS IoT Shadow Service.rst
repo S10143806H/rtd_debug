@@ -16,7 +16,7 @@ Amazon AWS IoT is a cloud IoT service platform:
   even when they are offline. (https://aws.amazon.com/iot/how-it-works/)
 | The service architecture of AWS IoT:
 
-.. image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image1.png
+.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image1.png
    :alt: 1
    :width: 900
    :height: 400
@@ -56,7 +56,7 @@ Amazon AWS IoT is a cloud IoT service platform:
 | Enter the main page of AWS IoT
 | |image4|
 
-.. image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image7.png
+.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image7.png
    :alt: 1
    :width: 1276
    :height: 987
@@ -116,7 +116,7 @@ Amazon AWS IoT is a cloud IoT service platform:
 | Click “Attach a policy” in the “Actions” dropdown menu.
 | |image16|
 
-.. image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image20.png
+.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image20.png
    :alt: 1
    :width: 1279
    :height: 986
@@ -129,7 +129,7 @@ Amazon AWS IoT is a cloud IoT service platform:
   “Attach”
 | |image17|
 
-.. image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image19.png
+.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image19.png
    :alt: 1
    :width: 1279
    :height: 985
@@ -278,107 +278,107 @@ state.
 
 updateLedState(desired_led_state);
 
-.. |1| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image2.png
+.. |1| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image2.png
    :width: 1277
    :height: 985
    :scale: 50 %
-.. |image1| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image3.png
+.. |image1| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image3.png
    :width: 1279
    :height: 984
    :scale: 50 %
-.. |image2| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image4.png
+.. |image2| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image4.png
    :width: 1279
    :height: 984
    :scale: 50 %
-.. |image3| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image5.png
+.. |image3| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image5.png
    :width: 1279
    :height: 984
    :scale: 50 %
-.. |image4| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image6.png
+.. |image4| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image6.png
    :width: 1279
    :height: 986
    :scale: 50 %
-.. |image5| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image8.png
+.. |image5| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image8.png
    :width: 1276
    :height: 987
    :scale: 50 %
-.. |image6| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image9.png
+.. |image6| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image9.png
    :width: 1279
    :height: 984
    :scale: 50 %
-.. |image7| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image10.png
+.. |image7| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image10.png
    :width: 1279
    :height: 986
    :scale: 50 %
-.. |image8| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image11.png
+.. |image8| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image11.png
    :width: 1279
    :height: 985
    :scale: 50 %
-.. |image9| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image12.png
+.. |image9| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image12.png
    :width: 1279
    :height: 986
    :scale: 50 %
-.. |image10| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image13.png
+.. |image10| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image13.png
    :width: 1279
    :height: 986
    :scale: 50 %
-.. |image11| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image14.png
+.. |image11| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image14.png
    :width: 1279
    :height: 986
    :scale: 50 %
-.. |image12| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image15.png
+.. |image12| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image15.png
    :width: 1279
    :height: 986
    :scale: 50 %
-.. |image13| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image16.png
+.. |image13| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image16.png
    :width: 1279
    :height: 986
    :scale: 50 %
-.. |image14| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image17.png
+.. |image14| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image17.png
    :width: 1279
    :height: 986
    :scale: 50 %
-.. |image15| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image18.png
+.. |image15| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image18.png
    :width: 1279
    :height: 986
    :scale: 50 %
-.. |image16| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image19.png
+.. |image16| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image19.png
    :width: 1279
    :height: 986
    :scale: 50 %
-.. |image17| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image21.png
+.. |image17| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image21.png
    :width: 1279
    :height: 986
    :scale: 50 %
-.. |image18| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image22.png
+.. |image18| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image22.png
    :width: 850
    :height: 653
    :scale: 50 %
-.. |image19| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image23.png
+.. |image19| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image23.png
    :width: 1436
    :height: 720
    :scale: 50 %
-.. |image20| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image24.png
+.. |image20| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image24.png
    :width: 1279
    :height: 986
    :scale: 50 %
-.. |image21| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image25.png
+.. |image21| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image25.png
    :width: 639
    :height: 846
    :scale: 100 %
-.. |image22| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image26.png
+.. |image22| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image26.png
    :width: 639
    :height: 846
    :scale: 100 %
-.. |image23| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image27.png
+.. |image23| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image27.png
    :width: 639
    :height: 846
    :scale: 100 %
-.. |image24| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image28.png
+.. |image24| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image28.png
    :width: 639
    :height: 846
    :scale: 100 %
-.. |image25| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image29.png
+.. |image25| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image29.png
    :width: 851
    :height: 546
    :scale: 50 %

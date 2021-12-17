@@ -16,7 +16,7 @@ the UDP sending delay.
 Open the “CalculateUdpSendDelay” example in “File” -> “Examples” ->
 “AmebaWiFi” -> ” UDP_Calculation ” -> “CalculateUdpSendDelay”.
 
-.. image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Approximate_UDP_Sending_Delay/image1.png
+.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Approximate_UDP_Sending_Delay/image1.png
    :alt: 1
    :width: 852
    :height: 1006
@@ -30,7 +30,7 @@ The server variable also needs to be changed to match the IP address of
 your computer. You can find the IP address using the “ipconfig” command
 in a terminal window.
 
-.. image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Approximate_UDP_Sending_Delay/image2.png
+.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Approximate_UDP_Sending_Delay/image2.png
    :alt: 1
    :width: 721
    :height: 864
@@ -46,7 +46,7 @@ Follow the instructions there to install it. Next, from the
 between “#if 0” and “#endif”, into a new text file and rename the file
 to “UdpSendDelay.cpp”.
 
-.. image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Approximate_UDP_Sending_Delay/image3.png
+.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Approximate_UDP_Sending_Delay/image3.png
    :alt: 1
    :width: 695
    :height: 661
@@ -71,7 +71,7 @@ delay and print out the result.
 
 It will take some time for 10000 packets to be sent.
 
-.. image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Approximate_UDP_Sending_Delay/image4.png
+.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Approximate_UDP_Sending_Delay/image4.png
    :alt: 1
    :width: 1172
    :height: 704

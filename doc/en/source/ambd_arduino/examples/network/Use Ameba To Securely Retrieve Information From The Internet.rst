@@ -15,7 +15,7 @@ client.
 Open the “WiFiSSLClient” example in “File” -> “Examples” -> “AmebaWiFi”
 -> ” WiFiSSLClient “.
 
-.. image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_To_Securely_Retrieve_Information_From_The_Internet/image1.png
+.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_To_Securely_Retrieve_Information_From_The_Internet/image1.png
    :alt: 4-1
    :width: 716
    :height: 1006
@@ -24,7 +24,7 @@ Open the “WiFiSSLClient” example in “File” -> “Examples” -> “Ameba
 In the sample code, modify the highlighted snippet to reflect your WiFi
 network settings.
 
-.. image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_To_Securely_Retrieve_Information_From_The_Internet/image2.png
+.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_To_Securely_Retrieve_Information_From_The_Internet/image2.png
    :alt: 4-2
    :width: 716
    :height: 867
@@ -36,7 +36,7 @@ finished.
 Open the serial monitor in the Arduino IDE and observe as Ameba
 retrieves a text file from os.mbed.com.
 
-.. image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_To_Securely_Retrieve_Information_From_The_Internet/image3.png
+.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_To_Securely_Retrieve_Information_From_The_Internet/image3.png
    :alt: 4-2
    :width: 633
    :height: 476

@@ -19,15 +19,15 @@ NTP server “129.6.15.28”. We parse the replied packet and show UTC time
 in serial monitor:|image1|
 
 
-.. |8-1| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Retrieve_Universal_Time_(UTC)_By_Ameba/image1.png
+.. |8-1| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Retrieve_Universal_Time_(UTC)_By_Ameba/image1.png
    :width: 716
    :height: 10
    :scale: 50 %
-.. |8-2| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Retrieve_Universal_Time_(UTC)_By_Ameba/image2.png
+.. |8-2| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Retrieve_Universal_Time_(UTC)_By_Ameba/image2.png
    :width: 716
    :height: 8
    :scale: 50 %
-.. |image1| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Retrieve_Universal_Time_(UTC)_By_Ameba/image3.png
+.. |image1| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Retrieve_Universal_Time_(UTC)_By_Ameba/image3.png
    :width: 704
    :height: 423
    :scale: 50 %

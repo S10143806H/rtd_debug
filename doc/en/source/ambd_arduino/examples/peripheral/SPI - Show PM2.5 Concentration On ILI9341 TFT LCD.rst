@@ -60,27 +60,27 @@ static components such as the circles, the measuring scale, and the
 title text. After the concentration value is detected, it is printed
 inside the circle.
 
-.. |1| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_SPI_Show_PM2/image1.png
+.. |1| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_SPI_Show_PM2/image1.png
    :width: 1431
    :height: 820
    :scale: 50 %
-.. |1-1| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_SPI_Show_PM2/image1-1.png
+.. |1-1| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_SPI_Show_PM2/image1-1.png
    :width: 1345
    :height: 728
    :scale: 50 %
-.. |2| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_SPI_Show_PM2/image2.png
+.. |2| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_SPI_Show_PM2/image2.png
    :width: 1430
    :height: 820
    :scale: 50 %
-.. |2-2| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_SPI_Show_PM2/image2-2.png
+.. |2-2| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_SPI_Show_PM2/image2-2.png
    :width: 1315
    :height: 759
    :scale: 50 %
-.. |3| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_SPI_Show_PM2/image3.png
+.. |3| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_SPI_Show_PM2/image3.png
    :width: 683
    :height: 1006
    :scale: 50 %
-.. |4| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_SPI_Show_PM2/image4.png
+.. |4| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_SPI_Show_PM2/image4.png
    :width: 1428
    :height: 601
    :scale: 50 %

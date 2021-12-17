@@ -15,7 +15,7 @@ Ameba.
 Open the WiFi AP example, “File” -> “Examples” -> “AmebaWiFi” ->
 “WiFiAPMode”
 
-.. image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Ameba_AP_Mode/image1.png
+.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Ameba_AP_Mode/image1.png
    :alt: 1
    :width: 716
    :height: 867
@@ -33,7 +33,7 @@ to status = WiFi.apbegin(ssid, channel);
 Then upload the sample code and press reset, and you can see related
 information shown in serial monitor.
 
-.. image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Ameba_AP_Mode/image2.png
+.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Ameba_AP_Mode/image2.png
    :alt: 1
    :width: 704
    :height: 524
@@ -42,7 +42,7 @@ information shown in serial monitor.
 In the figure below, we show the messages shown in serial monitor when
 two stations connect to Ameba AP in open mode:
 
-.. image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Ameba_AP_Mode/image3.png
+.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Ameba_AP_Mode/image3.png
    :alt: 1
    :width: 718
    :height: 650
@@ -51,7 +51,7 @@ two stations connect to Ameba AP in open mode:
 In the figure below, we show the messages shown in serial monitor when a
 station connects to Ameba AP in security mode:
 
-.. image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Ameba_AP_Mode/image4.png
+.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Ameba_AP_Mode/image4.png
    :alt: 1
    :width: 914
    :height: 665

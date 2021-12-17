@@ -1,1 +1,0 @@
-.. include:: ../../examples/peripheral/Index - RTL8722DM MINI.rst

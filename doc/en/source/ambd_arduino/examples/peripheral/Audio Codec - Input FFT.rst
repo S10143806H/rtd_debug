@@ -46,15 +46,15 @@ Next, open the example, ``"Files" -> "Examples" -> “AmebaAudioCodec” ->
   |3|
 
 
-.. |1| image:: ../../media/Audio_Codec_InputFFT/image1.png
+.. |1| image:: /ambd_arduino/media/Audio_Codec_InputFFT/image1.png
    :width: 467
    :height: 466
    :scale: 100 %
-.. |2| image:: ../../media/Audio_Codec_InputFFT/image2.png
+.. |2| image:: /ambd_arduino/media/Audio_Codec_InputFFT/image2.png
    :width: 608
    :height: 830
    :scale: 100 %
-.. |3| image:: ../../media/Audio_Codec_InputFFT/image3.png
+.. |3| image:: /ambd_arduino/media/Audio_Codec_InputFFT/image3.png
    :width: 1206
    :height: 578
    :scale: 50 %

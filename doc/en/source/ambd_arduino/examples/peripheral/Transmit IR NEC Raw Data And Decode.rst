@@ -150,51 +150,51 @@ as “48” after decoding the receiving data with IR NEC Protocol.
 | [4] SB-Projects: IR Remote Control Project
 | https://www.sbprojects.net/knowledge/ir/index.php
 
-.. |1| image:: ../../media/Transmit_IR_NEC_Raw_Data_And_Decode/image1.jpeg
+.. |1| image:: /ambd_arduino/media/Transmit_IR_NEC_Raw_Data_And_Decode/image1.jpeg
    :width: 688
    :height: 686
    :scale: 25 %
-.. |2| image:: ../../media/Transmit_IR_NEC_Raw_Data_And_Decode/image2.png
+.. |2| image:: /ambd_arduino/media/Transmit_IR_NEC_Raw_Data_And_Decode/image2.png
    :width: 394
    :height: 323
    :scale: 50 %
-.. |3| image:: ../../media/Transmit_IR_NEC_Raw_Data_And_Decode/image3.png
+.. |3| image:: /ambd_arduino/media/Transmit_IR_NEC_Raw_Data_And_Decode/image3.png
    :width: 531
    :height: 188
    :scale: 100 %
-.. |4| image:: ../../media/Transmit_IR_NEC_Raw_Data_And_Decode/image4.png
+.. |4| image:: /ambd_arduino/media/Transmit_IR_NEC_Raw_Data_And_Decode/image4.png
    :width: 425
    :height: 125
    :scale: 100 %
-.. |5| image:: ../../media/Transmit_IR_NEC_Raw_Data_And_Decode/image5.png
+.. |5| image:: /ambd_arduino/media/Transmit_IR_NEC_Raw_Data_And_Decode/image5.png
    :width: 550
    :height: 110
    :scale: 100 %
-.. |6| image:: ../../media/Transmit_IR_NEC_Raw_Data_And_Decode/image6.png
+.. |6| image:: /ambd_arduino/media/Transmit_IR_NEC_Raw_Data_And_Decode/image6.png
    :width: 830
    :height: 109
    :scale: 100 %
-.. |7| image:: ../../media/Transmit_IR_NEC_Raw_Data_And_Decode/image7.png
+.. |7| image:: /ambd_arduino/media/Transmit_IR_NEC_Raw_Data_And_Decode/image7.png
    :width: 764
    :height: 473
    :scale: 50 %
-.. |8| image:: ../../media/Transmit_IR_NEC_Raw_Data_And_Decode/image8.png
+.. |8| image:: /ambd_arduino/media/Transmit_IR_NEC_Raw_Data_And_Decode/image8.png
    :width: 721
    :height: 468
    :scale: 50 %
-.. |7-1| image:: ../../media/Transmit_IR_NEC_Raw_Data_And_Decode/image7-1.png
+.. |7-1| image:: /ambd_arduino/media/Transmit_IR_NEC_Raw_Data_And_Decode/image7-1.png
    :width: 842
    :height: 746
    :scale: 50 %
-.. |8-1| image:: ../../media/Transmit_IR_NEC_Raw_Data_And_Decode/image8-1.png
+.. |8-1| image:: /ambd_arduino/media/Transmit_IR_NEC_Raw_Data_And_Decode/image8-1.png
    :width: 794
    :height: 733
    :scale: 50 %
-.. |9| image:: ../../media/Transmit_IR_NEC_Raw_Data_And_Decode/image9.png
+.. |9| image:: /ambd_arduino/media/Transmit_IR_NEC_Raw_Data_And_Decode/image9.png
    :width: 554
    :height: 537
    :scale: 100 %
-.. |10| image:: ../../media/Transmit_IR_NEC_Raw_Data_And_Decode/image10.png
+.. |10| image:: /ambd_arduino/media/Transmit_IR_NEC_Raw_Data_And_Decode/image10.png
    :width: 1210
    :height: 163
    :scale: 50 %

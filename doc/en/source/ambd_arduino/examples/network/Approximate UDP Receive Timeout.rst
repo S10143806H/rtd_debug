@@ -16,7 +16,7 @@ calculates the allowed UDP receive timeout setting.
 Open the “CalculateUdpReceiveTimeout” example in “File” -> “Examples” ->
 “AmebaWiFi” -> ” UDP_Calculation ” -> “CalculateUdpReceiveTimeout”.
 
-.. image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Approximate_UDP_Receive_Timeout/image1.png
+.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Approximate_UDP_Receive_Timeout/image1.png
    :alt: 1
    :width: 852
    :height: 1006
@@ -26,7 +26,7 @@ In the sample code, modify the highlighted section to enter the
 information required (ssid, password, key index) to connect to your WiFi
 network.
 
-.. image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Approximate_UDP_Receive_Timeout/image2.png
+.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Approximate_UDP_Receive_Timeout/image2.png
    :alt: 1
    :width: 721
    :height: 864
@@ -38,7 +38,7 @@ finished.
 Open the serial monitor in Arduino IDE and take note of the IP address
 assigned to Ameba.
 
-.. image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Approximate_UDP_Receive_Timeout/image3.png
+.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Approximate_UDP_Receive_Timeout/image3.png
    :alt: 1
    :width: 704
    :height: 355
@@ -55,7 +55,7 @@ bottom between “#if 0” and “#endif”, into a new text file, change the
 hostname to the IP address assigned to Ameba, and rename the file to
 “UdpReceiveTimeout.cpp”.
 
-.. image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Approximate_UDP_Receive_Timeout/image4.png
+.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Approximate_UDP_Receive_Timeout/image4.png
    :alt: 1
    :width: 695
    :height: 661

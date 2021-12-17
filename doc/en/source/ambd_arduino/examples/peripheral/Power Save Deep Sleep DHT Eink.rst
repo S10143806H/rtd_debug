@@ -76,11 +76,11 @@ Please refer to the `API
 Documents <https://www.amebaiot.com/rtl8722dm-arduino-online-api-documents/>`__ PowerSave
 section for detail description of all API.
 
-.. |1| image:: ../../media/Power_Save_Deep_Sleep_DHT_Eink/image1.png
+.. |1| image:: /ambd_arduino/media/Power_Save_Deep_Sleep_DHT_Eink/image1.png
    :width: 689
    :height: 704
    :scale: 50 %
-.. |2| image:: ../../media/Power_Save_Deep_Sleep_DHT_Eink/image2.png
+.. |2| image:: /ambd_arduino/media/Power_Save_Deep_Sleep_DHT_Eink/image2.png
    :width: 717
    :height: 432
    :scale: 50 %

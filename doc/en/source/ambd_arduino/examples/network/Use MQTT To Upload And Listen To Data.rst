@@ -11,7 +11,7 @@ MQTT is a protocol designed for IoT. MQTT is based on TCP/IP and
 transmits/receives data via publish/subscribe. Please refer to the
 figure below:
 
-.. image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_MQTT_To_Upload_And_Listen_To_Data/image1.png
+.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_MQTT_To_Upload_And_Listen_To_Data/image1.png
    :alt: 9-1
    :width: 1144
    :height: 751
@@ -68,27 +68,27 @@ in “outTopic” in the “Topic” field and click “Subscribe”. Wait for A
 to send next message (or you can press the reset button). Then you can
 see the “hello world” message show up.\ |9-7|
 
-.. |9-2| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_MQTT_To_Upload_And_Listen_To_Data/image2.png
+.. |9-2| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_MQTT_To_Upload_And_Listen_To_Data/image2.png
    :width: 683
    :height: 1006
    :scale: 100 %
-.. |9-3| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_MQTT_To_Upload_And_Listen_To_Data/image3.png
+.. |9-3| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_MQTT_To_Upload_And_Listen_To_Data/image3.png
    :width: 683
    :height: 856
    :scale: 100 %
-.. |9-4| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_MQTT_To_Upload_And_Listen_To_Data/image4.png
+.. |9-4| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_MQTT_To_Upload_And_Listen_To_Data/image4.png
    :width: 704
    :height: 355
    :scale: 50 %
-.. |9-5| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_MQTT_To_Upload_And_Listen_To_Data/image5.png
+.. |9-5| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_MQTT_To_Upload_And_Listen_To_Data/image5.png
    :width: 1010
    :height: 744
    :scale: 50 %
-.. |9-6| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_MQTT_To_Upload_And_Listen_To_Data/image6.png
+.. |9-6| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_MQTT_To_Upload_And_Listen_To_Data/image6.png
    :width: 1208
    :height: 834
    :scale: 50 %
-.. |9-7| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_MQTT_To_Upload_And_Listen_To_Data/image7.png
+.. |9-7| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_MQTT_To_Upload_And_Listen_To_Data/image7.png
    :width: 1217
    :height: 845
    :scale: 50 %

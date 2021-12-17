@@ -12,6 +12,6 @@ Peripherals & Examples
    :titlesonly:
 
    Basic Examples
-   Network Examples
+   Network Examples/index
    Components Used
-   Peripheral Examples
+   Peripheral Examples/index

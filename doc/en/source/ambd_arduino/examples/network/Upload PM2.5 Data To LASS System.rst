@@ -56,29 +56,29 @@ the PM2.5 data stores in s-d0. In the figure, s_d0 = 9 represents that
 the PM2.5 is 9, meaning that the entire publish/ subscribe process is
 working successfully.
 
-.. image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Upload_PM2/image6.png
+.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Upload_PM2/image6.png
    :alt: 10-6
    :width: 712
    :height: 1006
    :scale: 50 %
 
-.. |10-1| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Upload_PM2/image1.png
+.. |10-1| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Upload_PM2/image1.png
    :width: 959
    :height: 668
    :scale: 50 %
-.. |10-2| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Upload_PM2/image2.png
+.. |10-2| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Upload_PM2/image2.png
    :width: 679
    :height: 843
    :scale: 50 %
-.. |10-3| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Upload_PM2/image3.png
+.. |10-3| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Upload_PM2/image3.png
    :width: 928
    :height: 481
    :scale: 50 %
-.. |10-4| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Upload_PM2/image4.png
+.. |10-4| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Upload_PM2/image4.png
    :width: 649
    :height: 517
    :scale: 100 %
-.. |10-5| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Upload_PM2/image5.png
+.. |10-5| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Upload_PM2/image5.png
    :width: 1217
    :height: 839
    :scale: 50 %

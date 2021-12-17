@@ -17,7 +17,7 @@ server. When Ameba receives a message from UDP client, it replies
 Modify the highlighted code section (ssid, password, keyindex) to
 connect to your WiFi network.
 
-.. image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_as_UDP_server/image2.png
+.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_as_UDP_server/image2.png
    :alt: 7-2
    :width: 716
    :height: 1006
@@ -39,7 +39,7 @@ After the connection is established, fill in “Hello World” in the Buf 0
 field in sokit and click “Send”. Then you can see the Ameba UDP server
 replies “acknowledged”.
 
-.. image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_as_UDP_server/image4.png
+.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_as_UDP_server/image4.png
    :alt: 7-5
    :width: 716
    :height: 867
@@ -69,11 +69,11 @@ Code Reference
 | https://www.arduino.cc/en/Reference/WiFiUDPWrite
 | https://www.arduino.cc/en/Reference/WiFiUDPEndPacket
 
-.. |7-1| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_as_UDP_server/image1.png
+.. |7-1| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_as_UDP_server/image1.png
    :width: 649
    :height: 410
    :scale: 50 %
-.. |7-4| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_as_UDP_server/image3.png
+.. |7-4| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Ameba_as_UDP_server/image3.png
    :width: 804
    :height: 575
    :scale: 50 %

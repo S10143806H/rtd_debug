@@ -93,19 +93,19 @@ and register to the mDNS service.
 
 MDNS.registerService(service);
 
-.. |1| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_MDNS_To_Let_Arduino_IDE_Find_Ameba/image1.png
+.. |1| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_MDNS_To_Let_Arduino_IDE_Find_Ameba/image1.png
    :width: 679
    :height: 623
    :scale: 100 %
-.. |2| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_MDNS_To_Let_Arduino_IDE_Find_Ameba/image2.png
+.. |2| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_MDNS_To_Let_Arduino_IDE_Find_Ameba/image2.png
    :width: 679
    :height: 853
    :scale: 100 %
-.. |3| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_MDNS_To_Let_Arduino_IDE_Find_Ameba/image3.png
+.. |3| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_MDNS_To_Let_Arduino_IDE_Find_Ameba/image3.png
    :width: 704
    :height: 355
    :scale: 50 %
-.. |4| image:: ../../media/[RTL8722CSM]_[RTL8722DM]_Use_MDNS_To_Let_Arduino_IDE_Find_Ameba/image4.png
+.. |4| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_MDNS_To_Let_Arduino_IDE_Find_Ameba/image4.png
    :width: 777
    :height: 853
    :scale: 50 %
