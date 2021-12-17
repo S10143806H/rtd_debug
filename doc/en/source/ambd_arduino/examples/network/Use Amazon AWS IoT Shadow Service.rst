@@ -1,29 +1,29 @@
-[RTL8722CSM] [RTL8722DM] Use Amazon AWS IoT Shadow Service
-===========================================================
-Preparation
+#################################################
+Use Amazon AWS IoT Shadow Service
+#################################################
 
--  Ameba x 1
+.. role:: raw-html(raw)
+   :format: html
 
-Example
+:raw-html:`<p style="color:#E67E22; font-size:24px">`
+**Preparation**
+:raw-html:`</p>`
 
-**Introduction**
+  - AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1
 
-Amazon AWS IoT is a cloud IoT service platform:
+:raw-html:`<p style="color:#E67E22; font-size:24px">`
+**Example**
+:raw-html:`</p>`
 
-| AWS IoT is a platform that enables you to connect devices to AWS
+| **Introduction**
+| Amazon AWS IoT is a cloud IoT service platform:
+| Amazon AWS IoT is a platform that enables you to connect devices to AWS
   Services and other devices, secure data and interactions, process and
   act upon device data, and enable applications to interact with devices
   even when they are offline. (https://aws.amazon.com/iot/how-it-works/)
 | The service architecture of AWS IoT:
-
-.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image1.png
-   :alt: 1
-   :width: 900
-   :height: 400
-   :scale: 50 %
-
-| (Picture
-  from http://docs.aws.amazon.com/iot/latest/developerguide/aws-iot-how-it-works.html )
+| |1|
+| (Picture from http://docs.aws.amazon.com/iot/latest/developerguide/aws-iot-how-it-works.html )
 | In the architecture, Ameba belongs to the upper-left “Things” block. A
   TLS secure channel will be established between “Things” and the MQTT
   Message Broker. Afterwards, “Things” and “Message Broker” communicate
@@ -33,147 +33,105 @@ Amazon AWS IoT is a cloud IoT service platform:
   connected. The “Rules Engine” allows you to place restrictions to the
   behavior of Things or to connect Things to other services of Amazon.
 
-**AWS Management Console**
+| **AWS Management Console**
 
-| First, create an account and sign up for AWS IoT
-  service:https://aws.amazon.com/
-| Afterwards, log in to the Amazon Management Console and click “IoT
-  Core”.
-| |1|
+| First, create an account and sign up for AWS IoT service:https://aws.amazon.com/
+| Afterwards, log in to the Amazon Management Console and click “IoT Core” found under services -> 
+  Internet of Things.
+| |2|
 
-| Then you will enter the home page of AWS IoT. To offer the best
-  service quality, Amazon offers servers in different regions for users
-  to choose from.
+| Then you will enter the home page of AWS IoT. To offer the best service quality, 
+  Amazon offers servers in different regions for users to choose from.
 | Click the region dropdown menu at the upper-right:
-| |image1|
+| |3|
 
 | Choose a nearby region.
-| |image2|
+| |4|
 
-| Then click “Get started”
-| |image3|
+| Then from Services, go to Onboard then Get Started.
+| |6|
 
-| Enter the main page of AWS IoT
-| |image4|
+| Enter the main page of AWS IoT. Under the Onboard a device, click Get started.
+| |5|
 
-.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image7.png
-   :alt: 1
-   :width: 1276
-   :height: 987
-   :scale: 50 %
+| Click Create single thing
+| |7|
 
-| There is a item “Things” under the field “Manage” on the left. Choose
-  it and click “Register a thing”
-| |image5|
+| Fill in “ameba” on the name field. Attributes represent the status of Ameba.
+| |8|
 
-| Enter next page and click “Create a single thing”
-| |image6|
+| Under the searchable thing attributes. The value of the attributes can be updated 
+  directly by Ameba or by the control side and control side can request Ameba to 
+  set the attribute to desired value.
+| Here we add an attribute named “led” with value “0” and click “Next”.
+| |9|
 
-| We fill in “ameba” on the Name field. Attributes represent the status
-  of ameba. The value of the attributes can be updated directly by ameba
-  or by the control side and control side can request ameba to set the
-  attribute to desired value.
-| Here we add a attribute named “led” with value “0”, and click “Next”.
-| |image7|
+| Click Skip creating a certificate at this time and then Create thing
+| |10|
 
-| Click “Create thing witohut certificate” and enter next page
-| |image8|
-
-| Then we can see that a thing named ambea was successfully created.
-| |image9|
-
-| Click field Secure “Policies” on the left and click “Create a policy”
-| Policy is used to restrict the functions that a “thing” can does, it
-  can limit the MQTT actions or specific topic that can be performed.
-  Learn more about policy:
+| Next, click Policy¸ and create a policy. Policy is used to restrict the functions 
+  that a “thing” can do, it can limit the MQTT actions or specific topic that can 
+  be performed. Learn more about policy:
 | http://docs.aws.amazon.com/iot/latest/developerguide/authorization.html
-| |image10|
+| Here we do not place policy on Ameba. Fill in “amebaPolicy” in the Name field, 
+  “iot:*” in Action field and “*” in resources field. Then “Allow”. Finally, 
+  click “Create”.
+| |11|
 
-| Here we do not place policy on ameba. Fill in “amebaPolicy” in the
-  Name field, “iot:*” in Action field and “*” in Resources field. Then
-  check “Allow”. Finally, click “Create”.
-| |image11|
+| Next, we have to setup the TLS certificate. You can choose to user-defined or generate a 
+  certificate by AWS IoT. In this example we click Create Certificate to generate a TLS 
+  certificate.
+| |12|
+| You can see 4 Links. Please download each of the link, “public key”, “private key”, 
+  “Certificate” and “rootCA”. After downloading the 4 files, click Done and go back to 
+  the certificate main page.
+| |13|
 
-| Finish the Policy setting：
-| |image12|
+| Click Attach a policy in the Actions dropdown menu.
+| |14|
 
-| Next, we have to set up the TLS certificate. Click “Create a
-  certificate”. Click ”Secure-> certificates” on the left and click
-  “Create a certificate” on the right.
-| |image13|
+| Choose amebaPolicy and click attach.
+| |15|
 
-| You can choose to use user-defined certificate or generate a
-  certificate by AWS IoT. In this example we click “1-Click certificate
-  create” to generate a TLS certificate.
-| |image14|
-
-| Then, you can see 4 links. Please click each of the 4 links to
-  download “public key”, “private key”, “certificate” and “rootCA”.
-| After downloading the 4 files, click “Done” and go back to
-  certificates main page.
-| |image15|
-
-| Click “Attach a policy” in the “Actions” dropdown menu.
-| |image16|
-
-.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image20.png
-   :alt: 1
-   :width: 1279
-   :height: 986
-   :scale: 50 %
-
-| Choose “AmebaPolicy” and click “Attach”
 | Then go back to the “Actions” drop-down menu at the top right of the
   certificates homepage, click on “Attach thing”, select the thing
   “ameba” you just created when the window below appears, then click on
   “Attach”
-| |image17|
+| |16|
 
-.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image19.png
-   :alt: 1
-   :width: 1279
-   :height: 985
-   :scale: 50 %
+| Go back to certificate main page and click Certificate and click Activate 
+  in the Actions drop down menu.
+| |17|
 
-| Then activate the certificate. Go back to certificates main page and
-  click certificate, and click “Activate” in the “Actions” dropdown
-  menu.
-| |image18|
+| Next, click Manage, and click Things, then click “ameba” the thing we created just now.
+| Click on Interact and View settings.
+| |18|
 
-| Go back to the filed on the left, choose ”Manage->Things” and click
-  ameba thing we created.
-| |image19|
+| Find out the information of Rest API Endpoint to set Amazon Alexa:
 
-| Enter ameba thing page, choose “Interact” on the left. Find out the
-  information of Rest API Endpoint to set Amazon Alexa:
-| — REST API endpoint: In the value
-  “https://a1a7oo4baosgyy.iot.us-east-1.amazonaws.com/things/ameba/shadow”,
-  the part “a1a7oo4baosgyy.iot.us-east-1.amazonaws.com” is the MQTT
-  Broker server address.
-| — MQTT topic：The value “$aws/things/ameba/shadow/update” represents
-  the MQTT topic we will use in the AWS IoT Shadow service (if we use
-  MQTT only, without AWS IoT Shadow service, then we can specify other
-  topic name). It is recommended to use
-  “$aws/things/ameba/shadow/update” here.
+  - REST API endpoint: In the value “https://a1a7oo4baosgyy.iot.us-east-1.amazonaws.com/things/ameba/shadow”, 
+    the part “a1a7oo4baosgyy.iot.us-east-1.amazonaws.com” is the MQTT Broker server address.
+  - MQTT topic：The value “$aws/things/ameba/shadow/update” represents the MQTT topic we will use in the AWS
+    IoT Shadow service (if we use MQTT only, without AWS IoT Shadow service, then we can specify other topic 
+    name). It is recommended to use “$aws/things/ameba/shadow/update” here.
 
 **Ameba setting**
 
-| Open “File” -> “Examples” -> “AmebaMQTTClient” ->
-  “Amazon_AWS_IoT_Basic”
-| In the sample code, modify the highlighted snippet to reflect your
-  WiFi network settings.
-| |image20|
+| Open ``“File” -> “Examples” -> “AmebaMQTTClient” -> “Amazon_AWS_IoT_Basic”``
+| In the sample code, modify the highlighted snippet to reflect your WiFi 
+  network settings.
+| |19|
 
 | Then fill in the “thing” name “ameba”.
-| |image21|
+| |20|
 
 | And the MQTT Broker server address we found earlier in AWS IoT.
-| |image22|
+| |21|
 
 | Next, fill in the root CA used in TLS. Download and make sure the
   downloaded root CA contents conforms to the root CA used in the
   sketch.
-| |image23|
+| |22|
 
 | Next, fill in the certificate we created in the AWS IoT Console (i.e.,
   client certificate), usually its file name ends with
@@ -187,7 +145,7 @@ Amazon AWS IoT is a cloud IoT service platform:
 | – The last line ends with semicolon.
 | Adjust the format of the private key in the same way and add it to
   privateKeyBuff.
-| |image24|
+| |23|
 
 **Compile and run**
 
@@ -196,7 +154,7 @@ Amazon AWS IoT is a cloud IoT service platform:
 | Open the serial monitor in the Arduino IDE and observe as Ameba
   connects to the AWS IoT server and sends updates on the LED state
   variable.
-| |image25|
+| |24|
 
 **Alternatives**
 
@@ -204,51 +162,59 @@ Ameba can also retrieve the current LED status variable from the AWS
 shadow. This is done by sending a message to the “shadow/get” topic.
 Refer to the Amazon_AWS_IoT_with_ACK example code for more information.
 
-Code Reference
+:raw-html:`<p style="color:#E67E22; font-size:24px">`
+**Code Reference**
+:raw-html:`</p>`
 
 | Change led state:
 | In this example, we use GPIO interface to control the led. We set
   led_pin to 10 and led_state to 1 by default in the sample code.
 
-pinMode(led_pin, OUTPUT);
-
-digitalWrite(led_pin, led_state);
+.. code-block:: C
+  
+  pinMode(led_pin, OUTPUT);
+  digitalWrite(led_pin, led_state);
 
 | Set up certificate:
 | Note that we use the WiFiSSLClient type of wifiClient.
 
-WiFiSSLClient wifiClient;
+.. code-block:: C
+  
+  WiFiSSLClient wifiClient;
 
 | WiFiSSLClient inherits Client, so it can be passed as the parameter of
   PubSubClient constructor.
 | Next, set up TLS certificate required in connection.
 
-wifiClient.setRootCA((unsigned char*)rootCABuff);
+.. code-block:: C
 
-wifiClient.setClientCertificate((unsigned char*)certificateBuff,
-(unsigned char*)privateKeyBuff);
+  wifiClient.setRootCA((unsigned char*)rootCABuff);
+  wifiClient.setClientCertificate((unsigned char*)certificateBuff,(unsigned char*)privateKeyBuff);
 
 | Configure MQTT Broker server
 | Then MQTT PubClient set MQTT Broker server to connect
 
-client.setServer(mqttServer, 8883);
+.. code-block:: C
 
-client.setCallback(callback);
+  client.setServer(mqttServer, 8883);
+  client.setCallback(callback);
 
 | Connect to MQTT Broker server:
-| In loop(), call reconnect() function and try to connect to MQTT Broker
+| In ``loop()``, call ``reconnect()`` function and try to connect to MQTT Broker
   server and do the certificate verification.
 
-while (!client.connected()) {
+.. code-block:: C
+
+  while (!client.connected()) {
 
 | Subscribe & Publish
 | Next, subscribe to topics.
 
-for (int i=0; i<5; i++) {
+.. code-block:: C
 
-client.subscribe(subscribeTopic[i]);
-
-}
+  for (int i=0; i<5; i++) {
+    client.subscribe(subscribeTopic[i]);
+  }
 
 | There are some common topics:
 | “$aws/things/ameba/shadow/update/accepted”,
@@ -258,127 +224,128 @@ client.subscribe(subscribeTopic[i]);
 | “$aws/things/ameba/shadow/get/rejected”
 | Related documentation:
 | http://docs.aws.amazon.com/iot/latest/developerguide/thing-shadow-data-flow.html
-| Then publish current status:
 
-sprintf(publishPayload,
-"{\"state\":{\"reported\":{\"led\":%d}},\"clientToken\":\"%s\"}",
-led_state, clientId);
+| Then publish current status::
 
-client.publish(publishTopic, publishPayload);
+.. code-block:: C
+
+  sprintf(publishPayload,
+  "{\"state\":{\"reported\":{\"led\":%d}},\"clientToken\":\"%s\"}",
+  led_state, clientId);
+
+.. code-block:: C
+
+  client.publish(publishTopic, publishPayload);
 
 | Listen to topic and make response:
 | In the callback function, we listen to the 5 subscribed topics and
   check if there are messages of “/shadow/get/accepted”:
 
-if (strstr(topic, "/shadow/get/accepted") != NULL) {
+.. code-block:: C
+
+  if (strstr(topic, "/shadow/get/accepted") != NULL) {
 
 If there is, the message is from the control side. If the attribute
 state in the message is different from current state, publish the new
 state.
 
-updateLedState(desired_led_state);
+.. code-block:: C
+  
+  updateLedState(desired_led_state);
 
-.. |1| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image2.png
-   :width: 1277
-   :height: 985
+.. |1| image:: /ambd_arduino/media/Use_Amazon_AWS_IoT_Shadow_Service/image1.png
+   :width: 900
+   :height: 400
    :scale: 50 %
-.. |image1| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image3.png
+.. |2| image:: /ambd_arduino/media/Use_Amazon_AWS_IoT_Shadow_Service/image2.png
+   :width: 1898
+   :height: 9
+   :scale: 50 %
+.. |3| image:: /ambd_arduino/media/Use_Amazon_AWS_IoT_Shadow_Service/image3.png
    :width: 1279
    :height: 984
    :scale: 50 %
-.. |image2| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image4.png
+.. |4| image:: /ambd_arduino/media/Use_Amazon_AWS_IoT_Shadow_Service/image4.png
    :width: 1279
    :height: 984
    :scale: 50 %
-.. |image3| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image5.png
-   :width: 1279
-   :height: 984
+.. |5| image:: /ambd_arduino/media/Use_Amazon_AWS_IoT_Shadow_Service/image5.png
+   :width: 1898
+   :height: 830
    :scale: 50 %
-.. |image4| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image6.png
-   :width: 1279
-   :height: 986
-   :scale: 50 %
-.. |image5| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image8.png
-   :width: 1276
-   :height: 987
-   :scale: 50 %
-.. |image6| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image9.png
-   :width: 1279
-   :height: 984
-   :scale: 50 %
-.. |image7| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image10.png
+.. |6| image:: /ambd_arduino/media/Use_Amazon_AWS_IoT_Shadow_Service/image6.png
    :width: 1279
    :height: 986
    :scale: 50 %
-.. |image8| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image11.png
-   :width: 1279
-   :height: 985
+.. |7| image:: /ambd_arduino/media/Use_Amazon_AWS_IoT_Shadow_Service/image7.png
+   :width: 1898
+   :height: 830
    :scale: 50 %
-.. |image9| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image12.png
+.. |8| image:: /ambd_arduino/media/Use_Amazon_AWS_IoT_Shadow_Service/image8.png
+   :width: 1898
+   :height: 830
+   :scale: 50 %
+.. |9| image:: /ambd_arduino/media/Use_Amazon_AWS_IoT_Shadow_Service/image9.png
+   :width: 1898
+   :height: 830
+   :scale: 50 %
+.. |10| image:: /ambd_arduino/media/Use_Amazon_AWS_IoT_Shadow_Service/image10.png
+   :width: 1898
+   :height: 830
+   :scale: 50 %
+.. |11| image:: /ambd_arduino/media/Use_Amazon_AWS_IoT_Shadow_Service/image11.png
+   :width: 1898
+   :height: 830
+   :scale: 50 %
+.. |12| image:: /ambd_arduino/media/Use_Amazon_AWS_IoT_Shadow_Service/image12.png
+   :width: 1599
+   :height: 800
+   :scale: 50 %
+.. |13| image:: /ambd_arduino/media/Use_Amazon_AWS_IoT_Shadow_Service/image13.png
+   :width: 1269
+   :height: 616
+   :scale: 50 %
+.. |14| image:: /ambd_arduino/media/Use_Amazon_AWS_IoT_Shadow_Service/image19.png
+   :width: 1898
+   :height: 830
+   :scale: 50 %
+.. |15| image:: /ambd_arduino/media/Use_Amazon_AWS_IoT_Shadow_Service/image20.png
+   :width: 1898
+   :height: 830
+   :scale: 50 %
+.. |16| image:: /ambd_arduino/media/Use_Amazon_AWS_IoT_Shadow_Service/image21.png
+   :width: 1898
+   :height: 902
+   :scale: 50 %
+.. |17| image:: /ambd_arduino/media/Use_Amazon_AWS_IoT_Shadow_Service/image18.png
+   :width: 1279
+   :height: 435
+   :scale: 50 %
+.. |18| image:: /ambd_arduino/media/Use_Amazon_AWS_IoT_Shadow_Service/image22.png
+   :width: 1920
+   :height: 753
+   :scale: 50 %
+.. |19| image:: /ambd_arduino/media/Use_Amazon_AWS_IoT_Shadow_Service/image24.png
    :width: 1279
    :height: 986
    :scale: 50 %
-.. |image10| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image13.png
-   :width: 1279
-   :height: 986
-   :scale: 50 %
-.. |image11| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image14.png
-   :width: 1279
-   :height: 986
-   :scale: 50 %
-.. |image12| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image15.png
-   :width: 1279
-   :height: 986
-   :scale: 50 %
-.. |image13| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image16.png
-   :width: 1279
-   :height: 986
-   :scale: 50 %
-.. |image14| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image17.png
-   :width: 1279
-   :height: 986
-   :scale: 50 %
-.. |image15| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image18.png
-   :width: 1279
-   :height: 986
-   :scale: 50 %
-.. |image16| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image19.png
-   :width: 1279
-   :height: 986
-   :scale: 50 %
-.. |image17| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image21.png
-   :width: 1279
-   :height: 986
-   :scale: 50 %
-.. |image18| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image22.png
-   :width: 850
-   :height: 653
-   :scale: 50 %
-.. |image19| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image23.png
-   :width: 1436
-   :height: 720
-   :scale: 50 %
-.. |image20| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image24.png
-   :width: 1279
-   :height: 986
-   :scale: 50 %
-.. |image21| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image25.png
+.. |20| image:: /ambd_arduino/media/Use_Amazon_AWS_IoT_Shadow_Service/image25.png
    :width: 639
    :height: 846
    :scale: 100 %
-.. |image22| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image26.png
+.. |21| image:: /ambd_arduino/media/Use_Amazon_AWS_IoT_Shadow_Service/image26.png
    :width: 639
    :height: 846
    :scale: 100 %
-.. |image23| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image27.png
+.. |22| image:: /ambd_arduino/media/Use_Amazon_AWS_IoT_Shadow_Service/image27.png
    :width: 639
    :height: 846
    :scale: 100 %
-.. |image24| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image28.png
+.. |23| image:: /ambd_arduino/media/Use_Amazon_AWS_IoT_Shadow_Service/image28.png
    :width: 639
    :height: 846
    :scale: 100 %
-.. |image25| image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Amazon_AWS_IoT_Shadow_Service/image29.png
+.. |24| image:: /ambd_arduino/media/Use_Amazon_AWS_IoT_Shadow_Service/image29.png
    :width: 851
    :height: 546
    :scale: 50 %
