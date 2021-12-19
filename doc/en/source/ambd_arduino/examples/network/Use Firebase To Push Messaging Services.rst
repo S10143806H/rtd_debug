@@ -1,14 +1,21 @@
-[RTL8722CSM] [RTL8722DM] Use Firebase To Push Messaging Services
-=================================================================
-Preparation
+#################################################
+Use Firebase To Push Messaging Services
+#################################################
 
--  Ameba x 1
+.. role:: raw-html(raw)
+   :format: html
 
--  Android Studio
+:raw-html:`<p style="color:#E67E22; font-size:24px">`
+**Preparation**
+:raw-html:`</p>`
 
--  Smart phone with Google Play Service x 1
+   -  Ameba x 1
+   -  Android Studio
+   -  Smart phone with Google Play Service x 1
 
-Example
+:raw-html:`<p style="color:#E67E22; font-size:24px">`
+**Example**
+:raw-html:`</p>`
 
 In the era of the popularity of smart phones, people often receive
 reminders from specific apps. In this example, we will teach how to use
@@ -22,8 +29,7 @@ other data. You can send a message to drive user engagement. For instant
 messaging content, a message can transfer up to 4KB of payload to the
 client application.
 
-.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Firebase_To_Push_Messaging_Services/image1.png
-   :alt: 1
+.. image:: /ambd_arduino/media/Use_Firebase_To_Push_Messaging_Services/image1.png
    :width: 1130
    :height: 1399
    :scale: 50 %
@@ -70,34 +76,30 @@ Wait until the required components for compiling the app are installed,
 you can open the messaging project, and Android Studio comes with the
 Firebase registration function.
 
-.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Firebase_To_Push_Messaging_Services/image2.png
-   :alt: 1
+.. image:: /ambd_arduino/media/Use_Firebase_To_Push_Messaging_Services/image2.png
    :width: 1598
    :height: 586
-   :scale: 25 %
+   :scale: 50 %
 
 As shown above, open the toolbar and click Tools->Select Firebase.
 
-.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Firebase_To_Push_Messaging_Services/image3.png
-   :alt: 1
+.. image:: /ambd_arduino/media/Use_Firebase_To_Push_Messaging_Services/image3.png
    :width: 1599
    :height: 584
-   :scale: 25 %
+   :scale: 50 %
 
 Open Firebase Assisant in the right pane, then see Cloud Messaging,
 select Set up Firebase Cloud Messaging to start the registration
 process.
 
-.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Firebase_To_Push_Messaging_Services/image4.png
-   :alt: 1
+.. image:: /ambd_arduino/media/Use_Firebase_To_Push_Messaging_Services/image4.png
    :width: 1600
    :height: 596
-   :scale: 25 %
+   :scale: 50 %
 
 Click Connect to Firebase
 
-.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Firebase_To_Push_Messaging_Services/image5.png
-   :alt: 1
+.. image:: /ambd_arduino/media/Use_Firebase_To_Push_Messaging_Services/image5.png
    :width: 1465
    :height: 533
    :scale: 50 %
@@ -106,8 +108,7 @@ Then bring out the page, and click on Firebase on the left and log in to
 the Gmail account. Once you log in, you will be taken to the Firebase
 homepage.
 
-.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Firebase_To_Push_Messaging_Services/image6.png
-   :alt: 1
+.. image:: /ambd_arduino/media/Use_Firebase_To_Push_Messaging_Services/image6.png
    :width: 1267
    :height: 597
    :scale: 50 %
@@ -115,18 +116,16 @@ homepage.
 Let’s keep the homepage first, we need to go to the Firebase Console and
 go back to Android Studio.
 
-.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Firebase_To_Push_Messaging_Services/image7.png
-   :alt: 1
+.. image:: /ambd_arduino/media/Use_Firebase_To_Push_Messaging_Services/image7.png
    :width: 1677
    :height: 874
-   :scale: 25 %
+   :scale: 50 %
 
 We can see that when the webpage is successfully logged in, Android
 Studio also brings up the login information dialog box, click connect to
 Firebase
 
-.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Firebase_To_Push_Messaging_Services/image8.png
-   :alt: 1
+.. image:: /ambd_arduino/media/Use_Firebase_To_Push_Messaging_Services/image8.png
    :width: 1596
    :height: 616
    :scale: 50 %
@@ -140,8 +139,7 @@ Firebase
   service. An example of not being able to use Firebase without
   installing Google Play.
 
-.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Firebase_To_Push_Messaging_Services/image9.png
-   :alt: 1
+.. image:: /ambd_arduino/media/Use_Firebase_To_Push_Messaging_Services/image9.png
    :width: 714
    :height: 1268
    :scale: 50 %
@@ -149,8 +147,7 @@ Firebase
 As shown above, the messaging app is installed and executed successfully
 on the phone. Click LOG TOKEN at this time.
 
-.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Firebase_To_Push_Messaging_Services/image10.png
-   :alt: 1
+.. image:: /ambd_arduino/media/Use_Firebase_To_Push_Messaging_Services/image10.png
    :width: 707
    :height: 1257
    :scale: 50 %
@@ -170,25 +167,22 @@ press the LOG TOKEN button on the App, Logcat will print out the Access
 Token ID. We will save the code after the InstanceID Token: in the Log
 message.
 
-.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Firebase_To_Push_Messaging_Services/image11.png
-   :alt: 1
+.. image:: /ambd_arduino/media/Use_Firebase_To_Push_Messaging_Services/image11.png
    :width: 1600
    :height: 870
-   :scale: 25 %
+   :scale: 50 %
 
 Then we have to go back to the page that was brought when we first
 logged into Firebase.
 
-.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Firebase_To_Push_Messaging_Services/image6.png
-   :alt: 1
+.. image:: /ambd_arduino/media/Use_Firebase_To_Push_Messaging_Services/image6.png
    :width: 1268
    :height: 470
    :scale: 50 %
 
 Click in the upper right corner to go to the console
 
-.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Firebase_To_Push_Messaging_Services/image12.png
-   :alt: 1
+.. image:: /ambd_arduino/media/Use_Firebase_To_Push_Messaging_Services/image12.png
    :width: 1269
    :height: 484
    :scale: 50 %
@@ -196,38 +190,34 @@ Click in the upper right corner to go to the console
 At this point, You can see that Android Studio has just built the
 messaging project for us in the operation.
 
-.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Firebase_To_Push_Messaging_Services/image13.png
-   :alt: 1
+.. image:: /ambd_arduino/media/Use_Firebase_To_Push_Messaging_Services/image13.png
    :width: 1268
    :height: 500
    :scale: 50 %
 
 Click to enter the messaging project with settings page, as shown above.
 
-.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Firebase_To_Push_Messaging_Services/image14.png
-   :alt: 1
+.. image:: /ambd_arduino/media/Use_Firebase_To_Push_Messaging_Services/image14.png
    :width: 1269
    :height: 617
    :scale: 50 %
 
 Select Set up
 
-.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Firebase_To_Push_Messaging_Services/image15.png
-   :alt: 1
-   :width: 1440
-   :height: 706
+.. image:: /ambd_arduino/media/Use_Firebase_To_Push_Messaging_Services/image15.png
+   :width: 1269
+   :height: 617
    :scale: 50 %
 
 | Go to the Settings page and select the Cloud Messaging page. We will
   see the Legacy server key. This Server key also needs to be used in
   the program. Let’s save it and start editing the code.
-| Open the example “File” -> “Examples” -> “AmebaWiFi” -> “Firebase.ino”
+| Open the example ``“File” -> “Examples” -> “AmebaWiFi” -> “Firebase.ino”``
 
-.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Firebase_To_Push_Messaging_Services/image16.png
-   :alt: 1
-   :width: 437
-   :height: 350
-   :scale: 100 %
+.. image:: /ambd_arduino/media/Use_Firebase_To_Push_Messaging_Services/image16.png
+   :width: 1440
+   :height: 706
+   :scale: 50 %
 
 As shown above, ACCESS_TOKEN and SERVER_KEY are defined in the reverse
 white part, that is, the ACCESS token ID that we just saved from the APP
@@ -235,16 +225,14 @@ and the Server Key saved in the Firebase console page. We fill in the
 two sets of IDs, compile and upload them to Ameba. Press the Reset
 button and open the terminal.
 
-.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Firebase_To_Push_Messaging_Services/image17.png
-   :alt: 1
+.. image:: /ambd_arduino/media/Use_Firebase_To_Push_Messaging_Services/image17.png
    :width: 437
    :height: 350
    :scale: 100 %
 
 Connect to FCM Server after connecting to AP
 
-.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Firebase_To_Push_Messaging_Services/image18.png
-   :alt: 1
+.. image:: /ambd_arduino/media/Use_Firebase_To_Push_Messaging_Services/image18.png
    :width: 437
    :height: 350
    :scale: 100 %
@@ -255,13 +243,14 @@ process, HTTP/1.1 200 OK will be received to indicate that the message
 is successfully pushed. At this time, the mobile phone screen is opened
 and the App receives the message from Ameba.
 
-.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Use_Firebase_To_Push_Messaging_Services/image19.png
-   :alt: 1
+.. image:: /ambd_arduino/media/Use_Firebase_To_Push_Messaging_Services/image19.png
    :width: 235
    :height: 417
    :scale: 100 %
 
-Code Reference
+:raw-html:`<p style="color:#E67E22; font-size:24px">`
+**Code Reference**
+:raw-html:`</p>`
 
 | **Firebase.ino**
 | This example uses the HTTP protocol to push messages. Users can learn
@@ -273,50 +262,39 @@ The main payload format in the program is as follows. The user can
 freely change the Title and Body of the message. Body represents the
 content of the message.
 
-char const\* payload = "{" \\
+.. code-block:: c
 
-"\"to\": \\"" ACCESS_TOKEN "\"," \\
+   char const* payload = "{" \
+      "\"to\": \"" ACCESS_TOKEN "\"," \
+      "\"notification\": {" \
+      "\"body\": \"Hello World!\"," \
+      "\"title\" : \"From Realtek Ameba\" " \
+      "} }" ;
 
-"\"notification\": {" \\
 
-"\"body\": \\"Hello World!\"," \\
+.. code-block:: C
 
-"\"title\" : \\"From Realtek Ameba\" " \\
-
-"} }" ;
-
-setup()
-
-if (client.connect(server, 80)) {
-
-Serial.println("connected to server");
-
-// Make a HTTP request:
-
-sprintf(message,"%s%s%s%s%s%d%s%s%s","POST /fcm/send
-HTTP/1.1\nContent-Type: application/json\nAuthorization:
-key=",SERVER_KEY,"\nHost: ",HOST_NAME,"\nContent-Length:
-",strlen(payload),"\n\n",payload,"\n");
-
-printf("\nRequest:\n%s \\n",message);
-
-client.println(message);
-
-client.println();
-
-}
+   setup() {
+      if (client.connect(server, 80)) {
+         Serial.println("connected to server");
+         // Make a HTTP request:
+         sprintf(message,"%s%s%s%s%s%d%s%s%s","POST /fcm/send HTTP/1.1\nContent-Type: application/json\nAuthorization: key=",SERVER_KEY,"\nHost: ",HOST_NAME,"\nContent-Length: ",strlen(payload),"\n\n",payload,"\n");
+         printf("\nRequest:\n%s \n",message);
+         client.println(message);
+         client.println();
+      }
+   }
 
 The sprintf part puts the payload into the HTTP POST content and sends
 the message out after connecting to the FCM Server.
 
-loop()
+.. code-block:: C
 
-while (client.available()) {
+   loop(){
+      while (client.available()) {
+         char c = client.read();
+         Serial.write(c);
+      }
+   }
 
-char c = client.read();
-
-Serial.write(c);
-
-}
-
-Waiting for the response from Server and printing out the response
+Waiting for the response from Server and printing out the response.

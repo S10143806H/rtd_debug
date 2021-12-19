@@ -1,4 +1,4 @@
-[RTL8722CSM] [RTL8722DM] BLE – DHT over BLE UART
+BLE – DHT over BLE UART
 ====================================================
 Materials
 

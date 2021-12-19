@@ -1,4 +1,4 @@
-[RTL8722CSM] [RTL8722DM] BLE – BLE UART Service
+BLE – BLE UART Service
 ================================================
 Materials
 

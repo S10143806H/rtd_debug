@@ -1,26 +1,30 @@
-[RTL8722CSM] [RTL8722DM] Approximate UDP Sending Delay
-========================================================
-Materials
+#################################################
+Approximate UDP Sending Delay
+#################################################
 
--  Ameba x 1
+.. role:: raw-html(raw)
+   :format: html
 
--  Windows computer connected to same network
+:raw-html:`<p style="color:#E67E22; font-size:24px">`
+**Materials**
+:raw-html:`</p>`
 
-Example
+   - AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1
+   - Windows computer connected to same network
+
+:raw-html:`<p style="color:#E67E22; font-size:24px">`
+**Example**
+:raw-html:`</p>`
 
 This example uses Ameba to send UDP packets to a computer and calculates
 the UDP sending delay.
 
 **Ameba Preparation**
 
-Open the “CalculateUdpSendDelay” example in “File” -> “Examples” ->
-“AmebaWiFi” -> ” UDP_Calculation ” -> “CalculateUdpSendDelay”.
+Open the “CalculateUdpSendDelay” example in ``“File” -> “Examples” ->
+“AmebaWiFi” -> ” UDP_Calculation ” -> “CalculateUdpSendDelay”``.
 
-.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Approximate_UDP_Sending_Delay/image1.png
-   :alt: 1
-   :width: 852
-   :height: 1006
-   :scale: 50 %
+   |1|
 
 In the sample code, modify the highlighted section to enter the
 information required (ssid, password, key index) to connect to your WiFi
@@ -30,11 +34,7 @@ The server variable also needs to be changed to match the IP address of
 your computer. You can find the IP address using the “ipconfig” command
 in a terminal window.
 
-.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Approximate_UDP_Sending_Delay/image2.png
-   :alt: 1
-   :width: 721
-   :height: 864
-   :scale: 50 %
+   |2|
 
 **Computer Preparation**
 
@@ -46,11 +46,7 @@ Follow the instructions there to install it. Next, from the
 between “#if 0” and “#endif”, into a new text file and rename the file
 to “UdpSendDelay.cpp”.
 
-.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Approximate_UDP_Sending_Delay/image3.png
-   :alt: 1
-   :width: 695
-   :height: 661
-   :scale: 50 %
+   |3|
 
 Next, open a Cygwin terminal, change the working directory to the
 location of “UdpSendDelay.cpp”, and use the command “g++
@@ -71,8 +67,21 @@ delay and print out the result.
 
 It will take some time for 10000 packets to be sent.
 
-.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_Approximate_UDP_Sending_Delay/image4.png
-   :alt: 1
+   |4|
+
+.. |1| image:: /ambd_arduino/media/Approximate_UDP_Sending_Delay/image1.png
+   :width: 852
+   :height: 1006
+   :scale: 100 %
+.. |2| image:: /ambd_arduino/media/Approximate_UDP_Sending_Delay/image2.png
+   :width: 721
+   :height: 864
+   :scale: 100 %
+.. |3| image:: /ambd_arduino/media/Approximate_UDP_Sending_Delay/image3.png
+   :width: 695
+   :height: 661
+   :scale: 100 %
+.. |4| image:: /ambd_arduino/media/Approximate_UDP_Sending_Delay/image4.png
    :width: 1172
    :height: 704
    :scale: 50 %
