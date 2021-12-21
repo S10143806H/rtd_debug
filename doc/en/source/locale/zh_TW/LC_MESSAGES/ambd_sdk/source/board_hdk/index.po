@@ -19,9 +19,9 @@ msgstr ""
 
 #: ../../source/ambd_sdk/source/board_hdk/index.rst:8
 msgid "Board HDK"
-msgstr ""
+msgstr "開發板 HDK"
 
 #: ../../source/ambd_sdk/source/board_hdk/index.rst:10
 msgid "AmebaD HDK Downlaod"
-msgstr ""
+msgstr "AmebaD HDK 資源下載"
 

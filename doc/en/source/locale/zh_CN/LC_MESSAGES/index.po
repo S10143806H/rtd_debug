@@ -39,7 +39,7 @@ msgid ""
 " **Standard SDK** and **MicroPython SDK**."
 msgstr ""
 "我们支持 3 个独立的软体开发平台（SDK）, 它们分别是瑞昱 **Arduino SDK**,"
-" **Standard SDK** and **MicroPython SDK**."
+" **Standard SDK** 和 **MicroPython SDK**."
 
 #: ../../source/index.rst:13
 msgid ""

@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/ambd_sdk/source/board_hdk/evb.rst:3
 msgid "EVB"
-msgstr ""
+msgstr "開發板"
 
 #: ../../source/ambd_sdk/source/board_hdk/evb.rst:6
 msgid "**HDK-AMEBAD_MB_4V2**"

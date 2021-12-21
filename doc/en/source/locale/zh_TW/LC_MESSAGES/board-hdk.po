@@ -34,12 +34,16 @@ msgid ""
 ":download:`Layout <https://www.amebaiot.com/?s2member_file_download=HDK-"
 "AMEBAD_MB_4V2-Layout.zip>`"
 msgstr ""
+":download:`電路板設計 <https://www.amebaiot.com/?s2member_file_download=HDK-"
+"AMEBAD_MB_4V2-Layout.zip>`"
 
 #: ../../source/board-hdk.rst:19
 msgid ""
 ":download:`Schematic <https://www.amebaiot.com/?s2member_file_download"
 "=HDK-AMEBAD_MB_4V2-Schematic.zip>`"
 msgstr ""
+":download:`原理圖 <https://www.amebaiot.com/?s2member_file_download"
+"=HDK-AMEBAD_MB_4V2-Schematic.zip>`"
 
 #: ../../source/board-hdk.rst:23
 msgid "**HDK-AMEBAD_MB_4V0**"
@@ -50,12 +54,16 @@ msgid ""
 ":download:`Layout <https://www.amebaiot.com/?s2member_file_download=HDK-"
 "AMEBAD_MB_4V0-Layout.zip>`"
 msgstr ""
+":download:`電路板設計 <https://www.amebaiot.com/?s2member_file_download=HDK-"
+"AMEBAD_MB_4V0-Layout.zip>`"
 
 #: ../../source/board-hdk.rst:26
 msgid ""
 ":download:`Schematic <https://www.amebaiot.com/?s2member_file_download"
 "=HDK-AMEBAD_MB_4V0-Schematic.zip>`"
 msgstr ""
+":download:`原理圖 <https://www.amebaiot.com/?s2member_file_download"
+"=HDK-AMEBAD_MB_4V0-Schematic.zip>`"
 
 #: ../../source/board-hdk.rst:32
 msgid "RTL8722DM Module"
@@ -70,12 +78,16 @@ msgid ""
 ":download:`Layout <https://www.amebaiot.com/?s2member_file_download=HDK-"
 "AM8722DM01-6V2-wi-lpf-Layout.zip>`"
 msgstr ""
+":download:`電路板設計 <https://www.amebaiot.com/?s2member_file_download=HDK-"
+"AM8722DM01-6V2-wi-lpf-Layout.zip>`"
 
 #: ../../source/board-hdk.rst:37
 msgid ""
 ":download:`Schematic <https://www.amebaiot.com/?s2member_file_download"
 "=HDK-AM8722DM01-6V2-wi-lpf-Schematic.zip>`"
 msgstr ""
+":download:`原理圖 <https://www.amebaiot.com/?s2member_file_download"
+"=HDK-AM8722DM01-6V2-wi-lpf-Schematic.zip>`"
 
 #: ../../source/board-hdk.rst:41
 msgid "**HDK-AM8722DM01_6V1_WI LPF**"
@@ -86,12 +98,16 @@ msgid ""
 ":download:`Layout <https://www.amebaiot.com/?s2member_file_download=HDK-"
 "AM8722DM01-6V1-wi-matching-Layout.zip>`"
 msgstr ""
+":download:`電路板設計 <https://www.amebaiot.com/?s2member_file_download=HDK-"
+"AM8722DM01-6V1-wi-matching-Layout.zip>`"
 
 #: ../../source/board-hdk.rst:44
 msgid ""
 ":download:`Schematic <https://www.amebaiot.com/?s2member_file_download"
 "=HDK-AM8722DM01-6V1-wi-matching-Schematic.zip>`"
 msgstr ""
+":download:`原理圖 <https://www.amebaiot.com/?s2member_file_download"
+"=HDK-AM8722DM01-6V1-wi-matching-Schematic.zip>`"
 
 #: ../../source/board-hdk.rst:48
 msgid "**HDK-AM8722DM01_4V1**"

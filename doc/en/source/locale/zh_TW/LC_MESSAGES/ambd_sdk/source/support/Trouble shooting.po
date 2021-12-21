@@ -19,13 +19,13 @@ msgstr ""
 
 #: ../../source/ambd_sdk/source/support/Trouble shooting.rst:3
 msgid "Trouble shooting"
-msgstr ""
+msgstr "故障排除"
 
 #: ../../source/ambd_sdk/source/support/Trouble shooting.rst:5
 msgid "If you have driver issue of connect board to your computer?"
-msgstr ""
+msgstr "遇到開發板連接到電腦的驅動程式問題?"
 
 #: ../../source/ambd_sdk/source/support/Trouble shooting.rst:8
 msgid "Please go to https://ftdichip.com/drivers/ for USB driver."
-msgstr ""
+msgstr "請參考下列USB驅動程式 https://ftdichip.com/drivers/。"
 

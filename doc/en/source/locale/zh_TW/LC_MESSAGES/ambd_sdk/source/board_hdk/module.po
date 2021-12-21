@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/ambd_sdk/source/board_hdk/module.rst:3
 msgid "RTL8722DM Module"
-msgstr ""
+msgstr "RTL8722DM 模組"
 
 #: ../../source/ambd_sdk/source/board_hdk/module.rst:5
 msgid "**HDK-AM8722DM01_6V2_WI LPF**"

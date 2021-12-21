@@ -19,15 +19,15 @@ msgstr ""
 
 #: ../../source/ambd_sdk/source/support/FAQ.rst:3
 msgid "FAQ"
-msgstr ""
+msgstr "常見問題"
 
 #: ../../source/ambd_sdk/source/support/FAQ.rst:5
 msgid "Where to buy Ameba RTL8722DM Board?"
-msgstr ""
+msgstr "如何購買 Ameba RTL8722DM Board?"
 
 #: ../../source/ambd_sdk/source/support/FAQ.rst:8
 msgid ""
 "Refer to `Purchase link <https://www.amebaiot.com/en/where-to-buy-"
 "link/#buy_amb21>`_."
 msgstr ""
-
+"請參考 `購買連結 <https://www.amebaiot.com/zh/where-to-buy-link/#buy_amb21>`_。"

@@ -19,11 +19,11 @@ msgstr ""
 
 #: ../../source/ambd_micropython/source/support/Trouble shooting.rst:3
 msgid "Trouble-shooting"
-msgstr ""
+msgstr "故障排除"
 
 #: ../../source/ambd_micropython/source/support/Trouble shooting.rst:5
 msgid "Compilation of MicroPython firmware failed"
-msgstr ""
+msgstr "MicroPython 韌體編譯失敗"
 
 #: ../../source/ambd_micropython/source/support/Trouble shooting.rst:8
 msgid ""
@@ -31,10 +31,11 @@ msgid ""
 "the process, this is due to missing system environment setup and can be "
 "fixed as follows,"
 msgstr ""
+"在構建過程中，某些用戶可能會遇到導致過程暫停的錯誤，這是由於缺少系統環境設置而導致的，可以通過以下方法進行修復。"
 
 #: ../../source/ambd_micropython/source/support/Trouble shooting.rst:11
 msgid "**Error related to Python**"
-msgstr ""
+msgstr "**與python相關的錯誤**"
 
 #: ../../source/ambd_micropython/source/support/Trouble shooting.rst:13
 msgid ""
@@ -43,22 +44,26 @@ msgid ""
 "because the path of the `Python3` executable is not added to system "
 "environment variable."
 msgstr ""
+"預設下，MicroPython使用 `Python3` 運行 MicroPython kernal 的構建腳本，"
+"如果遇到與python相關的錯誤，可能是因為 `Python3` 檔案相關路徑未添加到系統環境變量中。"
 
 #: ../../source/ambd_micropython/source/support/Trouble shooting.rst:17
 msgid ""
 "However, if environment variable is already added but the build could not"
 " be completed, you may try,"
 msgstr ""
+"但是，如果已經添加了環境變量，但是構建依舊無法完成，則可以嘗試"
 
 #: ../../source/ambd_micropython/source/support/Trouble shooting.rst:19
 msgid "Re-start your PC"
-msgstr ""
+msgstr "重新啟動電腦"
 
 #: ../../source/ambd_micropython/source/support/Trouble shooting.rst
 msgid ""
 "Type “python” on your terminal, if the python shown is Python3, then "
 "please add"
 msgstr ""
+"在終端上輸入“python”，如果顯示的python是 `Python3`，則請添加"
 
 #: ../../source/ambd_micropython/source/support/Trouble shooting.rst
 msgid "**`PYTHON = python`**"
@@ -66,65 +71,68 @@ msgstr ""
 
 #: ../../source/ambd_micropython/source/support/Trouble shooting.rst
 msgid "to the second line of the `Makefile` under `port/rtl8722` folder"
-msgstr ""
+msgstr "到“port/rtl8722”文件夾路徑下“Makefile”的第二行"
 
 #: ../../source/ambd_micropython/source/support/Trouble shooting.rst:24
 msgid "**Error related to MPY-CROSS**"
-msgstr ""
+msgstr "**與MPY-CROSS相關的錯誤**"
 
 #: ../../source/ambd_micropython/source/support/Trouble shooting.rst:26
 msgid ""
 "If building process stop when mpy-cross shown as error, there is a step "
 "to be done as follows,"
 msgstr ""
+"如果構建過程停止並顯示錯誤為mpy-cross，則需要執行以下步驟"
 
 #: ../../source/ambd_micropython/source/support/Trouble shooting.rst:28
 msgid "navigate to “MicroPython_RTL8722/mpy-cross” folder"
-msgstr ""
+msgstr "到“MicroPython_RTL8722/mpy-cross”文件夾下"
 
 #: ../../source/ambd_micropython/source/support/Trouble shooting.rst
 msgid "Open your Cygwin/Linux terminal and just type"
-msgstr ""
+msgstr "打開您的Cygwin/Linux終端，然後輸入"
 
 #: ../../source/ambd_micropython/source/support/Trouble shooting.rst
 msgid "**`make`**"
-msgstr ""
+msgstr "**`make`**"
 
 #: ../../source/ambd_micropython/source/support/Trouble shooting.rst
 msgid ""
 "Wait for make finish building the MicroPython Cross Compiler, then this "
 "should fix the error"
 msgstr ""
+"等待MicroPython Cross Compiler的構建完成，然後應該可以修復錯誤"
 
 #: ../../source/ambd_micropython/source/support/Trouble shooting.rst:34
 msgid "My code is not behaving as I expected"
-msgstr ""
+msgstr "程式碼未按預期運行"
 
 #: ../../source/ambd_micropython/source/support/Trouble shooting.rst:37
 msgid ""
 "Try to debug your program using **print( )** function and learn more "
 "about each API used through the API page."
 msgstr ""
+"嘗試使用 **print( )** 函數調試程序，並在API頁面詳細了解每個API。"
 
 #: ../../source/ambd_micropython/source/support/Trouble shooting.rst:39
 msgid "Why am I constantly getting “syntax error” from REPL?"
-msgstr ""
+msgstr "為什麼不斷從REPL收到“syntax error”？"
 
 #: ../../source/ambd_micropython/source/support/Trouble shooting.rst:42
 msgid "Please note that MicroPython only support **Python3** syntax."
-msgstr ""
+msgstr "請注意MicroPython僅支持 **Python3** 語法"
 
 #: ../../source/ambd_micropython/source/support/Trouble shooting.rst:45
 msgid "How to upload my python script into Ameba?"
-msgstr ""
+msgstr "如何將Python腳本上傳到Ameba開發板？"
 
 #: ../../source/ambd_micropython/source/support/Trouble shooting.rst:48
 msgid "There are 3 ways of uploading your python code into Ameba,"
-msgstr ""
+msgstr "有3種方式將Python代碼上傳到Ameba開發板"
 
 #: ../../source/ambd_micropython/source/support/Trouble shooting.rst:50
 msgid "**via REPL normal mode**"
-msgstr ""
+msgstr "**通過REPL normal模式**"
 
 #: ../../source/ambd_micropython/source/support/Trouble shooting.rst:52
 msgid ""
