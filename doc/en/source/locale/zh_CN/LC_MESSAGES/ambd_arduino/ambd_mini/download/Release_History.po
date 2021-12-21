@@ -1,0 +1,470 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/ambd_arduino/release_history.rst:4
+msgid "Release History"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:6
+msgid "**Version 3.1.0 - 2021/11/05**"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:8
+#: ../../source/ambd_arduino/release_history.rst:52
+#: ../../source/ambd_arduino/release_history.rst:68
+#: ../../source/ambd_arduino/release_history.rst:94
+#: ../../source/ambd_arduino/release_history.rst:117
+#: ../../source/ambd_arduino/release_history.rst:128
+#: ../../source/ambd_arduino/release_history.rst:143
+#: ../../source/ambd_arduino/release_history.rst:157
+#: ../../source/ambd_arduino/release_history.rst:166
+#: ../../source/ambd_arduino/release_history.rst:175
+#: ../../source/ambd_arduino/release_history.rst:184
+#: ../../source/ambd_arduino/release_history.rst:194
+msgid "Feature:"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:10
+msgid "Support board RTL8720DN(BW16)"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:11
+msgid "Add WiFiControlCar example"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:12
+msgid "Add Arduboy zip library"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:13
+msgid "Add WPA3 support"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:14
+msgid "Add Amebad_HMI_MQTT zip library"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:15
+msgid "Add support for IPV6 wiht 4 examples"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:16
+msgid "WLAN lib update"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:17
+msgid "Minor bug fix"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:19
+#: ../../source/ambd_arduino/release_history.rst:56
+#: ../../source/ambd_arduino/release_history.rst:72
+#: ../../source/ambd_arduino/release_history.rst:84
+#: ../../source/ambd_arduino/release_history.rst:104
+msgid "API Updates:"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:21
+msgid "Support Microsoft Azure IoT cloud"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:22
+msgid "Enable “strnlen” from rom"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:23
+msgid "Add “#define yield” for compilation"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:24
+msgid "Update PubSubClient lib"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:25
+msgid "Update APIs for RTL8720DN(BW16) (SPI, I2C, Fatfs, Audiocodec and UART"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:26
+msgid "Update jtag enable functions"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:27
+msgid "Update wifi security option"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:28
+msgid "Remove the unused libs lib_wifi_fw.a lib_wifi_ucps_fw.a"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:29
+msgid "Update watchdog"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:30
+msgid "Update AudioCodec"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:31
+#: ../../source/ambd_arduino/release_history.rst:86
+msgid "Pin mapping updates"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:32
+#: ../../source/ambd_arduino/release_history.rst:75
+#: ../../source/ambd_arduino/release_history.rst:87
+msgid "Remove unused marcos"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:33
+msgid "RTL8720DN(BW16) related naming update for all examples"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:34
+msgid "Update PowerSave"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:36
+#: ../../source/ambd_arduino/release_history.rst:60
+msgid "Misc"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:38
+msgid "Add RTL8720DN_BW16 frizting folder"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:39
+msgid "Move RTL8720DN_BW16 frizting files to correct folder"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:40
+msgid "Rename folder name to short the length of path"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:41
+msgid "Add Offline_SDK_installation_tool (Windows, Linux and MacOS)"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:42
+msgid "Update linux tools for compatibility issue"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:43
+msgid "Update RTL8722DM MINI and RTL8720DN(BW16) Fritzing and Pinmux"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:44
+msgid "Update ameba_d_tools V1.0.6"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:45
+msgid "Add Image_Releated folder"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:46
+msgid "Correct the core from Cortex-M4 to Cortex-M33"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:50
+msgid "**Version 3.0.11 - 2021/10/26**"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:54
+msgid "Add example, FatfsSDIO - Read and open HTML file from SD card"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:58
+msgid "RTL8720DN/BW16 related compatibility update for all examples"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:62
+msgid "Update RTL8722DM MINI and RTL8720DN Fritzing and Pinmux"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:66
+msgid "**Version 3.0.10 - 2021/09/22**"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:70
+msgid "Add AudioCodec wav examples"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:74
+msgid "Pin mapping updates for RTL8722DM MINI"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:76
+msgid "Update platform.txt for bin files process"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:77
+msgid "rollback for “wifi.h” update"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:78
+msgid "Minor bug fix patch"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:82
+msgid "**Version 3.0.9 - 2021/09/13**"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:88
+msgid "“wifi.h” related files change to “Amebawifi.h”"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:92
+msgid "**Version 3.0.8 - 2021/05/06**"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:96
+msgid "Add RTL8722DM_mini board"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:97
+msgid "Add fatfs for SD card"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:98
+msgid "Add AudioCodec"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:99
+msgid "Add TensorFlow lite support with examples"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:100
+msgid "Add zip libraries for TensorFlow lite support"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:101
+msgid "Update SDK for supporting Arduino IDE 2.0"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:102
+msgid "Update wlan lib"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:106
+msgid "Update zip libraries of Eink"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:107
+msgid ""
+"ADC updates, Change calculation method to use EFUSE calibration "
+"parameters and SDK formula to improve accuracy"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:108
+msgid "writing_analog updates, minor bug fix and support for mini board"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:109
+msgid "SPI updates, minor bug fix and support for mini board"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:110
+msgid "I2S updates, minor bug fix and support for mini board"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:111
+msgid "IRDevice updates, minor bug fix"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:115
+msgid "**Version 3.0.7 - 2020/11/19**"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:119
+msgid "Add AmebaIRDevice example IRSendSONY"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:120
+msgid "Update Ameba Arduino IRDevice API"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:121
+msgid "Update Ameba Arduino SSL related API"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:122
+msgid "Update Ameba Arduino Wlan API to support static IP function"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:126
+msgid "**Version 3.0.6 - 2020/10/28**"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:130
+msgid "Add Ameba RTC support"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:131
+msgid "Add AmebaRTC example RTC and RTCAlarm"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:132
+msgid "Add Ameba Watchdog support"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:133
+msgid "Add AmebaWatchdog example WatchdogTimer"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:134
+msgid "Update Ameba BLE support"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:135
+msgid "Add AmebaBLE example BLEUartService, DHT_over_BLEUart"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:136
+msgid "Update Ameba Wlan library"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:137
+msgid "Update Ameba Wlan SDK structure, add AP mode hidden SSID support"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:141
+msgid "**Version 3.0.5 - 2020/09/09**"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:145
+msgid "Build in tool updates V1.0.4"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:146
+msgid "Add zip lib AmebaEink"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:147
+msgid "Add AmebaEink example EinkDisplayImage, EinkDisplayQR, and EinkDisplayText"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:148
+msgid "Add google cloud examples"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:149
+msgid "Update Amazon AWS related examples"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:150
+msgid "Add power save support"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:151
+msgid ""
+"Add AmebaPowerSave example TicklessMode, DeepSleepMode, "
+"DeepSleep_DHT_LCD_Example, and DeepSleep_DHT_Eink_Example"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:155
+msgid "**Version 3.0.4 - 2020/07/27**"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:159
+msgid "Update BLE library. Add example BLEBatteryClient and BLEWIfiConfig"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:160
+msgid "Update from polarssl to mbedtls 2.4.0"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:164
+msgid "**Version 3.0.3 - 2020/07/03**"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:168
+msgid "Build in Image tool updates V1.0.3"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:169
+msgid "Upload log clean up"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:173
+msgid "**Version 3.0.2 - 2020/06/30**"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:177
+msgid "Windows, Linux and macOS X support"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:178
+msgid "Build in Image tool updates"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:182
+msgid "**Version 3.0.1 - 2020/05/15**"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:186
+msgid "Official release of AmebaD Arduino SDK"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:187
+msgid "warning cleaning"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:188
+msgid "I2C lib updates"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:192
+msgid "**Version 3.0.0 - 2020/05/01**"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:196
+msgid "Support Boards Manager and Arduino IDE development"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:197
+msgid "WiFi scan AP, connect to AP, TCP Server/Client, including 5G"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:198
+msgid "Bluetooth, BLE"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:199
+msgid "GPIO digital in/out and interrupt"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:200
+msgid "ADC analog in/out (0 ~ 3.3V)"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:201
+msgid "PWM getting analog results with digital means"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:202
+msgid "SPI master and slave mode"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:203
+msgid "UART 1 for log, 2 for customize usage"
+msgstr ""
+
+#: ../../source/ambd_arduino/release_history.rst:204
+msgid "I2C master mode"
+msgstr ""
+

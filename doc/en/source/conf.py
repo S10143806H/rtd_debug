@@ -71,7 +71,7 @@ html_theme = "sphinx_rtd_theme"
 #
 html_static_path = []
 
-# -- Options for Latex output -------------------------------------------------
+# -- Options for Latex output ------------------------------------------------
 #
 latex_engine = "xelatex"
 
@@ -79,3 +79,8 @@ latex_engine = "xelatex"
 #
 version = "EPUB3"
 epub_theme = "epub"
+
+# -- Localisation ------------------------------------------------------------
+#
+locale_dirs = ['locale/']   # path is example but recommended.
+gettext_compact = False     # optional.
