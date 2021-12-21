@@ -141,10 +141,11 @@ msgid ""
 "automatically indented when using condition checking or loop, like “if” "
 "or “while”, incorrect indenting will crash your input script"
 msgstr ""
+"在一般的REPL模式下，您可以逐行粘貼代碼到REPL上並按順序執行它們，但是請注意，在使用條件檢查或循環時（例如“if”或“while”），代碼將被自動縮排，不正確的縮排將導致腳本錯誤。"
 
 #: ../../source/ambd_micropython/source/support/Trouble shooting.rst:54
 msgid "**via REPL paste mode**"
-msgstr ""
+msgstr "**通過REPL paste模式**"
 
 #: ../../source/ambd_micropython/source/support/Trouble shooting.rst:56
 msgid ""
@@ -152,10 +153,11 @@ msgid ""
 "mode only allow pasting a large chunk of a complete code, incomplete code"
 " or editing after pasting will mess up your syntax and cause error"
 msgstr ""
+"在一般的REPL模式下，按“Ctrl” +“e”可以進入paste模式，paste模式僅允許粘貼完整的程式碼，粘貼不完整的程式碼或編輯會導致語法錯誤。"
 
 #: ../../source/ambd_micropython/source/support/Trouble shooting.rst:58
 msgid "**via mp_frozenmodules**"
-msgstr ""
+msgstr "**通過mp_frozenmodules**"
 
 #: ../../source/ambd_micropython/source/support/Trouble shooting.rst:60
 msgid ""
@@ -165,68 +167,73 @@ msgid ""
 "importing the name of your python script. If you get syntax error using "
 "this method, you better check your python code syntax again."
 msgstr ""
+"將python腳本放入“rtl8722”路徑下的“mp_frozenmodules”文件夾中，您的程式碼將被嵌入到MicroPython固件中並上傳到Ameba，接著您只需導入python腳本的名稱即可使用它。"
 
 #: ../../source/ambd_micropython/source/support/Trouble shooting.rst:63
 msgid ""
 "Why is there no output on my serial terminal after connecting to "
 "RTL8722CSM/RTL8722DM UART?"
 msgstr ""
+"連接到RTL8722CSM / RTL8722DM UART後，為什麼串行終端上沒有輸出結果？"
 
 #: ../../source/ambd_micropython/source/support/Trouble shooting.rst:66
 msgid ""
 "RTL8722CSM/RTL8722DM is by default configured at 115200 baudrate, please "
 "check if your serial terminal is configured to 115200."
 msgstr ""
+"RTL8722CSM / RTL8722DM 默認配置為 ``115200``` baudrate，請檢查串行終端是否配置為 ``115200``。"
 
 #: ../../source/ambd_micropython/source/support/Trouble shooting.rst:69
 msgid "My program is not being downloaded into RTL8722CSM/RTL8722DM?"
-msgstr ""
+msgstr "程序沒有被下載到RTL8722CSM / RTL8722DM中？"
 
 #: ../../source/ambd_micropython/source/support/Trouble shooting.rst:74
 msgid "Please follow the procedure for the correct downloading："
-msgstr ""
+msgstr "請按照以下步驟正確下載:"
 
 #: ../../source/ambd_micropython/source/support/Trouble shooting.rst:73
 msgid ""
 "Enter the download mode. The on-board Green LED will blink when entered "
 "download mode."
-msgstr ""
+msgstr "進入下載模式。 進入下載模式時，開發板上的綠色LED會閃爍"
 
 #: ../../source/ambd_micropython/source/support/Trouble shooting.rst:74
 msgid "When downloading the image into board the on-board Red LED will blink"
-msgstr ""
+msgstr "下載固件時，開發板上的紅色LED將閃爍"
 
 #: ../../source/ambd_micropython/source/support/Trouble shooting.rst:75
 msgid ""
 "After a successful download, you will see log like this “All images sent "
 "successfully”."
-msgstr ""
+msgstr "成功下載後，您將看到類似“All images sent successfully”的訊息"
 
 #: ../../source/ambd_micropython/source/support/Trouble shooting.rst:78
 msgid "Sometimes WiFi signal is weak?"
-msgstr ""
+msgstr "爲什麽有時WiFi信號較弱？"
 
 #: ../../source/ambd_micropython/source/support/Trouble shooting.rst:81
 msgid ""
 "The default antenna for RTL8722CSM/RTL8722DM uses the I-Pex Connector. "
 "Please change/connect the I-Pex Connector antenna."
 msgstr ""
+"RTL8722CSM / RTL8722DM的天線預設是使用 I-Pex 接口。 請更換/連接I-Pex 接口的天線。"
 
 #: ../../source/ambd_micropython/source/support/Trouble shooting.rst:84
 msgid "Why is my board not powering up?"
-msgstr ""
+msgstr "為什麼我的開發板無法上電?"
 
 #: ../../source/ambd_micropython/source/support/Trouble shooting.rst:87
 msgid ""
 "Please make sure the connector J38 beside resistor R43 is connected. The "
 "connector is used to link the power to IC."
 msgstr ""
+"請確保已連接電阻R43旁的connector J38。 該連接器用於將電源鏈接到IC。"
 
 #: ../../source/ambd_micropython/source/support/Trouble shooting.rst:90
 msgid "If you have driver issue to connect board to your computer?"
-msgstr ""
+msgstr "遇到開發板連接到電腦的驅動程式問題?"
 
 #: ../../source/ambd_micropython/source/support/Trouble shooting.rst:93
 msgid "Please go to https://ftdichip.com/drivers/ for USB driver."
-msgstr ""
+msgstr "請參考下列USB 驅動程式 https://ftdichip.com/drivers /。"
 

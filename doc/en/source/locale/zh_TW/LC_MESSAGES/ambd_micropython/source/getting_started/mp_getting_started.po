@@ -19,25 +19,26 @@ msgstr ""
 
 #: ../../source/ambd_micropython/source/getting_started/mp_getting_started.rst:3
 msgid "Getting Started"
-msgstr ""
+msgstr "快速入門手冊"
 
 #: ../../source/ambd_micropython/source/getting_started/mp_getting_started.rst:7
 msgid "Ameba MicroPython: Getting Started with RTL8722"
-msgstr ""
+msgstr "Ameba MicroPython: 適用於 RTL8722DM 的快速入門手冊"
 
 #: ../../source/ambd_micropython/source/getting_started/mp_getting_started.rst:10
 msgid "Required Environment"
-msgstr ""
+msgstr "環境配置"
 
 #: ../../source/ambd_micropython/source/getting_started/mp_getting_started.rst:12
 msgid ""
 "AmebaD RTL8722CSM/RTL8722DM MicroPython SDK currently supports Windows 10"
 " and Linux operating systems."
 msgstr ""
+"AmebaD RTL8722CSM/RTL8722DM MicroPython SDK 目前支持 Windows 10 和 Linux 操作系統。"
 
 #: ../../source/ambd_micropython/source/getting_started/mp_getting_started.rst:16
 msgid "Introduction to AmebaD RTL8722CSM/RTL8722DM"
-msgstr ""
+msgstr "AmebaD RTL8722CSM/RTL8722DM介紹"
 
 #: ../../source/ambd_micropython/source/getting_started/mp_getting_started.rst:18
 msgid ""
@@ -47,12 +48,16 @@ msgid ""
 "these interfaces, AmebaD can connect with electronic components such as "
 "LED, switches, manometer, hygrometer, PM2.5 dust sensors, …etc."
 msgstr ""
+"Ameba是一個易於編程的微控制器平台，可用於開發各種物聯網應用程序。"
+"AmebaD有各種外圍接口，包括WiFi, BLE, GPIO, I2C, UART, SPI, PWM, ADC。"
+"通過這些接口，AmebaD可以連接LED、開關、壓力計、濕度計、PM2.5粉塵傳感器等電子元件。"
 
 #: ../../source/ambd_micropython/source/getting_started/mp_getting_started.rst:24
 msgid ""
 "The collected data can be uploaded via WiFi and be utilized by "
 "applications on smart devices to realize IoT implementation."
 msgstr ""
+"Ameba所收集的數據可以通過WiFi無線上傳，並被智能設備上的應用程序使用，實現物聯網的應用。"
 
 #: ../../source/ambd_micropython/source/getting_started/mp_getting_started.rst:27
 msgid "|get-start-1|"
@@ -67,18 +72,20 @@ msgid ""
 "AmebaD and Arduino Uno have similar size, as shown in the above figure, "
 "and the pins on AmebaD are compatible with Arduino Uno."
 msgstr ""
+"AmebaD和Arduino Uno的尺寸類似，如上圖所示，並且AmebaD上的引腳與Arduino Uno兼容。"
 
 #: ../../source/ambd_micropython/source/getting_started/mp_getting_started.rst:32
 msgid ""
 "AmebaD uses Micro USB to supply power, which is common in many smart "
 "devices."
 msgstr ""
+"AmebaD使用Micro USB來供電，這在許多智能設備中很常見。"
 
 #: ../../source/ambd_micropython/source/getting_started/mp_getting_started.rst:33
 msgid ""
 "Please refer to the following figure and table for the pin diagram and "
 "function of AmebaD."
-msgstr ""
+msgstr "AmebaD的引腳圖和功能請參考下圖和表格。"
 
 #: ../../source/ambd_micropython/source/getting_started/mp_getting_started.rst:35
 msgid "|get-start-2|"
@@ -90,7 +97,7 @@ msgstr ""
 
 #: ../../source/ambd_micropython/source/getting_started/mp_getting_started.rst:41
 msgid "PIN name"
-msgstr ""
+msgstr "引脚名"
 
 #: ../../source/ambd_micropython/source/getting_started/mp_getting_started.rst:41
 msgid "GPIO"
@@ -576,26 +583,29 @@ msgid ""
 "Not all sets of peripherals shown on the picture/table above are "
 "available on MicroPython,"
 msgstr ""
+"上圖/表中顯示的並非所有外圍設備都可以在MicroPython上使用，"
 
 #: ../../source/ambd_micropython/source/getting_started/mp_getting_started.rst
 msgid ""
 "please refer to “:doc:`../api_documents/index`” section for more "
 "information."
 msgstr ""
+"請參閱 “:doc:`../api_documents/index`” 部分以獲取更多資訊。"
 
 #: ../../source/ambd_micropython/source/getting_started/mp_getting_started.rst:82
 msgid "Introduction to RTL8722 MicroPython port"
-msgstr ""
+msgstr "RTL8722 MicroPython 移植簡介"
 
 #: ../../source/ambd_micropython/source/getting_started/mp_getting_started.rst:85
 msgid "Background Information"
-msgstr ""
+msgstr "基本背景"
 
 #: ../../source/ambd_micropython/source/getting_started/mp_getting_started.rst:87
 msgid ""
 "REPL stands for Read-Evaluation-Print-Loop, it is an interactive prompt "
 "that you can use to access and control your microcontroller."
 msgstr ""
+"``REPL`` 代表Read-Evaluation-Print-Loop，它是一個交互式提示，可用於存取和控制微控制器。"
 
 #: ../../source/ambd_micropython/source/getting_started/mp_getting_started.rst:90
 msgid ""
@@ -604,6 +614,7 @@ msgid ""
 "basically functions like the classic Python IDLE but running on "
 "microcontroller."
 msgstr ""
+"``REPL`` 具有其他強大的特色，例如tab處理，行編輯，自動縮排，輸入歷史記錄等。 它的基本功能類似於標準的 Python IDLE，但是運行在微控制器上。"
 
 #: ../../source/ambd_micropython/source/getting_started/mp_getting_started.rst:95
 msgid ""
@@ -615,6 +626,7 @@ msgid ""
 "long as it’s support by MicroPython and your microcontroller’s "
 "MicroPython port."
 msgstr ""
+"要使用 ``REPL`` ，只需在PC上打開任何串行終端軟件（最常用的工具是 **TeraTerm, Putty** 等），然後連接到微控制器的串行端口，然後將波特率設置為 ``115200``，然後手動重置開發板，即可看到 ``>>>`` MicroPython提示符出現在終端畫面上。 您就可以在REPL上輸入任何Python腳本。"
 
 #: ../../source/ambd_micropython/source/getting_started/mp_getting_started.rst:103
 msgid ""
@@ -622,6 +634,7 @@ msgid ""
 "possible to gain more information. For example, upon microcontroller "
 "power up and REPL shown, just type"
 msgstr ""
+"建議多嘗試使用 “ ``help()`` ” 函數以獲得更多資訊。例如，微控制器上電並顯示REPL後，只需鍵入"
 
 #: ../../source/ambd_micropython/source/getting_started/mp_getting_started.rst:109
 msgid ""
