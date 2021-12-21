@@ -1,12 +1,20 @@
-[RTL8722CSM] [RTL8722DM] BLE – WiFi Configuration Service
-===========================================================
-Materials
+#################################################
+BLE – WiFi Configuration Service
+#################################################
 
--  AmebaD [RTL8722 CSM/DM] x 1
+.. role:: raw-html(raw)
+   :format: html
 
--  Android / iOS mobile phone
+:raw-html:`<p style="color:#E67E22; font-size:24px">`
+**Materials**
+:raw-html:`</p>`
 
-Example
+   - AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1
+   - Android / iOS mobile phone
+
+:raw-html:`<p style="color:#E67E22; font-size:24px">`
+**Example**
+:raw-html:`</p>`
 
 **Introduction**
 
@@ -25,14 +33,11 @@ mobile phone, it is available at:
 | – Apple App
   Store: https://apps.apple.com/sg/app/easy-wifi-config/id1194919510
 
-Open the example, “Files” -> “Examples” -> “AmebaBLE” ->
-“BLEWifiConfigService”.
+Open the example, ``“Files” -> “Examples” -> “AmebaBLE” ->
+“BLEWifiConfigService”``.
 
-.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_BLE_WiFi_Configuration_Service/image1.png
-   :alt: 2
-   :width: 832
-   :height: 1016
-   :scale: 50 %
+|1|
+
    
 Upload the code and press the reset button on Ameba once the upload is
 finished.
@@ -40,61 +45,68 @@ finished.
 On your mobile phone, open the Realtek WiFiConfig app and tap the round
 button to scan for Ameba boards.
 
-.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_BLE_WiFi_Configuration_Service/image2.png
-   :alt: 3
-   :width: 573
-   :height: 573
-   :scale: 100 %
+|2|
 
 Select the correct Ameba board from the scan results. The app will
 connect to the Ameba board and ask the board to scan for WiFi networks
 and send the scan results back to the app using BLE.
 
-.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_BLE_WiFi_Configuration_Service/image3.png
-   :alt: 3
-   :width: 573
-   :height: 573
-   :scale: 100 %
+|3|
 
-.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_BLE_WiFi_Configuration_Service/image4.png
-   :alt: 3
-   :width: 573
-   :height: 573
-   :scale: 100 %
+|4|
 
-.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_BLE_WiFi_Configuration_Service/image5.jpeg
-   :alt: 3
-   :width: 573
-   :height: 573
-   :scale: 100 %
+|5|
 
 If your phone is currently connected to a WiFi network, the app will ask
 for the WiFi password to connect the Ameba board to the same WiFi
 network. Tap “Select AP” to choose another WiFi network, or enter the
 password and tap continue to connect Ameba to the selected WiFi network.
 
-.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_BLE_WiFi_Configuration_Service/image6.png
-   :alt: 3
-   :width: 573
-   :height: 573
-   :scale: 100 %
+|6|
 
 After the Ameba board connects to the WiFi network, the following
 message will be shown. Tap “Try another AP” to connect to another WiFi
 network or tap “Confirm” to keep the current WiFi network and disconnect
 BLE from the Ameba board.
 
-.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_BLE_WiFi_Configuration_Service/image7.png
-   :alt: 3
-   :width: 573
-   :height: 573
-   :scale: 100 %
+|7|
 
-Code Reference
+:raw-html:`<p style="color:#E67E22; font-size:24px">`
+**Code Reference**
+:raw-html:`</p>`
 
 BLEWifiConfigService is used to create an instance of the WiFi
 configuration service to run on the Bluetooth device.
 
-BLE.configAdvert()->setAdvType(configService.advData()) is used to set
+``BLE.configAdvert()->setAdvType(configService.advData())`` is used to set
 the correct advertisement data necessary for the phone app to find the
 Ameba Bluetooth device.
+
+.. |1| image:: /ambd_arduino/media/BLE_WiFi_Configuration_Service/image1.png
+   :width: 832
+   :height: 1016
+   :scale: 50 %
+.. |2| image:: /ambd_arduino/media/BLE_WiFi_Configuration_Service/image2.png
+   :width: 1440
+   :height: 2880
+   :scale: 25 %
+.. |3| image:: /ambd_arduino/media/BLE_WiFi_Configuration_Service/image3.png
+   :width: 1440
+   :height: 2880
+   :scale: 25 %
+.. |4| image:: /ambd_arduino/media/BLE_WiFi_Configuration_Service/image4.png
+   :width: 1440
+   :height: 2880
+   :scale: 25 %
+.. |5| image:: /ambd_arduino/media/BLE_WiFi_Configuration_Service/image5.png
+   :width: 1440
+   :height: 2880
+   :scale: 25 %
+.. |6| image:: /ambd_arduino/media/BLE_WiFi_Configuration_Service/image6.png
+   :width: 1440
+   :height: 2880
+   :scale: 25 %
+.. |7| image:: /ambd_arduino/media/BLE_WiFi_Configuration_Service/image7.png
+   :width: 1440
+   :height: 2880
+   :scale: 25 %

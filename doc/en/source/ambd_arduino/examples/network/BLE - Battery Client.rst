@@ -1,10 +1,19 @@
-[RTL8722CSM] [RTL8722DM] BLE – Battery Client
-===============================================
-Materials
+#################################################
+BLE – Battery Client
+#################################################
 
--  AmebaD [RTL8722 CSM/DM] x 2
+.. role:: raw-html(raw)
+   :format: html
 
-Example
+:raw-html:`<p style="color:#E67E22; font-size:24px">`
+**Materials**
+:raw-html:`</p>`
+
+   - AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1
+
+:raw-html:`<p style="color:#E67E22; font-size:24px">`
+**Example**
+:raw-html:`</p>`
 
 **Introduction**
 
@@ -25,14 +34,10 @@ corresponding BLE battery service to read the battery level data.
 On the first Ameba board, upload the BLEBatteryService example code and
 let it run.
 
-For the second Ameba board, open the example “Files” -> “Examples” ->
-“AmebaBLE” -> “BLEBatteryClient”.
+For the second Ameba board, open the example ``“Files” -> “Examples” ->
+“AmebaBLE” -> “BLEBatteryClient”``.
 
-.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_BLE_Battery_Client/image1.png
-   :alt: 2
-   :width: 832
-   :height: 1006
-   :scale: 50 %
+   |1|
    
 Upload the code and press the reset button on Ameba once the upload is
 finished.
@@ -41,11 +46,7 @@ Open the serial monitor and observe the log messages as the Ameba board
 with the battery client scans, connects, and reads data from the Ameba
 board with the battery service.
 
-.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_BLE_Battery_Client/image2.png
-   :alt: 3
-   :width: 741
-   :height: 588
-   :scale: 50 %
+   |2|
 
 Highlighted in yellow, the Ameba board with the battery client first
 scans for advertising BLE devices with the advertised device name
@@ -60,16 +61,25 @@ With the client connected to the service, the battery client begins to
 read data using both regular data reads and notifications, highlighted
 in green.
 
-Code Reference
+:raw-html:`<p style="color:#E67E22; font-size:24px">`
+**Code Reference**
+:raw-html:`</p>`
 
 BLEClient is used to create a client object to discover services and
 characteristics on the connected device.
+ 
+ - ``setNotifyCallback()`` is used to register a function that will be called
+   when a battery level notification is received.
+ - ``BLE.configClient()`` is used to configure the Bluetooth stack for client
+   operation.
+ - ``addClient(connID)`` creates a new BLEClient object that corresponds to the
+   connected device.
 
-setNotifyCallback() is used to register a function that will be called
-when a battery level notification is received.
-
-BLE.configClient() is used to configure the Bluetooth stack for client
-operation.
-
-addClient(connID) creates a new BLEClient object that corresponds to the
-connected device.
+.. |1| image:: /ambd_arduino/media/BLE_Battery_Client/image1.png
+   :width: 832
+   :height: 1006
+   :scale: 50 %
+.. |2| image:: /ambd_arduino/media/BLE_Battery_Client/image2.png
+   :width: 741
+   :height: 588
+   :scale: 50 %

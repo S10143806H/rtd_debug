@@ -1,10 +1,19 @@
-[RTL8722CSM] [RTL8722DM] BLE – BLE UART Client
-===============================================
-Materials
+#################################################
+BLE – BLE UART Client
+#################################################
 
--  Ameba D [RTL8722 CSM/DM] x 1
+.. role:: raw-html(raw)
+   :format: html
 
-Example
+:raw-html:`<p style="color:#E67E22; font-size:24px">`
+**Materials**
+:raw-html:`</p>`
+
+  - AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 2
+
+:raw-html:`<p style="color:#E67E22; font-size:24px">`
+**Example**
+:raw-html:`</p>`
 
 **Introduction**
 
@@ -18,14 +27,10 @@ the UART service.
 On the first board, upload the BLE UART service example code. Refer to
 the example guide for detailed instructions.
 
-For the second board, open the example, “Files” -> “Examples” ->
-“AmebaBLE” -> “BLEUartClient”.
+For the second board, open the example, ``“Files” -> “Examples” ->
+“AmebaBLE” -> “BLEUartClient”``.
 
-.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_BLE_BLE_UART_Client/image1.png
-   :alt: 2
-   :width: 682
-   :height: 1202
-   :scale: 50 %
+  |1|
 
 | Upload the code and press the reset button on Ameba once the upload is
   finished.
@@ -36,14 +41,12 @@ For the second board, open the example, “Files” -> “Examples” ->
   exists on the service board, before enabling notifications on the TX
   characteristic. Any message typed in the serial terminal will be sent
   to the other board using the UART service.
+  
+  |2|
 
-.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_BLE_BLE_UART_Client/image2.png
-   :alt: 4
-   :width: 779
-   :height: 619
-   :scale: 50 %
-
-Code Reference
+:raw-html:`<p style="color:#E67E22; font-size:24px">`
+**Code Reference**
+:raw-html:`</p>`
 
 The BLEClient class is used to discover the services that exist on a
 connected BLE device. The discovery process will create
@@ -51,3 +54,12 @@ BLERemoteService, BLERemoteCharacteristic and BLERemoteDescriptor
 objects corresponding to the services, characteristics and descriptors
 that exist on the connected device. These objects can then be used to
 read and write data to the connected device.
+
+.. |1| image:: /ambd_arduino/media/BLE_UART_Client/image1.png
+   :width: 682
+   :height: 1202
+   :scale: 50 %
+.. |2| image:: /ambd_arduino/media/BLE_UART_Client/image2.png
+   :width: 779
+   :height: 619
+   :scale: 50 %

@@ -1,14 +1,21 @@
+#################################################
 BLE – DHT over BLE UART
-====================================================
-Materials
+#################################################
 
--  Ameba D [RTL8722 CSM/DM] x 1
+.. role:: raw-html(raw)
+   :format: html
 
--  DHT11 or DHT22 or DHT21
+:raw-html:`<p style="color:#E67E22; font-size:24px">`
+**Materials**
+:raw-html:`</p>`
 
--  Android / iOS smartphone
+   - AmebaD [RTL8722DM/ RTL8722CSM/ RTL8722DM MINI] x 1
+   - DHT11 or DHT22 or DHT21
+   - Android / iOS smartphone
 
-Example
+:raw-html:`<p style="color:#E67E22; font-size:24px">`
+**Example**
+:raw-html:`</p>`
 
 **Introduction**
 
@@ -21,52 +28,59 @@ the BLE UART service.
 
 Connect the DHT sensor to the Ameba board following the diagram.
 
-.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_BLE_DHT_over_BLE_UART/image1.png
-   :alt: 1
-   :width: 1077
-   :height: 930
-   :scale: 50 %
+**RTL8722DM / RTL8722CSM:**
+
+   |1|
+
+**RTL8722DM MINI:**
+
+   |1-1|
 
 | Ensure that a compatible BLE UART app is installed on your smartphone,
   it is available at:
-| – Google Play Store:
+| - Google Play Store:
 | `https://play.google.com/store/apps/details?id=com.adafruit.bluefruit.le.connecta>
    <https://play.google.com/store/apps/details?id=com.adafruit.bluefruit.le.connect>`__\ https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_terminal
 
-| – Apple App Store:
+| - Apple App Store:
 | https://apps.apple.com/us/app/bluefruit-connect/id830125974
 
-Open the example, “Files” -> “Examples” -> “AmebaBLE” ->
-“DHT_over_BLEUart”.
+Open the example, ``“Files” -> “Examples” -> “AmebaBLE” ->
+“DHT_over_BLEUart”``.
 
-.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_BLE_DHT_over_BLE_UART/image2.png
-   :alt: 1
-   :width: 750
-   :height: 1044
-   :scale: 50 %
+   |2|
 
 | Upload the code and press the reset button on Ameba once the upload is
   finished.
 | Open the app on your smartphone, scan and connect to the Ameba board
   shown as “AMEBA_BLE_DEV” and choose the UART function in the app.
+| |3|
+| |4|
+| After starting the UART function, notifications should be received every
+  5 seconds containing the measured temperature and humidity.
+| |5|
 
-.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_BLE_DHT_over_BLE_UART/image3.png
-   :alt: 1
+.. |1| image:: /ambd_arduino/media/BLE_DHT_over_BLE_UART/image1.png
+   :width: 1077
+   :height: 930
+   :scale: 50 %
+.. |1-1| image:: /ambd_arduino/media/BLE_DHT_over_BLE_UART/image1-1.png
+   :width: 863
+   :height: 789
+   :scale: 50 %
+.. |2| image:: /ambd_arduino/media/BLE_DHT_over_BLE_UART/image2.png
+   :width: 750
+   :height: 1044
+   :scale: 50 %
+.. |3| image:: /ambd_arduino/media/BLE_DHT_over_BLE_UART/image3.png
    :width: 916
    :height: 1317
    :scale: 50 %
-
-.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_BLE_DHT_over_BLE_UART/image4.png
-   :alt: 1
+.. |4| image:: /ambd_arduino/media/BLE_DHT_over_BLE_UART/image4.png
    :width: 916
    :height: 1317
    :scale: 50 %
-
-After starting the UART function, notifications should be received every
-5 seconds containing the measured temperature and humidity.
-
-.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_BLE_DHT_over_BLE_UART/image5.png
-   :alt: 1
+.. |5| image:: /ambd_arduino/media/BLE_DHT_over_BLE_UART/image5.png
    :width: 916
    :height: 1317
    :scale: 50 %

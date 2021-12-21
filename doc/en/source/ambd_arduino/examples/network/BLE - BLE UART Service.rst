@@ -1,12 +1,20 @@
+#################################################
 BLE – BLE UART Service
-================================================
-Materials
+#################################################
 
--  Ameba D [RTL8722 CSM/DM] x 1
+.. role:: raw-html(raw)
+   :format: html
 
--  Android / iOS smartphone
+:raw-html:`<p style="color:#E67E22; font-size:24px">`
+**Materials**
+:raw-html:`</p>`
 
-Example
+  - AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1
+  - Android / iOS smartphone
+
+:raw-html:`<p style="color:#E67E22; font-size:24px">`
+**Example**
+:raw-html:`</p>`
 
 **Introduction**
 
@@ -33,14 +41,10 @@ Example
 | – Apple App Store:
 | https://apps.apple.com/us/app/bluefruit-connect/id830125974
 
-Open the example, “Files” -> “Examples” -> “AmebaBLE” ->
-“BLEUartService”.
-
-.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_BLE_BLE_UART_Service/image1.png
-   :alt: 1
-   :width: 696
-   :height: 1126
-   :scale: 50 %
+Open the example, ``“Files” -> “Examples” -> “AmebaBLE” ->
+“BLEUartService”``.
+  
+  |1|
 
 | Upload the code and press the reset button on Ameba once the upload is
   finished.
@@ -51,14 +55,12 @@ Open the example, “Files” -> “Examples” -> “AmebaBLE” ->
   functions (Pin I/O, Image Transfer) require other BLE services that
   are not included in this example.
 
-.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_BLE_BLE_UART_Service/image2.png
-   :alt: 1
+.. image:: /ambd_arduino/media/BLE_UART_Service/image2.png
    :width: 916
    :height: 1317
    :scale: 50 %
 
-.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_BLE_BLE_UART_Service/image3.png
-   :alt: 1
+.. image:: /ambd_arduino/media/BLE_UART_Service/image3.png
    :width: 916
    :height: 1317
    :scale: 50 %
@@ -68,31 +70,36 @@ Open the example, “Files” -> “Examples” -> “AmebaBLE” ->
 | In the Arduino serial monitor, enter a message and click send. The
   message will appear in the smartphone app.
 
-.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_BLE_BLE_UART_Service/image4.png
-   :alt: 1
+.. image:: /ambd_arduino/media/BLE_UART_Service/image4.png
    :width: 916
    :height: 1317
    :scale: 50 %
 
-.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_BLE_BLE_UART_Service/image5.png
-   :alt: 1
+.. image:: /ambd_arduino/media/BLE_UART_Service/image5.png
    :width: 779
    :height: 619
    :scale: 50 %
 
-Code Reference
+:raw-html:`<p style="color:#E67E22; font-size:24px">`
+**Code Reference**
+:raw-html:`</p>`
 
 | The BLECharacteristic class is used to create two characteristics, one
   for receive (Rx) and one for transmit (Tx), and added to a service
   created with the BLEService class.
 | The required read/write/notify properties are set for each
-  characteristic using the set__Property() methods, and callback
-  functions are registered using the set__Callback() methods. The
+  characteristic using the ``set__Property()`` methods, and callback
+  functions are registered using the ``set__Callback()`` methods. The
   required buffer size is also set for each characteristic so that it
   has enough memory to store a complete string.
 | When data is written to the receive characteristic, the registered
   callback function is called, which prints out the received data as a
   string to the serial monitor.
 | When data is received on the serial port, it is copied into the
-  transmit characteristic buffer, and the notify() method is used to
+  transmit characteristic buffer, and the ``notify()`` method is used to
   inform the connected device of the new data.
+
+.. |1| image:: /ambd_arduino/media/BLE_UART_Service/image1.png
+   :width: 696
+   :height: 1126
+   :scale: 50 %

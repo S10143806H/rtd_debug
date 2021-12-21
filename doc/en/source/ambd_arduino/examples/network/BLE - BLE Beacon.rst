@@ -1,12 +1,20 @@
-[RTL8722CSM] [RTL8722DM] BLE – BLE Beacon
-=============================================
-Materials
+#################################################
+BLE – BLE Beacon
+#################################################
 
--  Ameba D x 1
+.. role:: raw-html(raw)
+   :format: html
 
--  Android / iOS mobile phone
+:raw-html:`<p style="color:#E67E22; font-size:24px">`
+**Materials**
+:raw-html:`</p>`
 
-Example
+  - AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1
+  - Android / iOS mobile phone
+
+:raw-html:`<p style="color:#E67E22; font-size:24px">`
+**Example**
+:raw-html:`</p>`
 
 **Introduction**
 
@@ -46,13 +54,10 @@ less features:
 
 -  iOS :https://apps.apple.com/us/app/lightblue/id557428110
 
-Open the example, “Files” -> “Examples” -> “AmebaBLE” -> “BLEBeacon”
+Open the example, ``“Files” -> “Examples” -> “AmebaBLE” -> “BLEBeacon”``
+ 
+ |1|
 
-.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_BLE_BLE_Beacon/image1.png
-   :alt: 2
-   :width: 722
-   :height: 1006
-   :scale: 50 %
 
 Upload the code and press the reset button on Ameba once the upload is
 finished.
@@ -60,28 +65,26 @@ finished.
 On your mobile phone, open the Bluetooth app and scan for the beacon
 signal broadcast by Ameba.
 
-.. image:: /ambd_arduino/media/[RTL8722CSM]_[RTL8722DM]_BLE_BLE_Beacon/image2.png
-   :alt: 3
-   :width: 1148
-   :height: 1146
-   :scale: 50 %
+ |2|
 
 If you happen to be in an environment with multiple BLE beacons, you can
 tap the entries to expand them, and verify that the beacon data is
 identical to the data in the sketch.
 
-Code Reference
+:raw-html:`<p style="color:#E67E22; font-size:24px">`
+**Code Reference**
+:raw-html:`</p>`
 
-setRssi() is used to set the received signal strength indicator (rssi)
+``setRssi()`` is used to set the received signal strength indicator (rssi)
 data field for a beacon. The specification states that this should be
 the received signal strength from the beacon at a 1 meter distance. With
 no method to measure this, it is set to -65dBm as an estimate.
 
-setMajor() and setMinor() are used to set the two data fields. The
+``setMajor()`` and ``setMinor()`` are used to set the two data fields. The
 purpose of these data are left for the manufacturer of the beacon to
 define, and can be used in any way.
 
-setUUID() is used to give the beacon a universally unique identifier
+``setUUID()`` is used to give the beacon a universally unique identifier
 (UUID). This is a 128-bit number usually expressed as a hexadecimal
 string. It is used to identify each unique beacon, and can be randomly
 generated for free online.
@@ -91,12 +94,21 @@ replace line 6 iBeacon with altBeacon to create an AltBeacon instead.
 The data fields are mostly the same, with only minor changes, please
 look at the header files for more details.
 
-BLE.init() is used to allocate memory and prepare Ameba for starting the
+``BLE.init()`` is used to allocate memory and prepare Ameba for starting the
 Bluetooth stack.
 
-BLE.configAdvert() is used to configure the Bluetooth advertisement
+``BLE.configAdvert()`` is used to configure the Bluetooth advertisement
 settings, to which we pass the beacon data and set the device as
 non-connectable.
 
-BLE.beginPeripheral() starts Ameba in Bluetooth peripheral mode, after
+``BLE.beginPeripheral()`` starts Ameba in Bluetooth peripheral mode, after
 which it will begin to advertise with the beacon data provided.
+
+.. |1| image:: /ambd_arduino/media/BLE_Beacon/image1.png
+   :width: 722
+   :height: 1006
+   :scale: 80 %
+.. |2| image:: /ambd_arduino/media/BLE_Beacon/image2.png
+   :width: 1148
+   :height: 2880
+   :scale: 50 %
