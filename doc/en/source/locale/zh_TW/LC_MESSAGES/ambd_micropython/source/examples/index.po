@@ -19,13 +19,13 @@ msgstr ""
 
 #: ../../source/ambd_micropython/source/examples/index.rst:8
 msgid "Examples"
-msgstr ""
+msgstr "範例演示"
 
 #: ../../source/ambd_micropython/source/examples/index.rst:12
 msgid "Peripheral Examples"
-msgstr ""
+msgstr "週邊硬體相關範例"
 
 #: ../../source/ambd_micropython/source/examples/index.rst:33
 msgid "Network Examples"
-msgstr ""
+msgstr "網路相關範例"
 
