@@ -1,0 +1,249 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-22 01:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:2
+msgid "Class BLEService"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:3
+msgid "**BLEService Class**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:5
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:26
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:49
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:70
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:91
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:112
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:6
+msgid "A class used for creating and managing BLE GATT services."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:8
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:29
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:52
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:73
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:94
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:115
+msgid "**Syntax**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:9
+msgid "class BLEService"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:11
+msgid "**Members**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:14
+msgid "**Public Constructors**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:16
+msgid "BLEService::BLEService"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:16
+msgid "Constructs a BLEService object"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:17
+msgid "**Public Methods**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:18
+msgid "BLEService::setUUID"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:18
+msgid "Set service UUID"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:19
+msgid "BLEService::getUUID"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:19
+msgid "Get service UUID"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:20
+msgid "BLEService::addCharacteristic"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:20
+msgid "Add a characteristic to service"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:21
+msgid "BLEService::getCharacteristic"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:21
+msgid "Get a previously added characteristic"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:24
+msgid "**BLEService::BLEService**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:27
+msgid "Constructs a BLEService object."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:30
+msgid "BLEService::BLEService(BLEUUID uuid);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:31
+msgid "BLEService::BLEService(const char\\* uuid);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:33
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:55
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:76
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:97
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:118
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:35
+msgid "uuid: service UUID, expressed as a BLEUUID class object or a character array"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:37
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:58
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:79
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:100
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:121
+msgid "**Returns**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:38
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:59
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:101
+msgid "The function returns nothing."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:40
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:61
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:82
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:103
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:125
+msgid "**Example Code**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:41
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:104
+msgid "Example: BLEUartService"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:43
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:64
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:85
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:106
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:128
+msgid "**Notes and Warnings**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:44
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:62
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:65
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:83
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:86
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:107
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:126
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:129
+msgid "NA"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:47
+msgid "**BLEService::setUUID**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:50
+msgid "Set the service UUID."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:53
+msgid "void setUUID(BLEUUID uuid);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:56
+msgid "uuid: service UUID, expressed as a BLEUUID class object."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:68
+msgid "**BLEService::getUUID**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:71
+msgid "Get the service UUID."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:74
+msgid "BLEUUID getUUID();"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:77
+msgid "The function requires no input parameter."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:80
+msgid "The function returns the service UUID in a BLEUUID class object."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:89
+msgid "**BLEService::addCharacteristic**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:92
+msgid "Add a characteristic to the service."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:95
+msgid "void addCharacteristic(BLECharacteristic& newChar);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:98
+msgid "newChar: the BLECharacteristic to add to the service."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:110
+msgid "**BLEService::getCharacteristic**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:113
+msgid "Get a previously added characteristic."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:116
+msgid "BLECharacteristic\\* getCharacteristic(uint8_t charIndex);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:119
+msgid "charIndex: position index of characteristic."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd_mini/api_documents/Class BLEService.rst:123
+msgid "The function returns a pointer to the BLECharacteristic at the requested position index."
+msgstr ""

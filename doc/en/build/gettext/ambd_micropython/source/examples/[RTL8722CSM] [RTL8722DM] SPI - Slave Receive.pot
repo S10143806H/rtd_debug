@@ -1,0 +1,62 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-22 01:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/ambd_micropython/source/examples/[RTL8722CSM] [RTL8722DM] SPI - Slave Receive.rst:8
+msgid "[RTL8722CSM] [RTL8722DM] SPI - Slave Receive"
+msgstr ""
+
+#: ../../source/ambd_micropython/source/examples/[RTL8722CSM] [RTL8722DM] SPI - Slave Receive.rst:13
+msgid ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** :raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_micropython/source/examples/[RTL8722CSM] [RTL8722DM] SPI - Slave Receive.rst:17
+msgid "Ameba x 1"
+msgstr ""
+
+#: ../../source/ambd_micropython/source/examples/[RTL8722CSM] [RTL8722DM] SPI - Slave Receive.rst:18
+msgid "Arduino UNO x 1"
+msgstr ""
+
+#: ../../source/ambd_micropython/source/examples/[RTL8722CSM] [RTL8722DM] SPI - Slave Receive.rst:20
+msgid ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Steps** :raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_micropython/source/examples/[RTL8722CSM] [RTL8722DM] SPI - Slave Receive.rst:24
+msgid "SPI is a fast and robust communication protocol that are commonly found on many microcontrollers and is often used to retrieve sensor data or output image signal to a display. Ameba support SPI in both master and slave mode. Here we are going to see an example demonstrating how ameba receive data in slave mode on MicroPython."
+msgstr ""
+
+#: ../../source/ambd_micropython/source/examples/[RTL8722CSM] [RTL8722DM] SPI - Slave Receive.rst:26
+msgid "Before connection, make sure to upload the following code to your Arduino UNO."
+msgstr ""
+
+#: ../../source/ambd_micropython/source/examples/[RTL8722CSM] [RTL8722DM] SPI - Slave Receive.rst:53
+msgid "Connection is shown as follows, here we are using unit 0 as SPI slave, and Arduino UNO as SPI master,"
+msgstr ""
+
+#: ../../source/ambd_micropython/source/examples/[RTL8722CSM] [RTL8722DM] SPI - Slave Receive.rst:55
+msgid "|image1|"
+msgstr ""
+
+#: ../../source/ambd_micropython/source/examples/[RTL8722CSM] [RTL8722DM] SPI - Slave Receive.rst:68
+#: ../../source/ambd_micropython/source/examples/[RTL8722CSM] [RTL8722DM] SPI - Slave Receive.rst:68
+msgid "image1"
+msgstr ""
+
+#: ../../source/ambd_micropython/source/examples/[RTL8722CSM] [RTL8722DM] SPI - Slave Receive.rst:57
+msgid "Then copy and paste the following code into REPL under paste mode to see their effects."
+msgstr ""

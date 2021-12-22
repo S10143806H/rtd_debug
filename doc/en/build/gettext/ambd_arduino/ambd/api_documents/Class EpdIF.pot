@@ -1,0 +1,428 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-22 01:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:2
+msgid "Class EpdIF"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:3
+msgid "**EpdIf Class**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:5
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:64
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:90
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:117
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:138
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:159
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:182
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:203
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:224
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:245
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:267
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:7
+msgid "A class used to control the electronic paper display internal functions."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:9
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:67
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:94
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:120
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:141
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:163
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:185
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:206
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:227
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:250
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:272
+msgid "**Syntax**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:10
+msgid "class EpdIf"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:12
+msgid "**Members**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:15
+msgid "**Public Constructors**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:17
+msgid "A public constructor should not be used as this class is intended to be a singleton class. Access member functions using the object instance named EpdIf."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:23
+msgid "**Public Methods**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:25
+msgid "EpdIf::EPD_Dis_Part"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:25
+msgid "Put an image buffer to the frame memory, but not updating the display"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:29
+msgid "EpdIf::EPD_SetFrame"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:29
+msgid "Put display data to the frame memory, usually used for setup text display functions"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:33
+msgid "EpdIf::EPD_SetRAMValue_BaseMap"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:33
+msgid "To read image data stored in the RAM, but not display on the screen"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:36
+msgid "EpdIf::EPD_SetFrameMemory"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:36
+msgid "To read image data stored in the buffer, but not display on the screen"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:40
+msgid "EpdIf::EPD_UpdateDisplay"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:40
+msgid "Update the display"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:42
+msgid "EpdIf::EPD_ClearScreen_White"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:42
+msgid "Clear the frame memory with the White color, but not updating the display"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:46
+msgid "EpdIf::EPD_ClearScreen_Black"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:46
+msgid "Clear the frame memory with the Black color, but not updating the display"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:50
+msgid "EpdIf::EPD_Busy"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:50
+msgid "Wait until the Busy pin goes to low, which is the idle state"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:53
+msgid "EpdIf::EPD_Reset"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:53
+msgid "Used for the Epaper module reset. Often used to awaken the module in deep sleep"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:57
+msgid "EpdIf::EPD_Sleep"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:57
+msgid "After this command is transmitted, the chip would enter the deep-sleep mode to save power"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:62
+msgid "**EpdIf:: EPD_Dis_Part**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:65
+msgid "Put an image buffer to the frame memory, but not updating the display."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:70
+msgid "void EPD_Dis_Part(unsigned int x_start, unsigned int y_start, const unsigned char\\* datas, unsigned int PART_COLUMN, unsigned int PART_LINE);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:72
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:98
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:123
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:144
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:166
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:188
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:209
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:230
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:253
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:275
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:73
+msgid "x_start: starting position of the x-axis"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:74
+msgid "y_start: starting position of the y-axis"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:75
+msgid "datas: data to be displayed on the e-paper module"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:76
+msgid "PART_COLUMN: height of the display area"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:77
+msgid "PART_LINE: width of the display area"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:79
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:106
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:127
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:148
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:169
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:191
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:212
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:233
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:256
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:278
+msgid "**Returns**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:80
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:107
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:128
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:149
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:170
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:192
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:213
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:234
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:257
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:279
+msgid "The function returns nothing."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:82
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:109
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:130
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:151
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:172
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:194
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:215
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:236
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:259
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:281
+msgid "**Example Code**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:83
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:86
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:110
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:113
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:131
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:134
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:152
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:155
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:173
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:195
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:216
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:237
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:260
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:263
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:282
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:285
+msgid "NA"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:85
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:112
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:133
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:154
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:175
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:197
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:218
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:239
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:262
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:284
+msgid "**Notes and Warnings**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:88
+msgid "**EpdIf:: EPD_SetFrame**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:92
+msgid "Put display data to the frame memory, usually used for setup text display functions."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:96
+msgid "void EPD_SetFrame(const unsigned char\\* image_buffer, int x, int y, int image_width, int image_height);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:100
+msgid "image_buffer: the buffer which stores the data to be displayed on the e-paper module, usually used to display texts."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:101
+msgid "x: starting position of the x-axis"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:102
+msgid "y: starting position of the y-axis"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:103
+msgid "image_width: width of the display area"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:104
+msgid "image_height: height of the display area"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:115
+msgid "**EpdIf:: EPD_SetRAMValue_BaseMap**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:118
+msgid "To read image data stored in the RAM, but not display on the screen."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:121
+msgid "void EPD_SetRAMValue_BaseMap(const unsigned char\\* datas);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:125
+msgid "datas: contains the black and white information that forms the image stored in RAM"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:136
+msgid "**EpdIf:: EPD_SetFrameMemory**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:139
+msgid "To read image data stored in the buffer but not display on the screen."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:142
+msgid "void EPD_SetFrameMemory(const unsigned char\\* image_buffer);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:146
+msgid "image_buffer: the buffer where stores the image data in hexadecimal numbers"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:157
+msgid "**EpdIf:: EPD_UpdateDisplay**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:161
+msgid "Update the ePaper display module. Always combined used with functions set the frames."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:164
+msgid "void EPD_UpdateDisplay(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:167
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:189
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:210
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:231
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:254
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:276
+msgid "The function requires no input parameter."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:178
+msgid "There are 2 memory areas embedded in the e-paper display but once this function is called, then the next action of SetFrameMemory or ClearScreen will set the other memory area."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:180
+msgid "**EpdIf:: EPD_ClearScreen_White**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:183
+msgid "Clear the frame memory with the White color."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:186
+msgid "void EpdIf::EPD_ClearScreen_White(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:199
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:220
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:241
+msgid "If the users want to see the actual display on the e-paper screen, the function EPD_UpdateDisplay() is required to be added behind this code."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:201
+msgid "**EpdIf:: EPD_ClearScreen_Black**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:204
+msgid "Clear the frame memory with the Black color."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:207
+msgid "void EpdIf::EPD_ClearScreen_Black(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:222
+msgid "**EpdIf:: EPD_Busy**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:225
+msgid "Wait until the busy_pin goes to low, which is the idle state."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:228
+msgid "void EpdIf::EPD_Busy(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:243
+msgid "**EpdIf:: EPD_Reset**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:248
+msgid "This command will let the E-paper module reset, it is often used to awaken the module in while it’s in the deep sleep mode, you will find more details in the function EpdIf:: EPD_Sleep()."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:251
+msgid "void EpdIf::EPD_Reset(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:265
+msgid "**EpdIf::EPD_Sleep**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:270
+msgid "After this command is transmitted, the chip would enter the deep-sleep mode to save power. The deep sleep mode would return to standby by hardware reset. You can use EPD:: Init() to awaken the E-paper module."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class EpdIF.rst:273
+msgid "void EpdIf::EPD_Sleep(void);"
+msgstr ""

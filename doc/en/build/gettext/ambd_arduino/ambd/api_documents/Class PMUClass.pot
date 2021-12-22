@@ -1,0 +1,473 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-22 01:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:2
+msgid "Class PMUClass"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:3
+msgid "**PMUClass Class**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:5
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:49
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:70
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:92
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:113
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:134
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:159
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:180
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:202
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:223
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:244
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:265
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:287
+msgid "**Description**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:6
+msgid "Defines a class of using power save API."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:8
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:52
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:73
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:95
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:116
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:137
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:162
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:183
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:205
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:226
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:247
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:268
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:290
+msgid "**Syntax**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:9
+msgid "class PMUClass"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:11
+msgid "**Members**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:14
+msgid "**Public Constructors**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:16
+msgid "PMUClass::PMUClass"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:16
+msgid "Constructs a PMUClass object"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:18
+msgid "**Public Methods**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:20
+msgid "PMUCLASS::begin"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:20
+msgid "Initialize the PMUCLASS select sleep mode"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:23
+msgid "PMUCLASS::AONTimerDuration"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:23
+msgid "Set time duration of AON timer"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:25
+msgid "PMUCLASS::AONTimerCmd"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:25
+msgid "Disable the AON timer for power save usage"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:28
+msgid "PMUCLASS::RTCWakeSetup"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:28
+msgid "Setup RTC timer for power save usage"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:31
+msgid "PMUCLASS::enable"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:31
+msgid "Enable power save deep sleep mode"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:33
+msgid "PMUCLASS::AONWakeReason"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:33
+msgid "Check the AON wakeup source"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:35
+msgid "PMUCLASS::WakePinCheck"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:35
+msgid "Check AON pin as wake up source"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:37
+msgid "PMUCLASS::AONWakeClear"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:37
+msgid "Clear all AON wake up source"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:39
+msgid "PMUCLASS::DsleepWakeStatusGet"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:39
+msgid "Check if set deepsleep mode"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:41
+msgid "PMUCLASS::TL_sysactive_time"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:41
+msgid "Tickless mode system active time"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:43
+msgid "PMUCLASS::TL_wakelock"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:43
+msgid "Tickless mode wake lock, select acquire or release"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:47
+msgid "**PMUCLASS::PMUCLASS**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:50
+msgid "Constructs a PMUCLASS object."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:53
+msgid "PMUCLASS::PMUCLASS(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:55
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:76
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:98
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:119
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:141
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:165
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:186
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:208
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:229
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:250
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:271
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:293
+msgid "**Parameters**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:56
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:120
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:166
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:187
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:230
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:251
+msgid "The function requires no input parameter."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:58
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:80
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:101
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:122
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:147
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:168
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:189
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:211
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:232
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:253
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:275
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:297
+msgid "**Returns**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:59
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:81
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:102
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:123
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:148
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:169
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:233
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:276
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:298
+msgid "The function returns nothing."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:61
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:83
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:104
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:125
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:150
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:171
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:193
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:214
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:235
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:256
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:278
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:300
+msgid "**Example Code**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:62
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:84
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:105
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:126
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:151
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:172
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:194
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:215
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:236
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:257
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:279
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:301
+msgid "Example: DeepSleep_DHT_LCD_Example; DeepSleepMode; TicklessMode"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:64
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:86
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:107
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:128
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:153
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:174
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:196
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:217
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:238
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:259
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:281
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:303
+msgid "**Notes and Warnings**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:65
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:87
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:108
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:129
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:154
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:175
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:197
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:218
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:239
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:260
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:282
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:304
+msgid "Include “PMUCLASS.h” in order to use the class function."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:68
+msgid "**PMUCLASS::begin**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:71
+msgid "Initialize the PMUCLASS select sleep mode."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:74
+msgid "void PMUClass::begin(uint32_t sleep_mode);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:78
+msgid "sleep_mode: Selection value, “11” enters the DeepSleep Mode, “22” enters the Tickless Mode."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:90
+msgid "**PMUCLASS::AONTimerDuration**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:93
+msgid "Set time duration of AON timer."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:96
+msgid "void PMUClass::AONTimerDuration(uint32_t duration_ms);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:99
+msgid "duration_ms: Timer duration between 0 to 32760000ms."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:111
+msgid "**PMUCLASS::AONTimerCmd**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:114
+msgid "Disable the AON timer for power save usage."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:117
+msgid "void PMUClass::AONTimerCmd(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:132
+msgid "**PMUCLASS::RTCWakeSetup**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:135
+msgid "Setup RTC timer for power save usage."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:139
+msgid "void PMUClass::RTCWakeSetup(uint32_t duration_d, uint32_t duration_h, uint32_t duration_m, uint32_t duration_s);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:142
+msgid "duration_d: Set alarm number of days from 0."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:143
+msgid "duration_h: Set alarm number of hours from 0."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:144
+msgid "duration_m: Set alarm number of minutes from 0."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:145
+msgid "duration_s: Set alarm number of seconds from 0."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:157
+msgid "**PMUCLASS::enable**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:160
+msgid "Enable power save deep sleep mode."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:163
+msgid "void PMUClass::enable(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:178
+msgid "**PMUCLASS::AONWakeReason**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:181
+msgid "Check the AON wakeup source."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:184
+msgid "uint32_t PMUClass::AONWakeReason(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:191
+msgid "Return value of wakeup deepsleep source. “11” for AON pin, “22” for AON timer, “33” for RTC timer and “0” for none."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:200
+msgid "**PMUCLASS::WakePinCheck**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:203
+msgid "Check AON pin as wake up source."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:206
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:209
+msgid "int PMUClass::WakePinCheck(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:212
+msgid "Return the pin number for indicating Arduino pin names."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:221
+msgid "**PMUCLASS::AONWakeClear**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:224
+msgid "Clear all AON wake up source."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:227
+msgid "void PMUClass::AONWakeClear(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:242
+msgid "**PMUCLASS::DsleepWakeStatusGet**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:245
+msgid "Check if set deepsleep mode."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:248
+msgid "bool PMUClass::DsleepWakeStatusGet(void);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:254
+msgid "Return True for enter DeepSleep Mode or False for negative."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:263
+msgid "**PMUCLASS::TL_sysactive_time**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:266
+msgid "Tickless mode system active time."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:269
+msgid "void PMUClass::TL_sysactive_time(uint32_t duration_ms);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:273
+msgid "duration_ms: Set time duration of system active time. Unit is milliseconds."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:285
+msgid "**PMUCLASS::TL_wakelock**"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:288
+msgid "Tickless mode wake lock, select acquire or release."
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:291
+msgid "void PMUClass::TL_wakelock(uint32_t select_lock);"
+msgstr ""
+
+#: ../../source/ambd_arduino/ambd/api_documents/Class PMUClass.rst:295
+msgid "select_lock: Wake lock selection value, “1” for acquire or “0” for release."
+msgstr ""

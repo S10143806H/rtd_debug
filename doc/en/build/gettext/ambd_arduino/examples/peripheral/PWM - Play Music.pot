@@ -1,0 +1,116 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-22 01:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/ambd_arduino/examples/peripheral/PWM - Play Music.rst:3
+msgid "PWM – Play Music"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/PWM - Play Music.rst:8
+msgid ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Preparation** :raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/PWM - Play Music.rst:12
+msgid "AmebaD [RTL8722DM / RTL8722CSM / RTL8722DM MINI] x 1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/PWM - Play Music.rst:13
+msgid "Buzzer x 1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/PWM - Play Music.rst:15
+msgid ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Example** :raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/PWM - Play Music.rst:19
+msgid "A sound is composed of volume, tone and timbre. Volume is determined by the amplitude of the sound wave. Tone is determined by the frequency of the sound wave. Timbre is determined by the waveform of the sound wave."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/PWM - Play Music.rst:23
+msgid "In this example, we use PWM to control the buzzer to emit sound with desired tone. As PWM outputs square wave, if we wish to emit tone C4 (frequency=262Hz), we have to make PWM to output square wave with wavelength 1/262 = 3.8ms:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/PWM - Play Music.rst:28
+msgid "|1|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/PWM - Play Music.rst:60
+#: ../../source/ambd_arduino/examples/peripheral/PWM - Play Music.rst:60
+msgid "1"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/PWM - Play Music.rst:31
+msgid "We use PWM to output sound wave with different frequency, so as to play music by the buzzer."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/PWM - Play Music.rst:33
+msgid "Connect the buzzer to the PWM output pin shown in the following diagrams."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/PWM - Play Music.rst:35
+msgid "**RTL8722DM / RTL8722CSM** Wiring Diagram:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/PWM - Play Music.rst:37
+msgid "|2|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/PWM - Play Music.rst:64
+#: ../../source/ambd_arduino/examples/peripheral/PWM - Play Music.rst:64
+msgid "2"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/PWM - Play Music.rst:39
+msgid "**RTL8722DM MINI** Wiring Diagram:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/PWM - Play Music.rst:41
+msgid "|3|"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/PWM - Play Music.rst:68
+#: ../../source/ambd_arduino/examples/peripheral/PWM - Play Music.rst:68
+msgid "3"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/PWM - Play Music.rst:43
+msgid "Open the example code in ``“Examples” -> “AmebaAnalog” -> “TonePlayMelody”``"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/PWM - Play Music.rst:45
+msgid "Compile and upload to Ameba, press the reset button. Then you can hear the buzzer playing music."
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/PWM - Play Music.rst:47
+msgid ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Code Reference** :raw-html:`</p>`"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/PWM - Play Music.rst:51
+msgid "Ameba implement the tone() and noTone() API of Arduino:"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/PWM - Play Music.rst:52
+msgid "https://www.arduino.cc/en/Reference/Tone"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/PWM - Play Music.rst:53
+msgid "https://www.arduino.cc/en/Reference/NoTone"
+msgstr ""
+
+#: ../../source/ambd_arduino/examples/peripheral/PWM - Play Music.rst:55
+msgid "In the sample code, we initiate a melody array, which stores the tones to make. Another array, noteDurations, contains the length of each tone, 4 represents quarter note (equals to 3000ms/4 = 750ms, and plus an extra 30% time pause), 8 represents eighth note."
+msgstr ""

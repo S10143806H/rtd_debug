@@ -1,0 +1,327 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Ameba IoT
+# This file is distributed under the same license as the AmebaDocs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AmebaDocs EPUB3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-22 01:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:3
+msgid "Getting Started"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:7
+msgid "Setup of the GCC Development Environment"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:9
+msgid "On Windows, you can use ``Cygwin`` as the GCC development environment. ``Cygwin`` is a large collection of GNU and open source tools which provide functionality similar to a Linux distribution on Windows."
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:10
+msgid "Click `http://cygwin.com/  <http://cygwin.com/>`__\\ and download the ``Cygwin`` package `setup-x86.exe  <http://www.cygwin.com/setup-x86.exe>`__\\ for your Windows platform."
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:12
+msgid "1. 32-bit ``Cygwin`` is supported both for 32-bit Windows and 64-bit Windows."
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:13
+msgid "2. During the installation of ``Cygwin`` package, include ‘Devel -> make’ and ‘Math -> bc’ utilities on the Select Packages page, as below shows."
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:15
+msgid "|image0|"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:126
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:126
+msgid "image0"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:17
+msgid "|image1|"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:130
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:130
+msgid "image1"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:20
+msgid "For Linux, refer to `AN0400 Ameba-D Application Note v12.pdf <https://www.amebaiot.com/zh/sdk-download-manual-8722dm/>`_ to build the GCC development environment."
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:24
+msgid "Knowledge about Ameba-D Demo Board"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:26
+msgid "For Ameba-D, there are many types of chipsets available, such as RTL8720CS, RTL8721CSM, RTL8722CSM, RTL8720DN, RTL8720DM, RTL8721DM, and RTL8722DM."
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:27
+msgid "In addition, the chipsets can be embedded on Ameba-D DEV demo board, which is extended to various I/O interfaces. The corresponding HDK (Hardware Development Kit) documents are available, please contact RTK for further details."
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:29
+msgid "The hardware block diagram of Ameba-D demo board is shown below."
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:31
+msgid "USB TO UART: power supply and log print."
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:32
+msgid "The baudrate is 115200bps"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:33
+msgid "SWD: SWD interface, used to download images and debug with IAR."
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:34
+msgid "Reset button: reset Ameba-D to run firmware after IAR completes download."
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:36
+msgid "|image2|"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:134
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:134
+msgid "image2"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:40
+msgid "Connection to Log Console"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:42
+msgid "On Ameba-D board, FTDI Chip and FT232 can be used for the log console and debugger. To view the log console, make use of the terminal tool, such as ``SecureCRT``\\/``teraterm``\\/``putty`` and etc. We will take our internal tool as an example."
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:44
+msgid "Select the corresponding serial uart configure communicate parameter and then open it."
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:45
+msgid "Press the Reset button on Ameba-D board. Some messages can be found in the terminal."
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:47
+msgid "|image3|"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:138
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:138
+msgid "image3"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:51
+msgid "Building the First GCC Project on Ameba-D"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:53
+msgid "The following steps are for first-time developer to build GCC project, under existing RTK SDK."
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:55
+msgid "**Building Code** This section illustrates how to build SDK."
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:56
+msgid "First, you need to switch to GCC project directory. For Windows, open ``Cygwin`` terminal and use ``$ cd`` command to change directory to KM0 or KM4 project directory of Ameba-D SDK."
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:59
+msgid "You need to replace the ``{path}`` to your own SDK location, and add ``“cygdrive”`` prefix in front of the SDK location, so that Cygwin can access your file system."
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:61
+msgid "``$ cd /cygdrive/{path}/project/realtek_amebaD_va0_example/GCC-RELEASE/project_lp``"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:62
+msgid "``$ cd /cygdrive/{path}/project/realtek_amebaD_va0_example/GCC-RELEASE/project_hp``"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:64
+msgid "Linux, open its own terminal and use $ cd command to change directory to KM0 or KM4 project directory of Ameba-D SDK."
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:66
+msgid "``$ cd /{path}/project/realtek_amebaD_va0_example/GCC-RELEASE/project_lp``"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:67
+msgid "``$ cd /{path}/project/realtek_amebaD_va0_example/GCC-RELEASE/project_hp``"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:69
+msgid "To build SDK for normal image, simply use ``$ make all`` command under the corresponding project directories on Cygwin (Windows) or terminal (Linux). KM0 project For KM0 project, if the terminal contains ``“km0_image2_all.bin”`` and ``“Image manipulating end”`` output message, it means that the image has been built successfully, as below shows."
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:72
+msgid "|image4|"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:142
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:142
+msgid "image4"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:74
+msgid "If somehow it is built failed, type ``$ make clean`` to clean and then redo the make procedure."
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:75
+msgid "After successfully built, the image file is located in ``project/realtek_amebaD_va0_example/GCC-RELEASE/project_lp/asdk/image`` , as below shows."
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:77
+msgid "|image5|"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:146
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:146
+msgid "image5"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:79
+msgid "KM4 project For KM4 project, if the terminal contains ``“km0_image2_all.bin”`` and ``“Image manipulating end”`` output message, it means that the image has been built successfully, as below shows."
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:81
+msgid "|image6|"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:150
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:150
+msgid "image6"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:83
+msgid "If somehow it built failed, type ``$ make clean`` to clean and then redo the make procedure."
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:84
+msgid "After built successfully, the image file is located in ``project/realtek_amebaD_va0_example/GCC-RELEASE/project_hp/asdk/image``, as below shows."
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:86
+msgid "|image7|"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:154
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:154
+msgid "image7"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:90
+msgid "Downloading Images to Ameba-D"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:92
+msgid "Realtek provides an image tool to download images on windows."
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:94
+msgid "Environment Requirements: EX. WinXP, Win 7 Above, Microsoft .NET Framework 3.5"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:95
+msgid "``ImageTool.exe``  Location: ``SDK\\tools\\AmebaD\\Image_Tool\\ImageTool.exe``"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:97
+msgid "|image8|"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:158
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:158
+msgid "image8"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:99
+msgid "Assuming that the ImageTool on PC is a server, it sends images files to Ameba (client) through UART. To download image from server to client, the client must enter uart download first."
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:101
+msgid "**Enter into UART_DOWNLOAD mode.**"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:103
+msgid "Push the UART DOWNLOAD button and keep it pressed."
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:104
+msgid "Re-power on the board or press the Reset button."
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:105
+msgid "Release the UART DOWNLOAD button."
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:107
+msgid "Now, Ameba board gets into UART_DOWNLOAD mode and is ready to receive data."
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:109
+msgid "**Click Chip Select(in red) on UI and select chip (AmebaD or AmebaZ).**"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:111
+msgid "**Select the corresponding serial port and transmission baud rate. The default baudrate is 1.5Mbps (recommended).**"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:113
+msgid "**Click the Browse button to select the images (km0_boot_all.bin/km4_boot_all.bin/km0_km4_image2.bin) to be programmed and input addresses.**"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:0
+msgid "The image path is located in:"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:0
+msgid "``{path}\\project\\realtek_amebaD_va0_example\\GCC-RELEASE\\project_lp\\asdk\\image``"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:0
+msgid "and"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:0
+msgid "``{path}\\project\\realtek_amebaD_va0_example\\GCC-RELEASE\\project_hp\\asdk\\image``,"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:0
+msgid "where {path} is the location of the project on your own computer."
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:120
+msgid "The default target address is the SDK default image address, you can use it directly."
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:122
+msgid "**Click Download button to start. The progress bar will show the transmit progress of each image. You can also get the message of operation successfully or errors from the log window.**"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:124
+msgid "|image9|"
+msgstr ""
+
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:162
+#: ../../source/ambd_sdk/source/getting_started/getting_started.rst:162
+msgid "image9"
+msgstr ""
