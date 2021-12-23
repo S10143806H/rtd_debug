@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_micropython/source/examples/[RTL8722CSM] Get HTTP Socket
 #: [RTL8722DM] from information website.rst:8
 msgid "[RTL8722CSM] [RTL8722DM] Socket - Get information from HTTP website"
-msgstr ""
+msgstr "[RTL8722CSM] [RTL8722DM] Socket - 從HTTP網站獲取信息"
 
 #: - ../../source/ambd_micropython/source/examples/[RTL8722CSM] Get HTTP Socket
 #: [RTL8722DM] from information website.rst:13
@@ -28,6 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料準備** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_micropython/source/examples/[RTL8722CSM] Get HTTP Socket
 #: [RTL8722DM] from information website.rst:17
@@ -40,16 +42,18 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Steps** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **範例說明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_micropython/source/examples/[RTL8722CSM] Get HTTP Socket
 #: [RTL8722DM] from information website.rst:23
 msgid ""
 "With socket created, we can visit an HTTP website and get information "
 "from it."
-msgstr ""
+msgstr "創建socket後，我們可以訪問HTTP網站並從中獲取信息。 "
 
 #: - ../../source/ambd_micropython/source/examples/[RTL8722CSM] Get HTTP Socket
 #: [RTL8722DM] from information website.rst:25
 msgid "Copy and paste the following code into REPL under paste mode."
-msgstr ""
+msgstr "在粘貼模式下，將以下代碼複製並粘貼到REPL中。"
 
