@@ -26,6 +26,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#0070C0; font-size:26px\">` **API Documents**"
 " :raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#0070C0; font-size:26px\">` **API 文檔**"
+" :raw-html:`</p>`"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_PWM.rst:12
 msgid ""

@@ -19,9 +19,9 @@ msgstr ""
 
 #: ../../source/ambd_micropython/source/api_documents/index.rst:8
 msgid "API Documents"
-msgstr ""
+msgstr "API 文檔"
 
 #: ../../source/ambd_micropython/source/api_documents/index.rst:10
 msgid "**RTL8722DM MicroPython Online API Documents**"
-msgstr ""
+msgstr "**RTL8722DM MicroPython 綫上 API 文檔**"
 

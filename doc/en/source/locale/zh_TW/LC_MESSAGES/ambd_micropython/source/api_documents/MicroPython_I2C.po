@@ -26,12 +26,16 @@ msgid ""
 ":raw-html:`<p style=\"color:#0070C0; font-size:26px\">` **API Documents**"
 " :raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#0070C0; font-size:26px\">` **API 文檔**"
+" :raw-html:`</p>`"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_I2C.rst:12
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Constructors** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **構造函數** "
+":raw-html:`</p>`"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_I2C.rst:16
 msgid ""
