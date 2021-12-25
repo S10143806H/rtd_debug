@@ -13,3 +13,4 @@ Arduino SDK
 
    ambd/index
    ambd_mini/index
+   bw16/index
