@@ -26,32 +26,38 @@ msgid ""
 ":raw-html:`<p style=\"color:#0070C0; font-size:26px\">` **API Documents**"
 " :raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#0070C0; font-size:26px\">` **API 文档**"
+" :raw-html:`</p>`"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_WiFi.rst:12
 msgid ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Constructors** "
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **構造函數** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **構造函數** "
+":raw-html:`</p>`"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_WiFi.rst:16
 msgid "**WLAN(**\\ *mode*\\ [required]\\ **)**"
-msgstr ""
+msgstr "**WLAN(**\\ *mode*\\ [required]\\ **)**"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_WiFi.rst:17
 msgid ""
 "Create a WLAN object and configure it to the given mode. This then allows"
 " you to control WiFi and check its status."
-msgstr ""
+msgstr "創建一個WLAN對象，然後設定對應的模式，之後可以對WiFi進行控制和查看狀態。"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_WiFi.rst:19
 msgid "``mode``: use WLAN.STA for station mode"
-msgstr ""
+msgstr "``mode``: ``WLAN.STA`` 是 station 模式"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_WiFi.rst:21
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Methods** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **方法** :raw-"
+"html:`</p>`"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_WiFi.rst:25
 msgid "**WLAN.scan()**"
@@ -62,42 +68,45 @@ msgid ""
 "This method scan and list out all available WiFi network in the "
 "surroundings."
 msgstr ""
+"搜索和列出周圍所有的WiFi網路"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_WiFi.rst:28
 msgid ""
 "**WLAN.connect(**\\ *ssid*\\ [required], *pswd*\\ [optional], "
 "*security*\\ [optional]\\ **)**"
 msgstr ""
+"**WLAN.connect(**\\ *ssid*\\ [required], *pswd*\\ [optional], "
+"*security*\\ [optional]\\ **)**"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_WiFi.rst:29
 msgid "This method attempts to establish a connection to a WiFi access point."
-msgstr ""
+msgstr "建立連接至WiFi網路"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_WiFi.rst:31
 msgid "**ssid**: The name of your WiFi network"
-msgstr ""
+msgstr "**ssid**: WiFi 網路的名稱"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_WiFi.rst:32
 msgid "**pswd:** The password of your WiFi network"
-msgstr ""
+msgstr "**pswd**: WiFi網路的密碼"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_WiFi.rst:33
 msgid "**security:** The security type of your WiFi network"
-msgstr ""
+msgstr "**security**: WiFi網路的安全協議"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_WiFi.rst:36
 msgid ""
 "Leaving optional parameters blank will assume taking default values, "
 "which are:"
-msgstr ""
+msgstr "如果沒有填寫選填的參數，會使用下面的預設數值。"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_WiFi.rst:42
 msgid "Parameter"
-msgstr ""
+msgstr "參數"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_WiFi.rst:42
 msgid "Default value"
-msgstr ""
+msgstr "默認值"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_WiFi.rst:44
 msgid "pswd"
@@ -117,11 +126,11 @@ msgstr ""
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_WiFi.rst
 msgid "Connecting to an **OPEN** network is also supported, just omit"
-msgstr ""
+msgstr "如果連接 **OPEN** 的網路，可以忽視參數 ``pswd``，"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_WiFi.rst
 msgid "``pswd`` parameter and type in ``security = WLAN.OPEN`` followed by ssid."
-msgstr ""
+msgstr "然後在ssid後面輸入 ``security = WLAN.OPEN`` 。"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_WiFi.rst:52
 msgid "**WLAN.get_ip()**"
@@ -131,7 +140,7 @@ msgstr ""
 msgid ""
 "This method returns the IP address of the current WLAN interface. Only "
 "works after successful connection to an AP."
-msgstr ""
+msgstr "成功連接至AP後返還當前WLAN介面的IP地址。"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_WiFi.rst:55
 msgid "**WLAN.disconnect()**"
@@ -141,7 +150,7 @@ msgstr ""
 msgid ""
 "This method disconnect ameba from current WiFi AP, but still keep WiFi "
 "module on."
-msgstr ""
+msgstr "從當前連接的網路斷開連接，但是WiFi模組還在運行"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_WiFi.rst:58
 msgid "**WLAN.on()**"
@@ -149,7 +158,7 @@ msgstr ""
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_WiFi.rst:59
 msgid "This method turns on the WiFi device."
-msgstr ""
+msgstr " 啓動WiFi"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_WiFi.rst:61
 msgid "**WLAN.off()**"
@@ -157,7 +166,7 @@ msgstr ""
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_WiFi.rst:62
 msgid "This method shut down WiFi device and suspend all connections."
-msgstr ""
+msgstr "關閉WiFi並且斷開所有連接"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_WiFi.rst:64
 msgid "**WLAN.wifi_is_running()**"
@@ -167,7 +176,7 @@ msgstr ""
 msgid ""
 "This method returns the WiFi status. True when WiFi is on, and False when"
 " off."
-msgstr ""
+msgstr "返還WiFi的狀態，WiFi啓動後返還True，WiFi關閉返還False"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_WiFi.rst:67
 msgid "**WLAN.is_connect_to_ap()**"
@@ -177,5 +186,5 @@ msgstr ""
 msgid ""
 "This method returns the connection status. True if ameba is connected to "
 "an AP, False if ameba is not connected to anything."
-msgstr ""
+msgstr "返還連接狀態，連接到AP後返還True，如果沒有任何連接返還False"
 

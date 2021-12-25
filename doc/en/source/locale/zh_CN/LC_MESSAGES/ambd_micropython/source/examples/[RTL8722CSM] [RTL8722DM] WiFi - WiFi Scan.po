@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_micropython/source/examples/[RTL8722CSM] Scan.rst:8 WiFi
 #: [RTL8722DM]
 msgid "[RTL8722CSM] [RTL8722DM] WiFi - WiFi Scan"
-msgstr ""
+msgstr "[RTL8722CSM] [RTL8722DM] WiFi - WiFi 扫描"
 
 #: - ../../source/ambd_micropython/source/examples/[RTL8722CSM] Scan.rst:13
 #: WiFi [RTL8722DM]
@@ -28,6 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_micropython/source/examples/[RTL8722CSM] Scan.rst:17
 #: WiFi [RTL8722DM]
@@ -40,6 +42,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Steps** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **范例说明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_micropython/source/examples/[RTL8722CSM] Scan.rst:23
 #: WiFi [RTL8722DM]
@@ -47,6 +51,7 @@ msgid ""
 "WiFi Scan function can help us quickly discover what WiFi networks are "
 "available in our surrounding."
 msgstr ""
+"WiFi扫描功能可以帮助我们快速发现周围有哪些WiFi网络。"
 
 #: - ../../source/ambd_micropython/source/examples/[RTL8722CSM] Scan.rst:25
 #: WiFi [RTL8722DM]
@@ -54,4 +59,6 @@ msgid ""
 "This example does not require any additional hardware, thus simply copy, "
 "and paste the following code into REPL to see its effect."
 msgstr ""
+"该范例不需要任何其他硬件，因此只需复制以下代码并将其粘贴到REPL中即可查看其作用。"
+
 

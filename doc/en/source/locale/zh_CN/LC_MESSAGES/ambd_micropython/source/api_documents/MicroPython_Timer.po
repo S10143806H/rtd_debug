@@ -26,50 +26,59 @@ msgid ""
 ":raw-html:`<p style=\"color:#0070C0; font-size:26px\">` **API Documents**"
 " :raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#0070C0; font-size:26px\">` **API 文档**"
+" :raw-html:`</p>`"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_Timer.rst:12
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Constructors** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **構造函數** "
+":raw-html:`</p>`"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_Timer.rst:16
 msgid "**Timer(**\\ *unit*\\ [optional]\\ **)**"
-msgstr ""
+msgstr "**Timer(**\\ *unit*\\ [選填]\\ **)**"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_Timer.rst:17
 msgid "Create a timer object with given unit ID."
-msgstr ""
+msgstr "用特定ID創建一個定時器對象"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_Timer.rst:19
 msgid "``unit``: can be 1 / 2 / 3 for timer 1 / 2 / 3"
-msgstr ""
+msgstr "``unit``: 可以是 1 / 2 / 3， 對應定時器 1 / 2 / 3"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_Timer.rst:22
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Methods** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **方法** :raw-"
+"html:`</p>`"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_Timer.rst:26
 msgid ""
 "**Timer.start(**\\ *microseconds*\\ [required], *type*\\ [required]\\ "
 "**)**"
 msgstr ""
+"**Timer.start(**\\ *microseconds*\\ [必填], *type*\\ [必填]\\ "
+"**)**"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_Timer.rst:27
 msgid ""
 "This method will start a given type of timer, either one-shot or "
 "periodical, at duration of given microseconds."
 msgstr ""
+"此方法將在給定的微秒時間內啟動給定類型的定時器， 無論是單次還是周期性的。"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_Timer.rst:29
 msgid "**microseconds**: number of microseconds interval, must be an integer"
-msgstr ""
+msgstr "**microseconds**: 微秒數間隔，必須是整數。"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_Timer.rst:30
 msgid "**type**: either Timer. PERIODICAL or Timer.ONESHOT"
-msgstr ""
+msgstr "**type**: 單次，或週期性定時器。"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_Timer.rst:32
 msgid "**Timer.deinit()**"
@@ -79,7 +88,7 @@ msgstr ""
 msgid ""
 "This method will de-initialize the Timer object created and stop the "
 "timer."
-msgstr ""
+msgstr "此方法將解除創建的定時器對象並停止定時器。"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_Timer.rst:35
 msgid "**Timer.stop()**"
@@ -87,7 +96,7 @@ msgstr ""
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_Timer.rst:36
 msgid "This method will stop the timer and its timer interrupt handler."
-msgstr ""
+msgstr "此方法將停止定時器時鐘和其中斷handler。"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_Timer.rst:38
 msgid "**Timer.us ()**"
@@ -95,7 +104,7 @@ msgstr ""
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_Timer.rst:39
 msgid "This method will return the current timer tick in microsecond."
-msgstr ""
+msgstr "此方法將返還定時器的當前微秒(us)。"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_Timer.rst:41
 msgid "**Timer.tick ()**"
@@ -103,17 +112,17 @@ msgstr ""
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_Timer.rst:42
 msgid "This method will return the current timer tick in Gtimer clock(0~32768)."
-msgstr ""
+msgstr "此方法將返還定時器的當前ticks (0~32768)。"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_Timer.rst:44
 msgid "**Timer.reload (**\\ *duration_us*\\ [required]\\ **)**"
-msgstr ""
+msgstr "**Timer.reload (**\\ *duration_us*\\ [必填]\\ **)**"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_Timer.rst:45
 msgid "This method will reload the timer with given duration in microsecond."
-msgstr ""
+msgstr "此方法將用時間長度(us)來重新設定定時器。"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_Timer.rst:47
 msgid "**duration_us**: duration in microsecond"
-msgstr ""
+msgstr "**duration_us**: 時間長度，計量單位是微秒us。"
 

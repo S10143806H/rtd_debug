@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_micropython/source/examples/[RTL8722CSM] Client.rst:8
 #: Echo Server Socket [RTL8722DM] and
 msgid "[RTL8722CSM] [RTL8722DM] Socket - Echo Server and Client"
-msgstr ""
+msgstr "[RTL8722CSM] [RTL8722DM] Socket - Echo服务器与客户端"
 
 #: - ../../source/ambd_micropython/source/examples/[RTL8722CSM] Client.rst:13
 #: Echo Server Socket [RTL8722DM] and
@@ -28,6 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_micropython/source/examples/[RTL8722CSM] Client.rst:17
 #: Echo Server Socket [RTL8722DM] and
@@ -40,6 +42,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Steps** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **范例说明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_micropython/source/examples/[RTL8722CSM] Client.rst:23
 #: Echo Server Socket [RTL8722DM] and
@@ -48,6 +52,8 @@ msgid ""
 "socket. Socket is like an imaginary ethernet socket by which you use to "
 "connect your PC to some server on the internet like Google or Github."
 msgstr ""
+"WiFi连接完成后即可使用Socket来使用网络。 Socket就像一个假想的以太网络接口，"
+"你可以用它把你的PC连接到互联网上的服务器上，比如Google或Github。"
 
 #: - ../../source/ambd_micropython/source/examples/[RTL8722CSM] Client.rst:25
 #: Echo Server Socket [RTL8722DM] and
@@ -56,6 +62,8 @@ msgid ""
 "Once you are given an IP address and a port number, you can start to "
 "connect to the remote device and talk to it."
 msgstr ""
+"即使是像HTTP这样的应用层协议也是建立在socket之上的。一旦给定了IP地址和端口号，"
+"就可以自由地连接到远程设备并与其进行通信。连接流程如下图所示。"
 
 #: - ../../source/ambd_micropython/source/examples/[RTL8722CSM] Client.rst:27
 #: Echo Server Socket [RTL8722DM] and
@@ -75,14 +83,18 @@ msgid ""
 "running MicroPython, copy and paste the following code to 2 ameba "
 "respectively under REPL paste mode."
 msgstr ""
+"下面是一个使用服务器socket和客户端socket互相传送消息的范例，"
+"要使用这个范例，您需要两个ameba RTL8722来运行MicroPython，"
+"在REPL 的paste模式下分别将下面的代码复制并粘贴到两个 Ameba 设备中。"
 
 #: - ../../source/ambd_micropython/source/examples/[RTL8722CSM] Client.rst:31
 #: Echo Server Socket [RTL8722DM] and
 msgid "This is the **server** code,"
-msgstr ""
+msgstr "以下是 **服务器** 代码 "
 
 #: - ../../source/ambd_micropython/source/examples/[RTL8722CSM] Client.rst:49
 #: Echo Server Socket [RTL8722DM] and
 msgid "This is the **client** code,"
-msgstr ""
+msgstr "以下是 **客户端** 代码 "
+
 

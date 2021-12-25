@@ -25,13 +25,16 @@ msgstr ""
 msgid ""
 ":raw-html:`<p style=\"color:#0070C0; font-size:26px\">` **API Documents**"
 " :raw-html:`</p>`"
-msgstr ""
+msgstr ":raw-html:`<p style=\"color:#0070C0; font-size:26px\">` **API 文档**"
+" :raw-html:`</p>`"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_SPI.rst:12
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Constructors** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **構造函數** "
+":raw-html:`</p>`"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_SPI.rst:16
 msgid ""
@@ -40,66 +43,70 @@ msgid ""
 "[optional], *miso*\\ [optional], *mosi*\\ [optional], *sck*\\ [optional],"
 " *mode*\\ [optional]\\ **)**"
 msgstr ""
+"**SPI(**\\ *unit_id*\\ [必填], *baudrate*\\ [選填], *polarity*\\ "
+"[選填], *phase*\\ [選填], *databits*\\ [選填], *firstbit*\\ "
+"[選填], *miso*\\ [選填], *mosi*\\ [選填], *sck*\\ [選填],"
+" *mode*\\ [選填]\\ **)**"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_SPI.rst:17
 msgid ""
 "Create a SPI object and configure it using other parameters. This allows "
 "you to then read/write data on the SPI bus."
-msgstr ""
+msgstr "創建SPI對象並使用參數進行配置後，可以在SPI bus上讀寫數據。"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_SPI.rst:19
 msgid ""
 "``unit_id``: The unit ID of the hardware SPI, assume default value if "
 "left blank"
-msgstr ""
+msgstr "``unit_id``: 表示SPI硬件的ID， 如果保留空白，則採用默認值"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_SPI.rst:20
 msgid "``baudrate``: The speed of SPI"
-msgstr ""
+msgstr "``baudrate``: SPI傳輸速度"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_SPI.rst:21
 msgid "``polarity``: one of factor determining SPI mode. (deprecated)"
-msgstr ""
+msgstr "``polarity``: 決定SPI工作模式的變量 (不推薦使用)"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_SPI.rst:22
 msgid "``phase``: one of factor determining SPI mode. (deprecated)"
-msgstr ""
+msgstr "``phase``: 決定SPI工作模式的變量 (不推薦使用)"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_SPI.rst:23
 msgid "``databits``: number of data bits"
-msgstr ""
+msgstr "``databits``: 數據字節數量"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_SPI.rst:24
 msgid "``Firstbit``: this determine whether first bit is MSB or LSB"
-msgstr ""
+msgstr "``Firstbit``: 決定首字節是最高有效位 (MSB)或最低有效位 (LSB)"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_SPI.rst:25
 msgid "``miso```: miso pin. (deprecated)"
-msgstr ""
+msgstr "``miso```: miso 引腳 (不推薦使用)"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_SPI.rst:26
 msgid "``mosi``: mosi pin. (deprecated)"
-msgstr ""
+msgstr "``mosi``: mosi 引腳 (不推薦使用)"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_SPI.rst:27
 msgid "``sck``: clock pin. (deprecated)"
-msgstr ""
+msgstr "``sck``: clock 引腳 (不推薦使用)"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_SPI.rst:28
 msgid "``mode``: either MASTER mode or SLAVE mode"
-msgstr ""
+msgstr "``mode``: 決定MASTER 模式或是SLAVE 模式"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_SPI.rst:31
 msgid "All optional parameters have default values as follows:"
-msgstr ""
+msgstr "所有選填參數的初始值設定如下表所示:"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_SPI.rst:37
 msgid "Parameter"
-msgstr ""
+msgstr "參數"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_SPI.rst:37
 msgid "Default"
-msgstr ""
+msgstr "默認值"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_SPI.rst:39
 msgid "Baudrate"
@@ -169,7 +176,7 @@ msgstr ""
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_SPI.rst:50
 msgid "There is currently 2 set of SPI, they are:"
-msgstr ""
+msgstr "目前Ameba D支援並提供2對SPI供使用:"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_SPI.rst:56
 msgid "unit"
@@ -233,13 +240,15 @@ msgstr ""
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_SPI.rst:63
 msgid "both unit support master mode, but only ``unit 0`` supports slave mode."
-msgstr ""
+msgstr "上述所有SPI組號都支援主機模式(Master)，但是僅有 ``第 0 組`` 適用於從機模式."
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_SPI.rst:65
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Methods** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **方法** :raw-"
+"html:`</p>`"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_SPI.rst:69
 msgid "**SPI.read()**"
@@ -249,19 +258,19 @@ msgstr ""
 msgid ""
 "This method waits and read data received in SPI buffer, then return the "
 "data received. Works in both master and slave mode."
-msgstr ""
+msgstr "此方法將等待並返還從SPI緩存區讀取的數據，方法適用於主設備和從設備使用。"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_SPI.rst:72
 msgid "**SPI.write(**\\ *value*\\ [required]\\ **)**"
-msgstr ""
+msgstr "**SPI.write(**\\ *value*\\ [必填]\\ **)**"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_SPI.rst:73
 msgid ""
 "This method writes an integer value to SPI bus. Works in both master and "
 "slave mode."
-msgstr ""
+msgstr "該方法將輸入一個整數數值，並寫入SPI bus，方法適用於主設備和從設備使用。"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_SPI.rst:75
 msgid "**value**: an integer value to be sent on SPI bus"
-msgstr ""
+msgstr "**value**: 將寫入SPI bus的一個整數數值"
 

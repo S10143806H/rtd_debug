@@ -19,17 +19,18 @@ msgstr ""
 
 #: ../../source/ambd_micropython/source/resources/index.rst:10
 msgid "Ameba MicroPython SDK"
-msgstr ""
+msgstr "Ameba MicroPython 软件开发工具包 (SDK)"
 
 #: ../../source/ambd_micropython/source/resources/index.rst:10
 msgid "MicroPython Official Website"
-msgstr ""
+msgstr "MicroPython 官方网站"
 
 #: ../../source/ambd_micropython/source/resources/index.rst:10
 msgid "Ameba MicroPython: Reference Links"
-msgstr ""
+msgstr "Ameba MicroPython: 参考链接"
 
 #: ../../source/ambd_micropython/source/resources/index.rst:8
 msgid "Resources"
-msgstr ""
+msgstr "相关资源"
+
 

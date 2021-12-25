@@ -19,11 +19,11 @@ msgstr ""
 
 #: ../../source/ambd_micropython/source/download/Release History.rst:3
 msgid "Release History"
-msgstr ""
+msgstr "发布版本记录"
 
 #: ../../source/ambd_micropython/source/download/Release History.rst:5
 msgid "**Version 1.0.2 release - 2021/10/14**"
-msgstr ""
+msgstr "**版本 1.0.2 release - 2021/10/14**"
 
 #: ../../source/ambd_micropython/source/download/Release History.rst:7
 #: History.rst:26 History.rst:42 History.rst:55
@@ -64,7 +64,7 @@ msgstr ""
 
 #: ../../source/ambd_micropython/source/download/Release History.rst:24
 msgid "**Version 1.0.1 release - 2021/06/07**"
-msgstr ""
+msgstr "**版本 1.0.1 release - 2021/06/07**"
 
 #: ../../source/ambd_micropython/source/download/Release History.rst:28
 msgid "Added MacOS Support for firmware uploading (not compilation)"
@@ -106,7 +106,7 @@ msgstr ""
 
 #: ../../source/ambd_micropython/source/download/Release History.rst:40
 msgid "**Version 1.0.0 release - 2020/11/11**"
-msgstr ""
+msgstr "**版本 1.0.0 release - 2020/11/11**"
 
 #: ../../source/ambd_micropython/source/download/Release History.rst:44
 msgid "OS Support Windows and Linux"
@@ -134,7 +134,7 @@ msgstr ""
 
 #: ../../source/ambd_micropython/source/download/Release History.rst:53
 msgid "**Version 0.0.1 alpha release - 2020/09/29**"
-msgstr ""
+msgstr "**版本 0.0.1 alpha release - 2020/09/29**"
 
 #: ../../source/ambd_micropython/source/download/Release History.rst:57
 msgid "Ported basic MicroPython functions"
@@ -183,4 +183,5 @@ msgstr ""
 #: ../../source/ambd_micropython/source/download/Release History.rst:69
 msgid "SPI"
 msgstr ""
+
 

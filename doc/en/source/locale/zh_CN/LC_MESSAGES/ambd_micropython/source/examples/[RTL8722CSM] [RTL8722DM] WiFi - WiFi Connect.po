@@ -20,7 +20,7 @@ msgstr ""
 #: - ../../source/ambd_micropython/source/examples/[RTL8722CSM] Connect.rst:8
 #: WiFi [RTL8722DM]
 msgid "[RTL8722CSM] [RTL8722DM] WiFi - WiFi Connect"
-msgstr ""
+msgstr "[RTL8722CSM] [RTL8722DM] WiFi - WiFi 连接"
 
 #: - ../../source/ambd_micropython/source/examples/[RTL8722CSM] Connect.rst:13
 #: WiFi [RTL8722DM]
@@ -28,6 +28,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Materials** "
 ":raw-html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **材料准备** "
+":raw-html:`</p>`"
 
 #: - ../../source/ambd_micropython/source/examples/[RTL8722CSM] Connect.rst:17
 #: WiFi [RTL8722DM]
@@ -40,6 +42,8 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Steps** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **范例说明** :raw-"
+"html:`</p>`"
 
 #: - ../../source/ambd_micropython/source/examples/[RTL8722CSM] Connect.rst:23
 #: WiFi [RTL8722DM]
@@ -48,6 +52,8 @@ msgid ""
 "security type, which is the most common security type used in household "
 "wireless routers."
 msgstr ""
+"Ameba可以使用开放安全性或WPA2安全类型连接到WiFi接入点，"
+"WPA2安全类型是家用无线路由器中最常用的安全类型。"
 
 #: - ../../source/ambd_micropython/source/examples/[RTL8722CSM] Connect.rst:25
 #: WiFi [RTL8722DM]
@@ -56,4 +62,6 @@ msgid ""
 "copy and paste the following code line by line into REPL to see their "
 "effects."
 msgstr ""
+"在这里我们将使用下面的代码连接到WiFi接入点，将以下代码逐行复制并粘贴到REPL中，以查看其作用。"
+
 

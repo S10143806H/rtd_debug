@@ -34,78 +34,82 @@ msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Constructors** "
 ":raw-html:`</p>`"
 msgstr ""
-":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **構造函數** "
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **构造函数** "
 ":raw-html:`</p>`"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_Socket.rst:16
 msgid "**socket.SOCK(**\\ *domain*\\ [optional], *type*\\ [optional]\\ **)**"
-msgstr ""
+msgstr "**socket.SOCK(**\\ *domain*\\ [选填], *type*\\ [选填]\\ **)**"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_Socket.rst:17
 msgid ""
 "Create a SOCK object and configure it with the given parameters. SOCK "
 "class is under socket class and is the main class we use for all socket "
 "level communications."
-msgstr ""
+msgstr "创建一个SOCK对象，并根据其他所给的参数来进行配置。SOCK类是socket类的子集，我们主要使用SOCK类来完成socket相关的通讯连接。"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_Socket.rst:19
 msgid "``domain``: domain address family type. Default is ``AF_INET``"
-msgstr ""
+msgstr "``domain``: 地址域类型. 默认为 ``AF_INET``"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_Socket.rst:21
 msgid ""
 "``AF_INET``: IPv4, classic IP address with dot-notation that is slowly "
 "being replaced by IPv6 due to shortage."
-msgstr ""
+msgstr "``AF_INET``: IPv4，常见的IP地址，以点为分隔符，正在渐渐被IPv6取代"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_Socket.rst:22
 msgid "``AF_INET6``: IPv6, IP address with colon-notation"
-msgstr ""
+msgstr "``AF_INET6``: IPv6，以冒号为分隔符的IP地址"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_Socket.rst:24
 msgid "``type``: socket type, default is ``SOCK_STREAM``"
-msgstr ""
+msgstr "``type``: 类型， 默认为 ``SOCK_STREAM``"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_Socket.rst:26
 msgid "``SOCK_STREAM``: TCP type"
-msgstr ""
+msgstr "``SOCK_STREAM``: TCP 类型"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_Socket.rst:27
 msgid "``SOCK_DGRAM``: UDP type"
-msgstr ""
+msgstr "``SOCK_DGRAM``: UDP 类型"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_Socket.rst:30
 msgid ""
 ":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **Methods** :raw-"
 "html:`</p>`"
 msgstr ""
+":raw-html:`<p style=\"color:#E67E22; font-size:24px\">` **方法** :raw-"
+"html:`</p>`"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_Socket.rst:34
 msgid ""
 "**socket.SOCK.connect(**\\ *host*\\ [required], *port*\\ [required]\\ "
 "**)**"
 msgstr ""
+"**socket.SOCK.connect(**\\ *host*\\ [必填], *port*\\ [必填]\\ "
+"**)**"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_Socket.rst:35
 msgid "This method connects to a remote server as client."
-msgstr ""
+msgstr "该方法连接一个远程的服务器"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_Socket.rst:37
 msgid "**host:** a website address in string"
-msgstr ""
+msgstr "**host:** 字符串格式的服务器地址"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_Socket.rst:38
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_Socket.rst:43
 msgid "**port:** port number in integer"
-msgstr ""
+msgstr "**port:** 整数格式的端口号"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_Socket.rst:40
 msgid "**socket.SOCK.bind(**\\ *port*\\ [required]\\ **)**"
-msgstr ""
+msgstr "**socket.SOCK.bind(**\\ *port*\\ [必填]\\ **)**"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_Socket.rst:41
 msgid "This method creates a server socket and binds it to the given port number."
-msgstr ""
+msgstr "这个方法创建一个服务器socket，并绑定到所指定的端口上"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_Socket.rst:45
 msgid "**socket.SOCK.listen()**"
@@ -115,7 +119,7 @@ msgstr ""
 msgid ""
 "This method set the server to listening state, waiting for client "
 "connection at the given port."
-msgstr ""
+msgstr "这个方法将服务器socket设为listen模式，等待客户端的连接"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_Socket.rst:48
 msgid "**socket.SOCK.accept()**"
@@ -125,43 +129,43 @@ msgstr ""
 msgid ""
 "This method accepts a client connection and return a new socket object "
 "for subsequent communication and client’s address."
-msgstr ""
+msgstr "这个方法接受一个客户端的连接要求，生成并返回一个新的socket对象来进行之后的通信"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_Socket.rst:51
 msgid "**socket.SOCK.recv(**\\ *length*\\ [required]\\ **)**"
-msgstr ""
+msgstr "**socket.SOCK.recv(**\\ *length*\\ [必填]\\ **)**"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_Socket.rst:52
 msgid "This method receive data with given length"
-msgstr ""
+msgstr "这个方法等待并接收length长度的数据"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_Socket.rst:54
 msgid "**length:** the length of data expected to receive"
-msgstr ""
+msgstr "**length**: 预期接收的数据长度"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_Socket.rst:56
 msgid "**socket.SOCK.send(**\\ *buffer*\\ [required]\\ **)**"
-msgstr ""
+msgstr "**socket.SOCK.send(**\\ *buffer*\\ [必填]\\ **)**"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_Socket.rst:57
 msgid "This method sends data stored in the buffer"
-msgstr ""
+msgstr "这个方法将储存在缓存器中的数据发送出去"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_Socket.rst:59
 msgid "**buffer:** a data buffer in format of array/bytearray/string"
-msgstr ""
+msgstr "**buffer**: 一个array/bytearray/string 类型的缓存器"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_Socket.rst:61
 msgid "**socket.SOCK.settimeout(**\\ *seconds*\\ [required]\\ **)**"
-msgstr ""
+msgstr "**socket.SOCK.settimeout(**\\ *seconds*\\ [必填]\\ **)**"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_Socket.rst:62
 msgid "This method set socket’s timeout to the given value"
-msgstr ""
+msgstr "这个方法将socket的timeout时间设为seconds秒"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_Socket.rst:64
 msgid "**seconds:** new timeout in seconds"
-msgstr ""
+msgstr "**seconds**: timeou时间（秒）"
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_Socket.rst:66
 msgid "**socket.SOCK.close()**"
@@ -169,5 +173,6 @@ msgstr ""
 
 #: ../../source/ambd_micropython/source/api_documents/MicroPython_Socket.rst:67
 msgid "This method close the socket."
-msgstr ""
+msgstr "这个方法关闭socket"
+
 

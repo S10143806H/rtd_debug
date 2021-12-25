@@ -19,11 +19,11 @@ msgstr ""
 
 #: ../../source/ambd_micropython/source/download/index.rst:10
 msgid "Datasheet"
-msgstr ""
+msgstr "数据手册"
 
 #: ../../source/ambd_micropython/source/download/index.rst:10
 msgid "User Manual"
-msgstr ""
+msgstr "用户手册"
 
 #: ../../source/ambd_micropython/source/download/index.rst:10
 msgid "GitHub"
@@ -31,5 +31,6 @@ msgstr ""
 
 #: ../../source/ambd_micropython/source/download/index.rst:8
 msgid "Download"
-msgstr ""
+msgstr "资源下载"
+
 

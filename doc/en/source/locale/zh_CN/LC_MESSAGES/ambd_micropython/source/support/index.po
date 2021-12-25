@@ -19,5 +19,6 @@ msgstr ""
 
 #: ../../source/ambd_micropython/source/support/index.rst:8
 msgid "Support"
-msgstr ""
+msgstr "支援"
+
 

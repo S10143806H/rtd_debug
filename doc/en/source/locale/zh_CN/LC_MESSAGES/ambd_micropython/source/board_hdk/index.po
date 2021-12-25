@@ -19,11 +19,11 @@ msgstr ""
 
 #: ../../source/board-hdk.rst:10
 msgid "Board HDK"
-msgstr ""
+msgstr "开发板 HDK"
 
 #: ../../source/board-hdk.rst:14
 msgid "EVB"
-msgstr ""
+msgstr "开发板"
 
 #: ../../source/board-hdk.rst:16
 msgid "**HDK-AMEBAD_MB_4V2**"
@@ -59,7 +59,7 @@ msgstr ""
 
 #: ../../source/board-hdk.rst:32
 msgid "RTL8722DM Module"
-msgstr ""
+msgstr "RTL8722DM 模块"
 
 #: ../../source/board-hdk.rst:34
 msgid "**HDK-AM8722DM01_6V2_WI LPF**"
@@ -108,4 +108,5 @@ msgid ""
 ":download:`Schematic <https://www.amebaiot.com/?s2member_file_download"
 "=HDK-AM8722DM01-4V1-Schematic.zip>`"
 msgstr ""
+
 
