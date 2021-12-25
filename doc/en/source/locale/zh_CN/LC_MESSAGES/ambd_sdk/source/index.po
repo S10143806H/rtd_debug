@@ -19,15 +19,15 @@ msgstr ""
 
 #: ../../source/ambd_sdk/source/index.rst:16
 msgid "Contents"
-msgstr "目錄"
+msgstr "目录"
 
 #: ../../source/ambd_sdk/source/index.rst:8
 msgid "Standard SDK"
-msgstr "標準 SDK"
+msgstr "瑞昱标准 SDK"
 
 #: ../../source/ambd_sdk/source/index.rst:10
 msgid "Welcome to Ameba Standard SDK online documentation"
-msgstr "歡迎來到標準 SDK 綫上文档"
+msgstr "欢迎来到瑞昱标准 SDK 线上文档"
 
 #: ../../source/ambd_sdk/source/index.rst:12
 msgid "Ameba RTL8722DM  (AMB 21)"
@@ -41,12 +41,4 @@ msgstr ""
 msgid "image1"
 msgstr ""
 
-#~ msgid "目录"
-#~ msgstr ""
-
-#~ msgid "标准 SDK"
-#~ msgstr ""
-
-#~ msgid "欢迎来到 Ameba 标准 SDK 线上文档"
-#~ msgstr ""
 
