@@ -150,28 +150,25 @@ msgstr "更新 Platform.txt 適用於在 Windows OS 上 用戶名中間有空格
 msgid "Update all libs"
 msgstr "更新全部的庫"
 
-
-
-
 #: ../../source/ambd_arduino/release_history.rst:36
 msgid "Misc:"
-msgstr ""
+msgstr "其他："
 
 #: ../../source/ambd_arduino/release_history.rst:38
 msgid "Update AmebaEink.zip, SPI connection for RTL8720DN/BW16"
-msgstr ""
+msgstr "更新 AmebaEink.zip, 裏面RTL8720DN/BW16 的 SPI 連接."
 
 #: ../../source/ambd_arduino/release_history.rst:39
 msgid "Add Autoflash_patch folder"
-msgstr ""
+msgstr "添加 Autoflash_patch 檔."
 
 #: ../../source/ambd_arduino/release_history.rst:40
 msgid "Update the Fritzing of RTL8720DN/BW16, remove A0 and A1"
-msgstr ""
+msgstr "更新 RTL8720DN/BW16 的 Fritzing 檔, 刪除 A0 和 A1."
 
 #: ../../source/ambd_arduino/release_history.rst:44
 msgid "**Version 3.1.0 - 2021/11/05**"
-msgstr ""
+msgstr "**版本 3.1.0 - 2021/11/05**""
 
 #: ../../source/ambd_arduino/release_history.rst:48
 msgid "Support board RTL8720DN(BW16)"
