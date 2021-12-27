@@ -44,3 +44,4 @@ Peripheral Examples
    TensorFlow Lite - Magic Wand
    TensorFlow Lite - Micro Speech
    TensorFlow Lite - Person Detection
+   AmebaMotors - Use Ameba as Server to Control Motors

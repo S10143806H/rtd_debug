@@ -38,7 +38,12 @@ Network Examples
    BLE - BLE UART Service
    BLE - DHT over BLE UART
    BLE - PWM over BLE UART
+   BLE - HID Gamepad
+   BLE - HID Keyboard
+   BLE - HID Mouse
    Approximate UDP Receive Delay
    Approximate UDP Receive Timeout
    Approximate UDP Sending Delay
    Google Cloud IoT
+   IPv6 - Ameba as IPv6 Server Client over TCP
+   IPv6 - Ameba as IPv6 Server Client over UDP
