@@ -7,8 +7,7 @@
 Welcome to Ameba D (RTL8722DM) Online SDK Documentation!
 ########################################################
 
-|image1|
-
+| |image1|
 | We have supported 3 unique developing platforms, Realtek **Arduino SDK**, **Standard SDK** and **MicroPython SDK**.
 | All Getting-started guides, Examples, Tutorials, API reference and Datasheet can be found under the respective link below: 
 
@@ -19,8 +18,11 @@ Welcome to Ameba D (RTL8722DM) Online SDK Documentation!
    ambd_arduino/arduino_index
    ambd_micropython/source/index
    ambd_sdk/source/index
+
+.. tip::
    
-| We welcome contributions to the our SDKs documentations. Please read the Ameba :doc:`contribution-guide` below for more details before you make the contribution.
+   | We welcome contributions to the our SDKs documentations. 
+   | Please read the Ameba :doc:`contribution-guide` below for more details before you make the contribution.
 
 .. |image1| image:: ../media/image1.png
    :width: 1720
