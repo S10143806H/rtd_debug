@@ -46,6 +46,10 @@ BLE
    Class BLEClient
    Class BLEConnect
    Class BLEDevice
+   Class BLEHIDDevice
+   Class BLEHIDGamepad
+   Class BLEHIDKeybaord
+   Class BLEHIDMouse   
    Class BLERemoteCharacteristic
    Class BLERemoteDescriptor
    Class BLERemoteService

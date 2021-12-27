@@ -27,29 +27,29 @@ msgstr "版本 1.0.0 – 2021/10/12"
 
 #: ../../source/ambd_sdk/source/download/Release History.rst:7
 msgid "Hardware information:"
-msgstr ""
+msgstr "硬體資訊："
 
 #: ../../source/ambd_sdk/source/download/Release History.rst:9
 msgid ""
 "CPU. 32-bit KM4 (Arm Cortex-M33 compatible) and 32-bit KM0 (Arm "
 "Cortex-M23 compatible)"
-msgstr ""
+msgstr "中央處理器: 32 位 KM4（Arm Cortex-M33 相容）和 32 位 KM0（Arm Cortex-M23 相容）"
 
 #: ../../source/ambd_sdk/source/download/Release History.rst:10
 msgid "MEMORY. 512KB SRAM + 4MB PSRAM"
-msgstr ""
+msgstr "記憶體：512KB 單片記憶體 + 4MB 單片記憶體"
 
 #: ../../source/ambd_sdk/source/download/Release History.rst:12
 msgid "Feature:"
-msgstr ""
+msgstr "特徵："
 
 #: ../../source/ambd_sdk/source/download/Release History.rst:14
 msgid "Integrated 802.11a/n Wi-Fi SoC"
-msgstr ""
+msgstr "集成 802.11a/n 無線局域網 SoC"
 
 #: ../../source/ambd_sdk/source/download/Release History.rst:15
 msgid "USB Host/Device"
-msgstr ""
+msgstr "USB 主機/設備"
 
 #: ../../source/ambd_sdk/source/download/Release History.rst:16
 msgid "SD Host"

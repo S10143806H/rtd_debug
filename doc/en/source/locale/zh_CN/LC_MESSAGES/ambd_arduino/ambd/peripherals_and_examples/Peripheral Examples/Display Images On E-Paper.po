@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"POT-Creation-Date: 2021-12-27 14:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:3 Images
 #: On
-msgid "Display Images On E-Paper"
+msgid "E-Paper - Display Images"
 msgstr ""
 
 #: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:8 Images
@@ -256,4 +256,7 @@ msgid ""
 "https://eugeniopace.org/qrcode/arduino/eink/2019/07/01/qrcode-on-"
 "arduino.html"
 msgstr ""
+
+#~ msgid "Display Images On E-Paper"
+#~ msgstr ""
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-22 01:12+0000\n"
+"POT-Creation-Date: 2021-12-27 14:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,74 +36,74 @@ msgstr ""
 msgid "BLE"
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd/api_documents/index.rst:61
+#: ../../source/ambd_arduino/ambd/api_documents/index.rst:65
 msgid "EPDIF"
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd/api_documents/index.rst:71
+#: ../../source/ambd_arduino/ambd/api_documents/index.rst:75
 msgid "FatfsSDCard"
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd/api_documents/index.rst:82
+#: ../../source/ambd_arduino/ambd/api_documents/index.rst:86
 msgid "FlashMemory"
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd/api_documents/index.rst:92
+#: ../../source/ambd_arduino/ambd/api_documents/index.rst:96
 msgid "GPIO"
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd/api_documents/index.rst:103
+#: ../../source/ambd_arduino/ambd/api_documents/index.rst:107
 msgid "GTimer"
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd/api_documents/index.rst:113
+#: ../../source/ambd_arduino/ambd/api_documents/index.rst:117
 msgid "Http"
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd/api_documents/index.rst:123
+#: ../../source/ambd_arduino/ambd/api_documents/index.rst:127
 msgid "IRDevice"
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd/api_documents/index.rst:133
+#: ../../source/ambd_arduino/ambd/api_documents/index.rst:137
 msgid "MDNS"
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd/api_documents/index.rst:144
+#: ../../source/ambd_arduino/ambd/api_documents/index.rst:148
 msgid "MQTTClient"
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd/api_documents/index.rst:155
+#: ../../source/ambd_arduino/ambd/api_documents/index.rst:159
 msgid "NTPClient"
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd/api_documents/index.rst:165
+#: ../../source/ambd_arduino/ambd/api_documents/index.rst:169
 msgid "PowerSave"
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd/api_documents/index.rst:175
+#: ../../source/ambd_arduino/ambd/api_documents/index.rst:179
 msgid "RTC"
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd/api_documents/index.rst:185
+#: ../../source/ambd_arduino/ambd/api_documents/index.rst:189
 msgid "SoftwareSerial"
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd/api_documents/index.rst:198
+#: ../../source/ambd_arduino/ambd/api_documents/index.rst:202
 msgid "SPI"
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd/api_documents/index.rst:210
+#: ../../source/ambd_arduino/ambd/api_documents/index.rst:214
 msgid "Sys"
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd/api_documents/index.rst:220
+#: ../../source/ambd_arduino/ambd/api_documents/index.rst:224
 msgid "WDT"
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd/api_documents/index.rst:231
+#: ../../source/ambd_arduino/ambd/api_documents/index.rst:235
 msgid "WiFi"
 msgstr ""
 
-#: ../../source/ambd_arduino/ambd/api_documents/index.rst:246
+#: ../../source/ambd_arduino/ambd/api_documents/index.rst:250
 msgid "Wire"
 msgstr ""

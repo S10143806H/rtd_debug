@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-22 01:12+0000\n"
+"POT-Creation-Date: 2021-12-27 14:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../source/index.rst:15
-#: ../../source/index.rst:15
+#: ../../source/index.rst:14
+#: ../../source/index.rst:14
 msgid "Open Source SDKs"
 msgstr ""
 
@@ -29,19 +29,23 @@ msgstr ""
 msgid "|image1|"
 msgstr ""
 
-#: ../../source/index.rst:25
-#: ../../source/index.rst:25
+#: ../../source/index.rst:27
+#: ../../source/index.rst:27
 msgid "image1"
 msgstr ""
 
-#: ../../source/index.rst:12
+#: ../../source/index.rst:11
 msgid "We have supported 3 unique developing platforms, Realtek **Arduino SDK**, **Standard SDK** and **MicroPython SDK**."
 msgstr ""
 
-#: ../../source/index.rst:13
+#: ../../source/index.rst:12
 msgid "All Getting-started guides, Examples, Tutorials, API reference and Datasheet can be found under the respective link below:"
 msgstr ""
 
-#: ../../source/index.rst:23
-msgid "We welcome contributions to the our SDKs documentations. Please read the Ameba :doc:`contribution-guide` below for more details before you make the contribution."
+#: ../../source/index.rst:0
+msgid "We welcome contributions to the our SDKs documentations."
+msgstr ""
+
+#: ../../source/index.rst:0
+msgid "Please read the Ameba :doc:`contribution-guide` below for more details before you make the contribution."
 msgstr ""

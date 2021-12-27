@@ -1,7 +1,45 @@
-
 ##################
 Release History
 ##################
+
+**Version 3.1.1 - 2021/12/25**
+
+* Feature:
+  
+  - Add BLE HID and examples
+  - BLEHIDGamepad, BLEHIDKeyboard, and BLEHIDMouse
+  - Update PowerSave examples
+  - Support RTL8722DM MINI and RTL8720DN/BW16
+  - Enable LwIP hostname edit
+
+* API Updates:
+  
+  - Update API for PowerSave
+  - Update ameba_d_tools 1.0.7 for all 3 platforms
+  - Support RTL8720DN/BW16 and RTL8722DM MINI
+  - Add more Aon wake up pins
+  - Update API for IR
+  - Removed requirement to define both IR TX and RX pins in IRDevice::begin
+  - Removed previous limit on number of time durations IRDevice::send can accept
+  - Update GPIO Int
+  - Enable INPUT_IRQ_CHANGE
+  - Add definition inside wiring_constants.h and wiring_digital.c, also complete the TODO part for attachInterrupt() as well
+  - Update UART, for RTL8720DN/BW16 not showing log issue
+  - Fix wrong attribute permissions for characteristic CCCD descriptor. Remove unused variable warnings
+  - Update GTimer, for the internal timer ID validation test
+  - Updated SPI connection for RTL8720DN/BW16
+  - Update Google_Cloud_IoT example with new Google TLS cert
+  - Update Analog Pin remove A0 and A1
+  - Update Platform.txt for Windows OS with User Name having a space in between
+  - Update all libs
+
+* Misc:
+
+  - Update AmebaEink.zip, SPI connection for RTL8720DN/BW16
+  - Add Autoflash_patch folder
+  - Update the Fritzing of RTL8720DN/BW16, remove A0 and A1
+
+----
 
 **Version 3.1.0 - 2021/11/05**
 

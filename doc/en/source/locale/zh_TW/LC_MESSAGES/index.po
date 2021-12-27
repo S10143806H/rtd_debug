@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"POT-Creation-Date: 2021-12-27 14:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../../source/index.rst:15
+#: ../../source/index.rst:14
 msgid "Open Source SDKs"
 msgstr "開源 SDK 平臺"
 
@@ -29,11 +29,11 @@ msgstr "歡迎來到 AmebaD (RTL8722DM) SDK 綫上文檔"
 msgid "|image1|"
 msgstr "|image1|"
 
-#: ../../source/index.rst:25
+#: ../../source/index.rst:27
 msgid "image1"
 msgstr "image1"
 
-#: ../../source/index.rst:12
+#: ../../source/index.rst:11
 #, fuzzy
 msgid ""
 "We have supported 3 unique developing platforms, Realtek **Arduino SDK**,"
@@ -42,16 +42,20 @@ msgstr ""
 "我們支持 3 個獨立的軟體開發平台（SDK），它們分別是瑞昱 **Arduino SDK**, **Standard SDK** 和 "
 "**MicroPython SDK**。"
 
-#: ../../source/index.rst:13
+#: ../../source/index.rst:12
 msgid ""
 "All Getting-started guides, Examples, Tutorials, API reference and "
 "Datasheet can be found under the respective link below:"
 msgstr "所有的 快速入門手冊、範例演示、教程、API參考文檔、相關資源下載 和 數據手冊 都可以在下方鏈接中找到。"
 
-#: ../../source/index.rst:23
+#: ../../source/index.rst
+msgid "We welcome contributions to the our SDKs documentations."
+msgstr ""
+
+#: ../../source/index.rst
+#, fuzzy
 msgid ""
-"We welcome contributions to the our SDKs documentations. Please read the "
-"Ameba :doc:`contribution-guide` below for more details before you make "
-"the contribution."
+"Please read the Ameba :doc:`contribution-guide` below for more details "
+"before you make the contribution."
 msgstr "歡迎貢獻者為SDK文檔做出貢獻。進行文檔貢獻或修改前請先閲讀下面的 Ameba :doc:`contribution-guide` 以瞭解更多細節。"
 

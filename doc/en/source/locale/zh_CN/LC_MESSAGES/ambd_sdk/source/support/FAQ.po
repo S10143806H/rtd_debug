@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"POT-Creation-Date: 2021-12-27 14:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,10 +26,9 @@ msgid "Where to buy Ameba RTL8722DM Board?"
 msgstr "如何购买 Ameba RTL8722DM Board?"
 
 #: ../../source/ambd_sdk/source/support/FAQ.rst:8
+#, fuzzy
 msgid ""
-"Refer to `Purchase link <https://www.amebaiot.com/cn/where-to-buy-"
+"Refer to `Purchase link <https://www.amebaiot.com/en/where-to-buy-"
 "link/#buy_amb21>`_."
-msgstr ""
-"请参考 `购买链接 <https://www.amebaiot.com/cn/where-to-buy-link/#buy_amb21>`_ 。"
-
+msgstr "请参考 `购买链接 <https://www.amebaiot.com/cn/where-to-buy-link/#buy_amb21>`_ 。"
 

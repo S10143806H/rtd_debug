@@ -1,1 +1,0 @@
-.. include:: ../../../examples/peripheral/TensorFlow Lite - Magic Wand.rst

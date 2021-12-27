@@ -30,17 +30,6 @@ Peripheral Examples
    Power Save Tickless Mode
    Use NTPClient Library To Obtain Local Time
    Transmit IR NEC Raw Data And Decode
-   Display Images On E-Paper
-   Display Text On E-Paper
-   Display User-Generated QR Code on E-Paper
    A Simple RTC Example
    A Simple RTC Alarm
    Watchdog Timer Simple Example
-   Audio Codec - Basic Input Output
-   Audio Codec - FFT
-   Audio Codec - Input FFT
-   Audio Codec - Output Sine Wave
-   TensorFlow Lite - Hello World
-   TensorFlow Lite - Magic Wand
-   TensorFlow Lite - Micro Speech
-   TensorFlow Lite - Person Detection

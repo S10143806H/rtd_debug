@@ -1,5 +1,5 @@
 ##########################################################################
-Display User-Generated QR Code on E-Paper
+E-Paper - Display User-generated QR Code
 ##########################################################################
 
 .. role:: raw-html(raw)

@@ -7,7 +7,7 @@
 API Documents
 #############
 
-**RTL8720DN (BW16) Online API Documents**
+**RTL8722DM ARDUINO Online API Documents**
 
 *********************
 Analog
@@ -46,6 +46,10 @@ BLE
    Class BLEClient
    Class BLEConnect
    Class BLEDevice
+   Class BLEHIDDevice
+   Class BLEHIDGamepad
+   Class BLEHIDKeybaord
+   Class BLEHIDMouse   
    Class BLERemoteCharacteristic
    Class BLERemoteDescriptor
    Class BLERemoteService

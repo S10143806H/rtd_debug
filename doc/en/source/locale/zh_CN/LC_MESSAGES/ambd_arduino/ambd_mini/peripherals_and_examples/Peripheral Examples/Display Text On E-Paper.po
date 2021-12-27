@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AmebaDocs EPUB3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-21 02:28+0000\n"
+"POT-Creation-Date: 2021-12-27 14:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Generated-By: Babel 2.9.1\n"
 
 #: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:3 On Text
-msgid "Display Text On E-Paper"
+msgid "E-Paper - Display Text"
 msgstr ""
 
 #: ../../source/ambd_arduino/examples/peripheral/Display E-Paper.rst:8 On Text
@@ -185,4 +185,7 @@ msgid ""
 " Refresh Arduino Sample Code to get the e-Paper successfully Display: "
 "http://www.good-display.com/product/201.html"
 msgstr ""
+
+#~ msgid "Display Text On E-Paper"
+#~ msgstr ""
 

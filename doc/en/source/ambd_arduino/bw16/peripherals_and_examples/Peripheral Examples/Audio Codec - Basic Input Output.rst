@@ -1,1 +1,0 @@
-.. include:: ../../../examples/peripheral/Audio Codec - Basic Input Output.rst
